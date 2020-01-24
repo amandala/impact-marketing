@@ -23,6 +23,6 @@ Run `yarn dev` to start the NextJS server on [http://localhost:3000](localhost:3
 **Do not** push directly to the `development` or `master` branches.
 
 1. Make an issue in GitHub and take note of the issue number.
-2. Create a new branch off of `development` following the naming convention `feature/[issue number]` or `bugfix/[issue number]`.
+2. Create a new branch off of `development` following the naming convention `feature/[issue number]-issue-title` or `bugfix/[issue number]-issue-title`.
 3. Write some awesome code and push it to your branch.
 4. Create a pull request into the `development` branch and request a review from amandala :)
