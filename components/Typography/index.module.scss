@@ -1,0 +1,56 @@
+@import "../../styles/variables";
+
+.H1,
+.H2,
+.H3,
+.H4,
+.H5,
+p {
+  margin: 0;
+  color: $white;
+}
+
+.P {
+  font-family: $Raleway;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 24px;
+
+  &Small {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+  }
+}
+
+.H1 {
+  font-family: $Raleway;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.H2 {
+  font-family: $Raleway;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.H3 {
+  font-family: $Raleway;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.H4 {
+  font-family: $Raleway;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.H5 {
+  font-family: $Raleway;
+  font-weight: 300;
+  font-size: 14px;
+}
