@@ -1,5 +1,7 @@
 import App from "next/app";
 
+import "../styles/styles.css"; // global styles and overrides
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }

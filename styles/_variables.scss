@@ -1,0 +1,44 @@
+$black: #000000;
+$white: #ffffff;
+$tundora-grey: #4d4d4d;
+$salmon-pink: #ff7a71;
+$sulu-green: #bced69;
+$spray-blue: #6ce0f1;
+
+$Roboto: "Roboto Slab", serif;
+$Raleway: "Raleway", sans-serif;
+
+//for-phone-only
+@mixin small {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
+//for-tablet-portrait-up
+@mixin medium {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+//for-tablet-landscape-up
+@mixin large {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+
+//for-desktop-up
+@mixin xlarge {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+//for-big-desktop-up
+@mixin massive {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
