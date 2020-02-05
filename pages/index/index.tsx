@@ -6,9 +6,9 @@ import styles from "./index.module.scss";
 
 export default () => {
   return (
-    <main>
+    <>
       <Head title="Impact Music Festival" />
-      <div className={styles.Wrapper}>
+      <div>
         <div className={styles.AboveTheFold}>
           <img className={styles.Wordmark} src="/wordmark.png" alt="impact" />
           <H1 className={styles.Sub}>
@@ -18,6 +18,6 @@ export default () => {
           <H3>July 3rd & 4th</H3>
         </div>
       </div>
-    </main>
+    </>
   );
 };

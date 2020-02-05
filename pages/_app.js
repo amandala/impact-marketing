@@ -1,9 +1,18 @@
 import App from "next/app";
+import Layout from "../components/Layout";
+import Header from "../components/Header";
 
 import "../styles/styles.css"; // global styles and overrides
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Header />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
+  );
 }
 
 // Only uncomment this method if you have blocking data requirements for
