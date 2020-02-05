@@ -1,7 +1,34 @@
-body {
-  margin: 0;
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  animation: fadein 2s;
 }
 
-.Image {
-  width: 100%;
+.AboveTheFold {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: ce;
+}
+
+.Wordmark {
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 15px;
+}
+
+.Sub {
+  margin-bottom: 20px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
