@@ -32,14 +32,13 @@
 
 .Burger {
   position: fixed;
-  left: 30px;
+  left: 20px;
   top: 30px;
   color: white;
-  font-weight: bold;
   z-index: 9999;
+  font-size: 20px;
   transform: rotate(-90deg);
   letter-spacing: 3px;
-  font-size: 40px;
   cursor: pointer;
   @include transitionAll;
   b {
@@ -52,13 +51,13 @@
     top: 20px;
     b {
       &:first-of-type {
-        transform: rotate(45deg);
+        transform: rotate(45deg) translateY(2px);
       }
       &:nth-of-type(2) {
         opacity: 0;
       }
       &:last-of-type {
-        transform: rotate(-45deg);
+        transform: rotate(-45deg) translateY(-1px);
         margin-left: -77%;
       }
     }
