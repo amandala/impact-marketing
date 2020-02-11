@@ -5,6 +5,7 @@ import styles from "./index.module.scss";
 export default () => (
   <div className={styles.ParticleWrapper}>
     <Particles
+      className={styles.Particles}
       params={{
         particles: {
           number: {
