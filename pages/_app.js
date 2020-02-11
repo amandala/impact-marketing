@@ -6,12 +6,12 @@ import "../styles/styles.css"; // global styles and overrides
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div>
       <Header />
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </>
+    </div>
   );
 }
 

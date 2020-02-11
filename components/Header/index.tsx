@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import Link from "../../components/Link";
 import cx from "classnames";
 
 import styles from "./index.module.scss";
@@ -18,54 +18,26 @@ export default () => {
       </button>
       <nav className={cx(styles.Nav, { [styles.NavFadeIn]: navOpen })}>
         <ul className={styles.Links}>
-          <li>
-            <Link href="/">
-              <a onClick={() => setNavOpen(false)} className={styles.Link}>
-                Home
-              </a>
-            </Link>
+          <li onClick={() => setNavOpen(false)}>
+            <Link href="/">Home</Link>
           </li>
-          <li>
-            <Link href="/lineup">
-              <a onClick={() => setNavOpen(false)} className={styles.Link}>
-                Lineup
-              </a>
-            </Link>
+          <li onClick={() => setNavOpen(false)}>
+            <Link href="/lineup">Lineup</Link>
           </li>
-          <li>
-            <Link href="/about">
-              <a onClick={() => setNavOpen(false)} className={styles.Link}>
-                About
-              </a>
-            </Link>
+          <li onClick={() => setNavOpen(false)}>
+            <Link href="/about">About</Link>
           </li>
-          <li>
-            <Link href="/tickets">
-              <a onClick={() => setNavOpen(false)} className={styles.Link}>
-                Tickets
-              </a>
-            </Link>
+          <li onClick={() => setNavOpen(false)}>
+            <Link href="/tickets">Tickets</Link>
           </li>
-          <li>
-            <Link href="/media">
-              <a onClick={() => setNavOpen(false)} className={styles.Link}>
-                Media
-              </a>
-            </Link>
+          <li onClick={() => setNavOpen(false)}>
+            <Link href="/media">Media</Link>
           </li>
-          <li>
-            <Link href="/getinvolved">
-              <a onClick={() => setNavOpen(false)} className={styles.Link}>
-                Get Involved
-              </a>
-            </Link>
+          <li onClick={() => setNavOpen(false)}>
+            <Link href="/getinvolved">Get Involved</Link>
           </li>
-          <li>
-            <Link href="/contact">
-              <a onClick={() => setNavOpen(false)} className={styles.Link}>
-                Contact Us
-              </a>
-            </Link>
+          <li onClick={() => setNavOpen(false)}>
+            <Link href="/contact">Contact Us</Link>
           </li>
         </ul>
       </nav>
