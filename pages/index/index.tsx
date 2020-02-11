@@ -2,48 +2,51 @@ import React from "react";
 import Link from "../../components/Link";
 import Head from "../../components/head";
 import { H1, H2, H3, P } from "../../components/Typography";
+import Section from "../../components/Section";
 
 import styles from "./index.module.scss";
 
 export default () => {
   return (
     <>
-      <Head title="Impact Music Festival" />
-      <div>
-        <div className={styles.AboveTheFold}>
-          <div className={styles.Details}>
-            <img className={styles.Wordmark} src="/wordmark.png" alt="impact" />
-            <H1 className={styles.FestivalDescription}>
-              Transformational Charity Music Festival
-            </H1>
-            <H2>Pritchard, BC</H2>
-            <H3>July 3rd & 4th</H3>
-          </div>
-          <div className={styles.TicketsLink}>
-            <Link href="/tickets">
-              <a className={styles.Link}>Get Tickets</a>
-            </Link>
-          </div>
+      <Head title="Home - Impact Music Festival" />
+      <div className={styles.AboveTheFold}>
+        <div className={styles.Details}>
+          <img
+            className={styles.Wordmark}
+            src="/wordmark.png"
+            alt="Impact Wordmark Logo"
+          />
+          <H1 className={styles.FestivalDescription}>
+            Transformational Charity Music Festival
+          </H1>
+          <H2>Pritchard, BC</H2>
+          <H3>July 3rd & 4th</H3>
         </div>
-        <div className={styles.Section}>
-          <H1 className={styles.SectionHeading}>Our Core Values</H1>
-          <div className={styles.ValuesList}>
-            <div className={styles.Value}>
-              <span className={styles.Placeholder}>value placeholder</span>
-            </div>
-            <div className={styles.Value}>
-              <span className={styles.Placeholder}>value placeholder</span>
-            </div>
-            <div className={styles.Value}>
-              <span className={styles.Placeholder}>value placeholder</span>
-            </div>
-            <div className={styles.Value}>
-              <span className={styles.Placeholder}>value placeholder</span>
-            </div>
-          </div>
+        <div className={styles.TicketsLink}>
+          <Link href="/tickets">
+            <a className={styles.Link}>Get Tickets</a>
+          </Link>
         </div>
       </div>
-      <div className={styles.Section}>
+      <Section>
+        <H1 className={styles.SectionHeading}>Our Core Values</H1>
+        <div className={styles.ValuesList}>
+          <div className={styles.Value}>
+            <span className={styles.Placeholder}>value placeholder</span>
+          </div>
+          <div className={styles.Value}>
+            <span className={styles.Placeholder}>value placeholder</span>
+          </div>
+          <div className={styles.Value}>
+            <span className={styles.Placeholder}>value placeholder</span>
+          </div>
+          <div className={styles.Value}>
+            <span className={styles.Placeholder}>value placeholder</span>
+          </div>
+        </div>
+      </Section>
+      <Section>
         <H1 className={styles.SectionHeading}>Stay up to date</H1>
         <div className={styles.SignUpForm}>
           <div className={styles.CTA}>
@@ -57,7 +60,7 @@ export default () => {
             <button className={styles.SignUpButton}>I'm in!</button>
           </label>
         </div>
-      </div>
+      </Section>
     </>
   );
 };
