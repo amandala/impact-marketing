@@ -8,10 +8,10 @@ export default () => (
       params={{
         particles: {
           number: {
-            value: 1000,
+            value: 100,
             density: {
               enable: true,
-              value_area: 1803.4120608655228
+              value_area: 800
             }
           },
           color: {
@@ -20,11 +20,11 @@ export default () => (
           shape: {
             type: "circle",
             stroke: {
-              width: 3,
+              width: 0,
               color: "#ffffff"
             },
             polygon: {
-              nb_sides: 4
+              nb_sides: 5
             },
             image: {
               src: "img/github.svg",
@@ -33,7 +33,7 @@ export default () => (
             }
           },
           opacity: {
-            value: 0.4008530152163807,
+            value: 0.5,
             random: false,
             anim: {
               enable: false,
@@ -43,7 +43,7 @@ export default () => (
             }
           },
           size: {
-            value: 1.5,
+            value: 3,
             random: true,
             anim: {
               enable: false,
@@ -54,10 +54,10 @@ export default () => (
           },
           line_linked: {
             enable: true,
-            distance: 0,
+            distance: 150,
             color: "#ffffff",
-            opacity: 0.3687847739990702,
-            width: 0.6413648243462091
+            opacity: 0.4,
+            width: 1
           },
           move: {
             enable: true,
@@ -75,7 +75,7 @@ export default () => (
           }
         },
         interactivity: {
-          detect_on: "window",
+          detect_on: "canvas",
           events: {
             onhover: {
               enable: true,
@@ -83,7 +83,7 @@ export default () => (
             },
             onclick: {
               enable: false,
-              mode: "bubble"
+              mode: "push"
             },
             resize: true
           },
