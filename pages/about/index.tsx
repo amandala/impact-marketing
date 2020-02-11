@@ -21,14 +21,14 @@ export default () => {
           <Section>
             <H2>
               With 3 Stages, Art Installations and A variaty of music, there is
-              something for everyone{" "}
+              something for everyone
             </H2>
           </Section>
           <Section>
             <H2>
               In 2019, IMPACT raised $40,000 for WE Global Water Charities and
               True North Aid - First Nations Harm Reduction. With the assistance
-              of everyone involve, we was able to achieve something incredible
+              of everyone involved, we were able to achieve something incredible
               that will continue to make IMPACT for years to come.
             </H2>
           </Section>
