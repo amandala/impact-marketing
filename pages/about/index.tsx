@@ -1,8 +1,7 @@
 import React from "react";
 import Head from "../../components/head";
-import { H1, H2, P } from "../../components/Typography";
+import { H2 } from "../../components/Typography";
 import Section from "../../components/Section";
-import Link from "../../components/Link";
 
 import styles from "./index.module.scss";
 
@@ -13,10 +12,10 @@ export default () => {
       <div className={styles.PhotoDiv}>
         <div className={styles.Wrapper}>
           <Section>
-            <H1 className={styles.Impact}>
+            <h1 className={styles.Impact}>
               IMPACT Festival is a 2 day Transformational Arts & Music
               Experience
-            </H1>
+            </h1>
           </Section>
           <Section>
             <H2>
