@@ -4,6 +4,7 @@ import Head from "../../components/head";
 import { H1, H2, H3, P } from "../../components/Typography";
 import Section from "../../components/Section";
 import Layout from "../../components/Layout";
+import Particle from "../../components/Particles";
 
 import styles from "./index.module.scss";
 
@@ -11,6 +12,7 @@ export default () => {
   return (
     <Layout>
       <Head title="Home - Impact Music Festival" />
+      <Particle />
       <div className={styles.AboveTheFold}>
         <div className={styles.Details}>
           <img
