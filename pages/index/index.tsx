@@ -27,9 +27,7 @@ export default () => {
           <H3>July 3rd & 4th</H3>
         </div>
         <div className={styles.TicketsLink}>
-          <Link href="/tickets">
-            <a className={styles.Link}>Get Tickets</a>
-          </Link>
+          <Link href="/tickets">Get Tickets</Link>
         </div>
       </div>
       <Section>
