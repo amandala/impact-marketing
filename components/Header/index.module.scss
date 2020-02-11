@@ -1,0 +1,95 @@
+@import "../../styles/variables";
+
+.Nav {
+  width: 100%;
+  position: fixed;
+  z-index: 9998;
+  width: 100%;
+  height: 100vh;
+  background: url(/aurora.jpg) no-repeat;
+  background-size: cover;
+  /* fallback for old browsers */
+  display: table;
+  visibility: hidden;
+  @include transitionAll;
+  opacity: 0;
+
+  &FadeIn {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+.Bun {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: transparent;
+}
+
+.Burger {
+  position: fixed;
+  left: 20px;
+  top: 30px;
+  color: white;
+  z-index: 9999;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  letter-spacing: 3px;
+  cursor: pointer;
+  @include transitionAll;
+  b {
+    @include transitionAll;
+    float: left;
+    margin-left: 0;
+  }
+
+  &Animate {
+    top: 20px;
+    b {
+      &:first-of-type {
+        transform: rotate(45deg) translateY(2px);
+      }
+      &:nth-of-type(2) {
+        opacity: 0;
+      }
+      &:last-of-type {
+        transform: rotate(-45deg) translateY(-1px);
+        margin-left: -77%;
+      }
+    }
+  }
+}
+
+.Links {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+
+  li {
+    margin-bottom: 24px;
+  }
+}
+
+.Link {
+  color: $white;
+  font-family: $Raleway;
+  text-transform: uppercase;
+  margin-right: 10px;
+  @include transitionAll;
+  font-size: 24px;
+  text-decoration: none;
+
+  &:hover,
+  :focus {
+    color: $bayoux-blue;
+  }
+}
