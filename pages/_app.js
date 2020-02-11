@@ -1,5 +1,4 @@
 import App from "next/app";
-import Layout from "../components/Layout";
 import Header from "../components/Header";
 
 import "../styles/styles.css"; // global styles and overrides
@@ -8,9 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Header />
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <Component {...pageProps} />
     </div>
   );
 }

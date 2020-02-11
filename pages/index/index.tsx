@@ -3,12 +3,13 @@ import Link from "../../components/Link";
 import Head from "../../components/head";
 import { H1, H2, H3, P } from "../../components/Typography";
 import Section from "../../components/Section";
+import Layout from "../../components/Layout";
 
 import styles from "./index.module.scss";
 
 export default () => {
   return (
-    <>
+    <Layout>
       <Head title="Home - Impact Music Festival" />
       <div className={styles.AboveTheFold}>
         <div className={styles.Details}>
@@ -61,6 +62,6 @@ export default () => {
           </label>
         </div>
       </Section>
-    </>
+    </Layout>
   );
 };

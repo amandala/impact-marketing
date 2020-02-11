@@ -1,7 +1,80 @@
-body {
-  margin: 0;
+@import "../../styles/variables";
+
+.Wrapper {
+  max-width: 1200px;
+  padding: 40px;
 }
 
-.Image {
-  width: 100%;
+.PhotoDiv {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/mainStage.jpg);
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Impact {
+  font-size: 35px;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
+.CTA {
+  margin-bottom: 24px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  );
+  padding: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $bright-turquoise;
+  }
+}
+
+.Link {
+  color: $white;
+  font-family: $Raleway;
+  text-transform: uppercase;
+  margin-right: 10px;
+  @include transitionAll;
+  font-size: 24px;
+  text-decoration: none;
+  outline-color: $bayoux-blue;
+}
+
+.Links {
+  display: flex;
+  flex-direction: column;
+}
+
+@include medium {
+  .PhotoDiv {
+    background-position: initial;
+  }
+
+  .Impact {
+    font-size: 45px;
+  }
+
+  .Links {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .CTA {
+    margin-right: 10px;
+    padding: 20px 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
 }

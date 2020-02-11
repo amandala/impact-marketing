@@ -11,7 +11,11 @@
   outline-color: $bayoux-blue;
 
   &:hover,
-  :focus {
+  &:focus {
     color: $bright-turquoise;
   }
+}
+
+.Wrapper {
+  cursor: pointer;
 }
