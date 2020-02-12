@@ -1,15 +1,22 @@
 import React from "react";
 import Head from "../../components/head";
-import cx from "classnames";
 import { ReactTypeformEmbed } from "react-typeform-embed";
-
-import styles from "./index.module.scss";
+import Layout from "../../components/Layout";
 
 export default () => {
   return (
-    <div>
+    <Layout>
       <Head title="Get Involved | Impact Music Festival" />
-      <ReactTypeformEmbed url="https://dasrecord.typeform.com/to/elGZqC" />
-    </div>
+      <ReactTypeformEmbed
+        style={{
+          "max-width": "900px",
+          "margin-left": "auto",
+          "margin-right": "auto",
+          left: 0,
+          right: 0
+        }}
+        url="https://dasrecord.typeform.com/to/elGZqC"
+      />
+    </Layout>
   );
 };
