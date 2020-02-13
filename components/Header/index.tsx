@@ -27,18 +27,18 @@ export default () => {
           <li onClick={() => setNavOpen(false)}>
             <Link href="/about">About</Link>
           </li>
-          <li onClick={() => setNavOpen(false)}>
+          {/* <li onClick={() => setNavOpen(false)}>
             <Link href="/tickets">Tickets</Link>
           </li>
           <li onClick={() => setNavOpen(false)}>
             <Link href="/media">Media</Link>
-          </li>
-          <li onClick={() => setNavOpen(false)}>
-            <Link href="/make-impact">Make Impact</Link>
-          </li>
-          <li onClick={() => setNavOpen(false)}>
+          </li> */}
+          {/* <li onClick={() => setNavOpen(false)}>
+            <Link href="/get-involved">Get Involved</Link>
+          </li> */}
+          {/* <li onClick={() => setNavOpen(false)}>
             <Link href="/contact">Contact Us</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </>
