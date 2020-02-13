@@ -24,7 +24,7 @@ export default () => {
             Transformational Charity Music Festival
           </H1>
           <H2>Pritchard, BC</H2>
-          <H3>July 3rd & 4th</H3>
+          <H3>July 2nd - 4th</H3>
         </div>
         <div className={styles.TicketsLink}>
           <Link href="/tickets">Get Tickets</Link>

@@ -13,7 +13,7 @@ export default () => {
         <div className={styles.Wrapper}>
           <Section>
             <H1>
-              IMPACT Festival is a 2 day Transformational Arts & Music
+              IMPACT Festival is a 3 day Transformational Arts & Music
               Experience
             </H1>
             <P>
