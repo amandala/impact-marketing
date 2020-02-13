@@ -43,13 +43,13 @@
 }
 
 .P {
-  font-size: 16px;
-  margin-bottom: 12px;
+  font-size: 16px !important;
+  margin-bottom: 12px !important;
 }
 
 .Position {
   &Title {
-    margin-right: 12px;
+    margin-right: 12px !important;
   }
 
   &Heading {
