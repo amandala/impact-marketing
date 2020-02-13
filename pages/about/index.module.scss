@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .Wrapper {
-  max-width: 1200px;
+  max-width: 900px;
   padding: 40px;
 }
 
@@ -16,7 +16,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .Impact {
@@ -24,10 +23,11 @@
   font-family: $Raleway;
   font-size: 35px;
   margin-bottom: 24px;
-  font-weight: 400;
+  font-weight: 100;
 }
 
 .CTA {
+  text-align: center;
   margin-bottom: 24px;
   background: linear-gradient(
     rgba(255, 255, 255, 0.2),
@@ -57,7 +57,35 @@
   flex-direction: column;
 }
 
+.Logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.LogoWrapper {
+  padding: 20px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  );
+  margin-bottom: 24px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
 @include medium {
+  .Logos {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .LogoWrapper {
+    margin-bottom: 0;
+  }
+
   .PhotoDiv {
     background-position: initial;
   }
