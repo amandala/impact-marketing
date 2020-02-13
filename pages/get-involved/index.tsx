@@ -76,17 +76,16 @@ export default () => {
               <H3>Volunteer Deposit $200</H3>
               <H4>Depending on your shifts we will refund X amount.</H4>
               <H5>
-                2x 6hr Shifts = $50 ($50 to charity - $50 to Merch Pack/Food -
-                $50 to event costs)
+                2x 6hr Shifts = $100 return ($50 to charity - $50 to Merch
+                Pack/Food)
               </H5>
               <H5>
-                4x 6hr Shifts = $100 ($50 to charity - $50 to Merch Pack/Food)
+                4x 6hr Shifts = $125 return ($50 to charity - $25 to Merch
+                Pack/Food)
               </H5>
               <H5>
-                4x 6hr Shifts = $100 ($50 to charity - $50 to Merch Pack/Food)
-              </H5>
-              <H5>
-                8x 6hr Shifts = $150 ($50 to Charity - Free food/ Merch Pack)
+                6x 6hr Shifts = $150 return ($50 to Charity - Free Merch
+                pack/Food)
               </H5>
               <H3 className={styles.FoodHeading}>Food Pack $100</H3>
               <H4>
