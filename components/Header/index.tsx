@@ -33,9 +33,9 @@ export default () => {
           <li onClick={() => setNavOpen(false)}>
             <Link href="/media">Media</Link>
           </li> */}
-          {/* <li onClick={() => setNavOpen(false)}>
+          <li onClick={() => setNavOpen(false)}>
             <Link href="/get-involved">Get Involved</Link>
-          </li> */}
+          </li>
           {/* <li onClick={() => setNavOpen(false)}>
             <Link href="/contact">Contact Us</Link>
           </li> */}

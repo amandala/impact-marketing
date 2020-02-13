@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "../../components/head";
-import { P } from "../../components/Typography";
+import { H1, P } from "../../components/Typography";
 import Section from "../../components/Section";
 
 import styles from "./index.module.scss";
@@ -12,10 +12,10 @@ export default () => {
       <div className={styles.PhotoDiv}>
         <div className={styles.Wrapper}>
           <Section>
-            <h1 className={styles.Impact}>
+            <H1>
               IMPACT Festival is a 2 day Transformational Arts & Music
               Experience
-            </h1>
+            </H1>
             <P>
               With 3 Stages, Art Installations and A variaty of music, there is
               something for everyone
@@ -63,7 +63,7 @@ export default () => {
             </div>
           </Section>
           <Section>
-            <h1 className={styles.Impact}>Our Story</h1>
+            <H1>Our Story</H1>
             <P>
               IMPACT Festival was created by Dusk2Dawn Productions and Party
               Well in 2019. The goal was to create a unique festival expirience
@@ -106,7 +106,7 @@ export default () => {
             </div>
           </Section>
           <Section>
-            <h1 className={styles.Impact}>Make Impact</h1>
+            <H1>Make Impact</H1>
             <P>
               Out there somewhere in the deeps of space, on a world eerily
               similar to our own, an intelligent species of biped revelled in

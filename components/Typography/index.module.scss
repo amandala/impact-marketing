@@ -27,9 +27,11 @@ p {
 }
 
 .H1 {
+  color: $white;
   font-family: $Raleway;
+  font-size: 35px;
+  margin-bottom: 24px;
   font-weight: 100;
-  font-size: 30px;
 }
 
 .H2 {
@@ -42,16 +44,25 @@ p {
   font-family: $Raleway;
   font-weight: 400;
   font-size: 20px;
+  margin-bottom: 6px;
 }
 
 .H4 {
   font-family: $Raleway;
   font-weight: 200;
   font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .H5 {
   font-family: $Raleway;
   font-weight: 300;
   font-size: 14px;
+  margin-bottom: 5px;
+}
+
+@include medium {
+  .H1 {
+    font-size: 45px;
+  }
 }
