@@ -1,0 +1,109 @@
+@import "../../styles/variables";
+
+.Wrapper {
+  max-width: 90%;
+  padding-top: 40px;
+}
+
+.PhotoDiv {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/nightMainStage.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FoodHeading {
+  margin-top: 24px;
+}
+
+.Position {
+  margin-bottom: 24px;
+}
+
+.MakeImpact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Logo {
+  width: 100%;
+  max-width: 300px;
+}
+
+.LogoWrapper {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.P {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.Position {
+  &Title {
+    margin-right: 12px;
+  }
+
+  &Heading {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+
+@include large {
+  .PhotoDiv {
+    background-position: initial;
+    background-position: bottom;
+  }
+
+  .Wrapper {
+    padding-bottom: 160px;
+  }
+
+  .MakeImpact {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .ImpactHeading {
+    font-size: 6.5em;
+  }
+
+  .Logo {
+    width: 100%;
+
+    &Wrapper {
+      margin-right: 24px;
+    }
+  }
+
+  .PositionList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Position {
+    width: 50%;
+
+    &Content {
+      padding: 10px;
+    }
+  }
+}
+
+@include xlarge {
+  .Wrapper {
+    max-width: 1100px;
+  }
+}

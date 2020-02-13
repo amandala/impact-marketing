@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Love Leader",
+    "availability": "Showtime",
+    "description": "As a love-leader you will be the face of IMPACT. Your job will be to spread love and joy throughout the festival while spreading information and giving guests various quests and tasks to complete. In addition to our security and medical, you will be another set of careful watching eyes to ensure that everyone is having a safe and enjoyable experience"
+  },
+  {
+    "title": "Harm Reduction",
+    "availability": "Showtime",
+    "description": " Harm reduction is one of the core values of IMPACT festival. Assisting those in need and helping guide people through rough experiences is the core of harm reduction. You will be trained on basic harm reduction knowledge including Narcan Training."
+  },
+  {
+    "title": "Green Team",
+    "availability": "Pre, Showtime, Post",
+    "description": "IMPACT is a green/ sustainable event where we will be implementing various green programs to help keep the land neat and tidy and not allow any contamination in the river. The green team will be working to educate our attendees on recycling practices and using our brand new incentive program to create games out of garbage collection."
+  },
+  {
+    "title": "Intern",
+    "availability": "Pre & Showtime",
+    "description": "Do you want to be behind the scenes making the festival run smoothly? Do you want to learn the ins and outs of the festival? Our internship program will put you directly under one of our festival leads and you will learn all there is to know about that position. A strong organizational background and communication skills is required for this role."
+  },
+  {
+    "title": "Front Gate/ Check-in",
+    "availability": "Showtime",
+    "description": "Front gate volunteers are the very first interaction that our guests have when arriving at the festival. First impressions are vital in ensuring our guests have an amazing transformational experience. You will be in charge of scanning tickets, giving out wristbands, accepting cash payments andgiving out credentials and volunteer packs. This role isintegral for the success of the festival and we encourage organized, confident individuals to take up this role."
+  },
+
+  {
+    "title": "Production Build/Strike",
+    "availability": "Pre & Post",
+    "description": "Production is one of the most exciting positions to be in. You get to be a direct part of the magic of the festival and see the whole build process from ground 0 - To completion - and strike. A background in basic carpentry will be required for the build. If you are a hardworking, dedicated individual interested in using their hands, this is the job for you. + You get to enjoy the full event!"
+  },
+  {
+    "title": "HR/Info Booth",
+    "availability": "Pre & Post",
+    "description": " In this role, you will be directly involved in interacting with the guests, as well as providing information to our staff and volunteers. The info booth will also be the center of the event in regards to recycling initiatives and handing out rewards for completed quests."
+  },
+  {
+    "title": "Parking/Traffic Control",
+    "availability": "Pre & Showtime",
+    "description": "In this role, you will assist staff with the flow of traffic moving through parking and camping areas. This is a very important role to ensure the safety of our attendees. Be prepared to be on your feet for long periods of time."
+  },
+  {
+    "title": "Merch/IMPACT Shop",
+    "availability": "Showtime",
+    "description": "If you enjoy sales this is the role for you! Help spread the brand of impact and directly contribute to charity with every sale! You will be a part of the merchandise sales team or selling coffee, smoothies and other amazing beverages to our attendees. Prior Retail Experience recommended."
+  }
+]
