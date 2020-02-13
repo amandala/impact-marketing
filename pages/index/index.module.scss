@@ -31,6 +31,7 @@
 
 .FestivalDescription {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .TicketsLink {
@@ -75,16 +76,17 @@
 
 .SignUpForm {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .SignUp {
-  height: 40px;
+  display: flex;
+  flex-direction: column;
 
   &Button {
     height: 40px;
-    width: 100px;
+    width: 100%;
     background-color: transparent;
     border: 2px solid whitesmoke;
     color: whitesmoke;
@@ -92,7 +94,7 @@
 }
 
 .CTA {
-  width: 60%;
+  width: 100%;
 }
 
 .Input {
@@ -105,6 +107,24 @@
   background-color: $ebony-black;
   outline-color: $bayoux-blue;
   @include transitionAll;
+}
+
+@include medium {
+  .SignUp {
+    flex-direction: row;
+
+    &Button {
+      height: 48px;
+    }
+  }
+
+  .SignUpForm {
+    flex-direction: row;
+  }
+
+  .CTA {
+    width: 60%;
+  }
 }
 
 @include large {
