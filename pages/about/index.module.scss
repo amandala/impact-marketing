@@ -1,8 +1,8 @@
 @import "../../styles/variables";
 
 .Wrapper {
-  max-width: 900px;
-  padding: 40px;
+  max-width: 90%;
+  padding-top: 40px;
 }
 
 .PhotoDiv {
@@ -33,7 +33,7 @@
     rgba(255, 255, 255, 0.2),
     rgba(255, 255, 255, 0.2)
   );
-  padding: 10px;
+  padding: 30px;
   cursor: pointer;
 
   &:hover {
@@ -76,6 +76,10 @@
   }
 }
 
+.Logo {
+  max-width: 100%;
+}
+
 @include medium {
   .Logos {
     flex-direction: row;
@@ -84,10 +88,6 @@
 
   .LogoWrapper {
     margin-bottom: 0;
-  }
-
-  .PhotoDiv {
-    background-position: initial;
   }
 
   .Impact {
@@ -106,5 +106,21 @@
     &:last-of-type {
       margin-right: 0;
     }
+  }
+}
+
+@include large {
+  .PhotoDiv {
+    background-position: initial;
+  }
+
+  .Wrapper {
+    padding-bottom: 160px;
+  }
+}
+
+@include xlarge {
+  .Wrapper {
+    max-width: 900px;
   }
 }
