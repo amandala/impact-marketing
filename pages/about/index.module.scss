@@ -57,7 +57,35 @@
   flex-direction: column;
 }
 
+.Logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.LogoWrapper {
+  padding: 20px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  );
+  margin-bottom: 24px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
 @include medium {
+  .Logos {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .LogoWrapper {
+    margin-bottom: 0;
+  }
+
   .PhotoDiv {
     background-position: initial;
   }
