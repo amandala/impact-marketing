@@ -1,0 +1,55 @@
+@import "../../styles/variables";
+
+.ExperienceHeading {
+  padding-left: 60px;
+}
+
+.Experience1,
+.Experience2,
+.Experience3,
+.Experience4 {
+  background-size: cover;
+  background-position: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.Experience1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/experience1.jpg);
+}
+
+.Experience2 {
+  background-position: top;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/experience2.jpg);
+}
+
+.Experience3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/experience3.jpg);
+}
+
+.Experience4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/experience4.jpg);
+}
+
+.PhotoContent {
+  max-width: 90%;
+  text-align: center;
+}
+
+@include xlarge {
+  .Experience1 {
+    background-position: center;
+  }
+
+  .Experience3 {
+    background-position: right;
+  }
+}

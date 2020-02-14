@@ -1,10 +1,14 @@
 @import "../../styles/variables";
 
+.Wrapper {
+  cursor: pointer;
+}
+
 .Link {
-  color: $white;
+  color: $spring-green;
   font-family: $Raleway;
   text-transform: uppercase;
-  margin-right: 10px;
+  margin-right: 5px;
   @include transitionAll;
   font-size: 24px;
   text-decoration: none;
@@ -12,10 +16,22 @@
 
   &:hover,
   &:focus {
-    color: $bright-turquoise;
+    color: $white;
+    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
+      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
+      0 0 30px $spring-green, 0 0 35px $spring-green;
   }
 }
 
-.Wrapper {
-  cursor: pointer;
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
+      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
+      0 0 30px $spring-green, 0 0 35px $spring-green;
+  }
+  to {
+    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
+      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
+      0 0 30px $spring-green, 0 0 35px $spring-green;
+  }
 }
