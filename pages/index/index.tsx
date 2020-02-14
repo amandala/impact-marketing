@@ -47,21 +47,6 @@ export default () => {
           </div>
         </div>
       </Section>
-      <Section>
-        <H1 className={styles.SectionHeading}>Stay up to date</H1>
-        <div className={styles.SignUpForm}>
-          <div className={styles.CTA}>
-            <P>
-              Sign up for our newsletter to stay in the loop about contests,
-              updates, exclusive offers, and more!
-            </P>
-          </div>
-          <label className={styles.SignUp}>
-            <input className={styles.Input} />
-            <button className={styles.SignUpButton}>I'm in!</button>
-          </label>
-        </div>
-      </Section>
     </Layout>
   );
 };

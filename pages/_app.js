@@ -1,13 +1,14 @@
 import App from "next/app";
 import Nav from "../components/Nav";
-
-import styles from "../public/styles.css"; // global styles and overrides
+import Footer from "../components/Footer";
+import styles from "../styles/styles.module.scss"; // global styles and overrides
 
 function MyApp({ Component, pageProps, ...rest }) {
   return (
-    <div>
+    <div className={styles.Main}>
       <Nav />
       <Component {...pageProps} />
+      <Footer />
     </div>
   );
 }
