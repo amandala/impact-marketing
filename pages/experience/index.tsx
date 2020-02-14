@@ -39,7 +39,10 @@ export default () => {
       <div className={styles.Experience4}>
         <div className={styles.PhotoContent}>
           <H1 className={styles.ExperienceHeading}>Grow together!</H1>
-          <H2>This year will be jam packed with awesome workshops.</H2>
+          <H2>
+            This year will be jam packed with awesome workshops. Be sure to get
+            your early entry pass!
+          </H2>
         </div>
       </div>
     </div>
