@@ -4,13 +4,10 @@
   width: 100%;
   position: fixed;
   z-index: 9998;
-  width: 100%;
-  height: 100vh;
-  background: url(/aurora.jpg) no-repeat;
+  background: url(/lonelyspace.jpg) no-repeat;
   background-size: cover;
-  /* fallback for old browsers */
-  display: table;
   visibility: hidden;
+  height: 100vh;
   @include transitionAll;
   opacity: 0;
 
@@ -18,6 +15,13 @@
     opacity: 1 !important;
     visibility: visible !important;
   }
+}
+
+.Content {
+  height: 100vh;
+  position: relative;
+  padding-top: 100px;
+  overflow: hidden;
 }
 
 .Bun {
@@ -65,7 +69,6 @@
 }
 
 .Links {
-  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,4 +95,10 @@
   :focus {
     color: $bayoux-blue;
   }
+}
+
+.Mountains {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }

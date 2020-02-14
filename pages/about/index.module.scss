@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .Wrapper {
-  max-width: 90%;
+  max-width: 80%;
   padding-top: 40px;
 }
 
@@ -84,6 +84,11 @@
 
   .LogoWrapper {
     margin-bottom: 0;
+    margin-right: 24px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
   }
 
   .Links {

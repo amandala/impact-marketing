@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "../../components/head";
-import { H1, P } from "../../components/Typography";
+import { H1, H2, P } from "../../components/Typography";
 import Section from "../../components/Section";
 
 import styles from "./index.module.scss";
@@ -137,6 +137,51 @@ export default () => {
               ineractive quests and multimedia displays.
             </P>
             <P>We Are the IMPACT...</P>
+          </Section>
+          <Section>
+            <H1>Charities</H1>
+            <P>
+              In 2019 we raised $40,000 with our sponsor ENUF to WE Water
+              Charity and True North Aid
+            </P>
+          </Section>
+          <Section>
+            <div className={styles.Logos}>
+              <a
+                href="https://www.we.org/en-CA/"
+                target="_blank"
+                className={styles.LogoWrapper}
+              >
+                <img
+                  className={styles.Logo}
+                  src="welogo.png"
+                  alt="WE Water Charity Logo"
+                />
+              </a>
+              <a
+                href="https://truenorthaid.ca/"
+                target="_blank"
+                className={styles.LogoWrapper}
+              >
+                <img
+                  className={styles.Logo}
+                  src="tnalogo.jpg"
+                  alt="True North Aid Logo"
+                />
+              </a>
+            </div>
+          </Section>
+          <Section>
+            <H2>This year you decide!</H2>
+            <P>
+              Head over to our facebook page and look for our poll on which
+              charities you would like to support.
+            </P>
+            <P>
+              We will be supporting 4 different charities in 2020. There will be
+              a local, provincial, national and International cause.
+            </P>
+            <H2>$50 from each ticket will be donated to our various causes</H2>
           </Section>
         </div>
       </div>
