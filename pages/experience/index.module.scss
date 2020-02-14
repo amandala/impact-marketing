@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+
+.PageWrapper {
+  margin-top: 100px;
+}
+
+.ExperienceHeading {
+  padding-left: 60px;
+}
+
+.Experience1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/experience1.jpg);
+  background-size: cover;
+  background-position: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.PhotoContent {
+  max-width: 90%;
+  text-align: center;
+}
+
+@include xlarge {
+  .Experience1 {
+    background-position: center;
+  }
+}
