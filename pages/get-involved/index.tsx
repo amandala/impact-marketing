@@ -23,7 +23,7 @@ export default () => {
                 />
               </div>
               <div>
-                <H1 className={styles.ImpactHeading}>Make Impact</H1>
+                <H1 impact>Make Impact</H1>
                 <P className={styles.P}>
                   Do you want your IMPACT to go even further than our regular
                   attendees?

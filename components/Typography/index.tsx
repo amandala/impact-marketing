@@ -7,10 +7,13 @@ type TypographyType = {
   children: any;
   className?: string;
   small?: boolean;
+  impact?: boolean;
 };
 
-export const H1 = ({ children, className = "" }: TypographyType) => (
-  <h1 className={cx(styles.H1, className)}>{children}</h1>
+export const H1 = ({ children, className = "", impact }: TypographyType) => (
+  <h1 className={cx(styles.H1, className, { [styles.H1Impact]: impact })}>
+    {children}
+  </h1>
 );
 export const H2 = ({ children, className = "" }: TypographyType) => (
   <h2 className={cx(styles.H2, className)}>{children}</h2>
