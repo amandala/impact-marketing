@@ -14,9 +14,8 @@ class MyDocument extends Document {
           href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400|Roboto+Slab:100,200,300,400&display=swap"
           rel="stylesheet"
         ></link>
-        {/* <link href="/public/styles.css" rel="stylesheet" /> */}
         <body>
-          <Main />
+          <Main randomProp />
           <NextScript />
         </body>
       </Html>

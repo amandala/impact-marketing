@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React from "react";
 import cx from "classnames";
 
 import styles from "./index.module.scss";
@@ -6,7 +6,7 @@ import styles from "./index.module.scss";
 type TypographyType = {
   children: any;
   className?: string;
-  small?: boolean;
+  tiny?: boolean;
   impact?: boolean;
 };
 
@@ -27,8 +27,8 @@ export const H4 = ({ children, className = "" }: TypographyType) => (
 export const H5 = ({ children, className = "" }: TypographyType) => (
   <h5 className={cx(styles.H5, className)}>{children}</h5>
 );
-export const P = ({ children, className = "", small }: TypographyType) => (
-  <p className={cx(styles.P, className, { [styles.PSmall]: small })}>
+export const P = ({ children, className = "", tiny }: TypographyType) => (
+  <p className={cx(styles.P, className, { [styles.PTiny]: tiny })}>
     {children}
   </p>
 );

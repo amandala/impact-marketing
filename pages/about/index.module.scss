@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .Wrapper {
-  max-width: 90%;
+  max-width: 80%;
   padding-top: 40px;
 }
 
@@ -27,9 +27,10 @@
   );
   padding: 30px;
   cursor: pointer;
+  @include transitionAll;
 
   &:hover {
-    background-color: $bright-turquoise;
+    transform: scale(1.02);
   }
 }
 
@@ -42,6 +43,10 @@
   font-size: 24px;
   text-decoration: none;
   outline-color: $bayoux-blue;
+
+  &:hover {
+    color: $spring-green;
+  }
 }
 
 .Links {
@@ -69,6 +74,12 @@
   &:last-of-type {
     margin-bottom: 0;
   }
+
+  @include transitionAll;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 }
 
 .Logo {
@@ -84,6 +95,11 @@
 
   .LogoWrapper {
     margin-bottom: 0;
+    margin-right: 24px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
   }
 
   .Links {
@@ -107,7 +123,7 @@
   }
 
   .Wrapper {
-    padding-bottom: 160px;
+    padding-bottom: 100px;
   }
 }
 

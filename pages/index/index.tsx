@@ -17,7 +17,7 @@ export default () => {
         <div className={styles.Details}>
           <img
             className={styles.Wordmark}
-            src="/wordmark.svg"
+            src="/wordmark.png"
             alt="Impact Wordmark Logo"
           />
           <H1 className={styles.FestivalDescription}>
@@ -45,21 +45,6 @@ export default () => {
           <div className={styles.Value}>
             <span className={styles.Placeholder}>value placeholder</span>
           </div>
-        </div>
-      </Section>
-      <Section>
-        <H1 className={styles.SectionHeading}>Stay up to date</H1>
-        <div className={styles.SignUpForm}>
-          <div className={styles.CTA}>
-            <P>
-              Sign up for our newsletter to stay in the loop about contests,
-              updates, exclusive offers, and more!
-            </P>
-          </div>
-          <label className={styles.SignUp}>
-            <input className={styles.Input} />
-            <button className={styles.SignUpButton}>I'm in!</button>
-          </label>
         </div>
       </Section>
     </Layout>

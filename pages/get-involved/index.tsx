@@ -18,7 +18,7 @@ export default () => {
               <div className={styles.LogoWrapper}>
                 <img
                   className={styles.Logo}
-                  src="/impactlogo.svg"
+                  src="/impactlogo.png"
                   alt="Impact Logo"
                 />
               </div>
@@ -36,7 +36,9 @@ export default () => {
                   Sign up to volunteer at IMPACT and help us build something
                   amazing.
                 </P>
-                <Link href="/apply">Join our team! </Link>
+                <div className={styles.Apply}>
+                  <Link href="/apply">Join our team!</Link>
+                </div>
               </div>
             </div>
           </div>
@@ -45,7 +47,6 @@ export default () => {
               <H1>Positions</H1>
               <div className={styles.PositionList}>
                 {positions.map(position => {
-                  console.log(position);
                   return (
                     <div className={styles.Position}>
                       <div className={styles.PositionContent}>
