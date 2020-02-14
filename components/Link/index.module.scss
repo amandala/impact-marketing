@@ -16,22 +16,22 @@
 
   &:hover,
   &:focus {
-    color: $spring-green;
+    color: $white;
     text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
-      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 30px $spring-green,
-      0 0 40px $spring-green, 0 0 50px $spring-green;
+      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
+      0 0 30px $spring-green, 0 0 35px $spring-green;
   }
 }
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px $spring-green,
-      0 0 20px $spring-green, 0 0 30px $spring-green, 0 0 40px $spring-green,
-      0 0 50px $spring-green;
+    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
+      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
+      0 0 30px $spring-green, 0 0 35px $spring-green;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px $spring-green, 0 0 15px $spring-green,
-      0 0 20px $spring-green, 0 0 30px $spring-green, 0 0 40px $spring-green,
-      0 0 50px $spring-green;
+    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
+      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
+      0 0 30px $spring-green, 0 0 35px $spring-green;
   }
 }
