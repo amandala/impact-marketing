@@ -17,7 +17,7 @@ export default () => {
         <div className={styles.Details}>
           <img
             className={styles.Wordmark}
-            src="/wordmark.png"
+            src="/wordmark.svg"
             alt="Impact Wordmark Logo"
           />
           <H1 className={styles.FestivalDescription}>
