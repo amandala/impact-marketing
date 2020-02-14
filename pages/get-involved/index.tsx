@@ -18,7 +18,7 @@ export default () => {
               <div className={styles.LogoWrapper}>
                 <img
                   className={styles.Logo}
-                  src="/impactlogo.png"
+                  src="/impactlogo.svg"
                   alt="Impact Logo"
                 />
               </div>
