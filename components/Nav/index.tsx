@@ -35,6 +35,9 @@ export default () => {
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/lineup">Lineup</Link>
             </li>
+            <li onClick={() => setNavOpen(false)}>
+              <Link href="/stages">Stages</Link>
+            </li>
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/about">About</Link>
             </li>
@@ -48,9 +51,6 @@ export default () => {
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/get-involved">Get Involved</Link>
             </li>
-            {/* <li onClick={() => setNavOpen(false)}>
-            <Link href="/contact">Contact Us</Link>
-          </li> */}
           </ul>
           <img
             className={styles.Mountains}

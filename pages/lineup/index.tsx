@@ -13,8 +13,10 @@ export default () => {
       <Section>
         <H1>Lineup TBA</H1>
       </Section>
-      <P>Check out last year's lineup</P>
-      <img className={styles.Poster} src="lineup19.png" />
+      <Section>
+        <P>Check out last year's lineup</P>
+        <img className={styles.Poster} src="lineup19.png" />
+      </Section>
     </Layout>
   );
 };

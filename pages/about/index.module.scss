@@ -1,8 +1,7 @@
 @import "../../styles/variables";
 
 .Wrapper {
-  max-width: 80%;
-  padding-top: 40px;
+  max-width: 75%;
   padding-bottom: $footer-height-small;
 }
 
@@ -89,6 +88,10 @@
 }
 
 @include medium {
+  .Wrapper {
+    padding-top: 40px;
+  }
+
   .Logos {
     flex-direction: row;
     justify-content: space-around;
