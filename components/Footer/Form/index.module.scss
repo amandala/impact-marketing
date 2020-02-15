@@ -16,7 +16,6 @@
 
 .SignUpForm {
   display: flex;
-  flex: 1;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -49,6 +48,7 @@
 
 @include medium {
   .SignUpForm {
+    flex: 1;
     flex-direction: column;
     margin-right: 40px;
     margin-bottom: 20px;

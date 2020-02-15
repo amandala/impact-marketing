@@ -9,12 +9,12 @@
 
 .Layout {
   width: 100%;
-  padding: 40px 40px $footer-height-small;
+  padding: 40px 40px $footer-padding-small;
   max-width: $max-width;
 }
 
 @include large {
   .Layout {
-    padding: 40px 40px $footer-height-large;
+    padding: 40px 100px $footer-padding-large;
   }
 }
