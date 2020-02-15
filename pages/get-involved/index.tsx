@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "../../components/head";
 import Link from "../../components/Link";
+import Section from "../../components/Section";
 import { H1, H3, H4, H5, P } from "../../components/Typography";
 
 const positions = require("./data.json");
@@ -13,7 +14,7 @@ export default () => {
       <Head title="Get Involved | Impact Music Festival" />
       <div className={styles.PhotoDiv}>
         <div className={styles.Wrapper}>
-          <div className={styles.Details}>
+          <Section className={styles.Details}>
             <div className={styles.MakeImpact}>
               <div className={styles.LogoWrapper}>
                 <img
@@ -41,8 +42,8 @@ export default () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className={styles.Content}>
+          </Section>
+          <Section className={styles.Content}>
             <div className={styles.Positions}>
               <H1>Positions</H1>
               <div className={styles.PositionList}>
@@ -94,7 +95,7 @@ export default () => {
                 whole event! (Showtime Only) - Vendor charity rates apply.
               </H4>
             </div>
-          </div>
+          </Section>
         </div>
       </div>
     </div>

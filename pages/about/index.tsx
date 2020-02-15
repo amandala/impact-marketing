@@ -178,10 +178,10 @@ export default () => {
               charities you would like to support.
             </P>
             <P>
-              We will be supporting 4 different charities in 2020. There will be
-              a local, provincial, national and International cause.
+              We will be supporting 4 different charities in 2020, donating to
+              local, provincial, national, and international causes.
             </P>
-            <H2>$50 from each ticket will be donated to our various causes</H2>
+            <H2>$50 from each ticket goes to one of our selected charities.</H2>
           </Section>
         </div>
       </div>

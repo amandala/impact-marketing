@@ -1,9 +1,9 @@
 @import "../../styles/variables";
 
 .Wrapper {
-  max-width: 90%;
+  max-width: 75%;
   padding-top: 40px;
-  padding-bottom: $footer-padding-small;
+  padding-bottom: $footer-height-small;
 }
 
 .PhotoDiv {
@@ -72,7 +72,7 @@
 
   .Wrapper {
     padding-bottom: 160px;
-    padding-bottom: $footer-padding-large;
+    padding-bottom: $footer-height-large;
   }
 
   .MakeImpact {
