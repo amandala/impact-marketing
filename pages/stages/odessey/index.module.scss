@@ -29,10 +29,10 @@
   max-width: 80%;
 }
 
-.PhotoDiv1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/purpleodessey.jpg);
-
+.PhotoDiv1,
+.PhotoDiv2,
+.PhotoDiv3,
+.PhotoDiv4 {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -41,51 +41,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.PhotoDiv1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/colorloop.jpg);
 }
 
 .PhotoDiv2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/colorloop.jpg);
-
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    url(/worldclasstalent.jpg);
 }
 
 .PhotoDiv3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/worldclasstalent.jpg);
-
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    url(/nextlevellistening.jpg);
 }
 
 .PhotoDiv4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/nextlevellistening.jpg);
-
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.PhotoDiv5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/uniquestage.jpg);
 

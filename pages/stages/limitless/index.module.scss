@@ -29,10 +29,10 @@
   max-width: 80%;
 }
 
-.PhotoDiv1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/yogaworkshop.jpg);
-
+.PhotoDiv1,
+.PhotoDiv2,
+.PhotoDiv3,
+.PhotoDiv4 {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -41,48 +41,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.PhotoDiv1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/yogaworkshop.jpg);
 }
 
 .PhotoDiv2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/workshop.jpg);
-
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .PhotoDiv3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/hands.jpg);
-
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .PhotoDiv4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/sage.jpg);
-
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .PhotoContent {

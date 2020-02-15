@@ -10,7 +10,7 @@ export default () => {
   return (
     <div className={styles.Page}>
       <Head title="Odessey | Impact Music Festival" />
-      <div className={styles.PhotoDiv2}>
+      <div className={styles.PhotoDiv1}>
         <Section className={styles.PhotoContent}>
           <div className={styles.LogoWrapper}>
             <img
@@ -25,17 +25,17 @@ export default () => {
           </H1>
         </Section>
       </div>
-      <div className={styles.PhotoDiv3}>
+      <div className={styles.PhotoDiv2}>
         <Section className={styles.PhotoContent}>
           <H1>Featuring world class talent</H1>
         </Section>
       </div>
-      <div className={styles.PhotoDiv4}>
+      <div className={styles.PhotoDiv3}>
         <Section className={styles.PhotoContent}>
           <H1>Next level listening experience</H1>
         </Section>
       </div>
-      <div className={styles.PhotoDiv5}>
+      <div className={styles.PhotoDiv4}>
         <Section className={styles.PhotoContent}>
           <H1>Unique stage design</H1>
         </Section>
