@@ -30,7 +30,7 @@ export default () => {
           <Link href="/tickets">Get Tickets</Link>
         </div> */}
       </div>
-      <Section>
+      {/* <Section>
         <H1 className={styles.SectionHeading}>Our Core Values</H1>
         <div className={styles.ValuesList}>
           <div className={styles.Value}>
@@ -46,7 +46,7 @@ export default () => {
             <span className={styles.Placeholder}>value placeholder</span>
           </div>
         </div>
-      </Section>
+      </Section> */}
     </Layout>
   );
 };
