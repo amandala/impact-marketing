@@ -32,3 +32,6 @@ export const P = ({ children, className = "", tiny }: TypographyType) => (
     {children}
   </p>
 );
+export const Tiny = ({ children, className = "" }: TypographyType) => (
+  <p className={cx(styles.Tiny, className)}>{children}</p>
+);

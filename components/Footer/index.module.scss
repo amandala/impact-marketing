@@ -1,17 +1,25 @@
 @import "../../styles/variables";
 
 .Footer {
-  height: 100px;
+  height: $footer-height-small;
   background-color: transparent;
   position: absolute;
   bottom: 0;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.Content {
+.FormContent {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: $max-width;
 }
 
 .Link {
@@ -19,52 +27,53 @@
   text-decoration: none;
 }
 
-.SignUpForm {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.SignUp {
-  display: flex;
-  flex-direction: column;
-
-  &Button {
-    padding: 10px;
-    background-color: transparent;
-    border: 1px solid whitesmoke;
-    border-radius: 0;
-    color: whitesmoke;
-  }
-}
-
-.Input {
-  height: 40px;
-  border: none;
-  border-radius: 0;
-  border-bottom: 1px solid whitesmoke;
-  color: whitesmoke;
-  font-size: 16px;
-  padding: 3px;
-  background-color: $ebony-black;
-  outline-color: $bayoux-blue;
-  @include transitionAll;
-}
-
 .CTA {
   margin-top: 12px;
 }
 
-.WithLove {
+.InTouch {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  padding-left: 40px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
+.WithLove {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 @include medium {
-  .SignUp {
+  .InTouch {
+    max-width: 40%;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  .Footer {
+    flex-direction: column;
+    height: $footer-height-large;
+  }
+
+  .FormContent {
     flex-direction: row;
+  }
+
+  .WithLove {
+    margin-left: 40px;
+  }
+}
+
+@include large {
+  .InTouch {
+    max-width: unset;
+    flex: 1;
+  }
+}
+
+@include xlarge {
+  .InTouch {
+    margin-left: 0;
   }
 }

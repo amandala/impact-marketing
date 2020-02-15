@@ -1,3 +1,5 @@
+@import "../../styles/variables";
+
 .Content {
   display: flex;
   flex-direction: row;
@@ -7,6 +9,12 @@
 
 .Layout {
   width: 100%;
-  padding: 40px 40px 100px;
-  max-width: 1200px;
+  padding: 40px 40px $footer-height-small;
+  max-width: $max-width;
+}
+
+@include large {
+  .Layout {
+    padding: 40px 40px $footer-height-large;
+  }
 }

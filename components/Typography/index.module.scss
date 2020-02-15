@@ -17,14 +17,15 @@ p {
   line-height: 22px;
   margin-bottom: 20px;
   letter-spacing: 0.5px;
+}
 
-  &Tiny {
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 200;
-    letter-spacing: 0.5px;
-    margin-bottom: 6px;
-  }
+.Tiny {
+  font-family: $Raleway;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
 }
 
 .H1 {
