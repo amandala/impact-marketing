@@ -20,14 +20,15 @@
 .Content {
   height: 100vh;
   position: relative;
-  padding-top: 100px;
   overflow: hidden;
 }
 
 .Bun {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
+  left: 5px;
+  top: 20px;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -36,7 +37,7 @@
 
 .Burger {
   position: fixed;
-  left: 20px;
+  left: 5px;
   top: 30px;
   color: white;
   z-index: 9999;
@@ -69,12 +70,13 @@
 }
 
 .Links {
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   list-style: none;
-  padding: 0;
+  padding-left: 0;
   width: 100%;
 
   li {
@@ -102,4 +104,10 @@
   position: absolute;
   bottom: 0;
   z-index: -1;
+}
+
+@include large {
+  .Burger {
+    left: 25px;
+  }
 }
