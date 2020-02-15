@@ -33,6 +33,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400|Roboto+Slab:100,200,300,400&display=swap"
             rel="stylesheet"
           ></link>
+          <link href="/styles/styles.module.scss" rel="stylesheet"></link>
         </Head>
 
         <body>
