@@ -36,7 +36,7 @@ p {
   font-weight: 100;
 
   &Impact {
-    font-size: 6.5em !important;
+    font-size: 3.5em !important;
   }
 }
 
@@ -71,6 +71,10 @@ p {
 @include medium {
   .H1 {
     font-size: 45px;
+
+    &Impact {
+      font-size: 6.5em !important;
+    }
   }
 
   .P {
