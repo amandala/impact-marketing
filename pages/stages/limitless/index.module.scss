@@ -1,4 +1,4 @@
-@import "../../styles/variables";
+@import "../../../styles/variables";
 
 .Page {
   padding-bottom: $footer-height-small;
@@ -16,19 +16,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
-  text-align: center;
-  margin-bottom: 24px;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.2)
-  );
-  padding: 30px;
   cursor: pointer;
-  @include transitionAll;
-
-  &:hover {
-    transform: scale(1.02);
-  }
 
   &:last-of-type {
     margin-bottom: 0;
@@ -42,8 +30,50 @@
 }
 
 .PhotoDiv1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/yogaworkshop.jpg);
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PhotoDiv2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/stages.jpg);
+    url(/workshop.jpg);
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PhotoDiv3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/hands.jpg);
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PhotoDiv4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/sage.jpg);
 
   background-size: cover;
   background-position: center;

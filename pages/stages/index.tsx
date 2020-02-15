@@ -13,7 +13,7 @@ export default () => {
       <Head title="Stages | Impact Music Festival" />
       <div className={styles.PhotoDiv1}>
         <Section className={styles.PhotoContent}>
-          <H1>IMPACT Festival 2020 will have 3 unique stages</H1>
+          <H1>IMPACT Festival 2020 has 3 unique stages</H1>
           <H2>
             Each will be equipped with world class PK Sound and an
             out-of-this-world visual experience
@@ -34,13 +34,15 @@ export default () => {
               <img className={styles.Logo} src="/oasis.png" alt="Oasis Stage" />
             </div>
           </Link>
-          <div className={styles.LogoWrapper}>
-            <img
-              className={styles.Logo}
-              src="/limitless.png"
-              alt="Limitless Stage"
-            />
-          </div>
+          <Link href="/stages/limitless">
+            <div className={styles.LogoWrapper}>
+              <img
+                className={styles.Logo}
+                src="/limitless.png"
+                alt="Limitless Stage"
+              />
+            </div>
+          </Link>
         </Section>
       </div>
       {/* <Layout>
