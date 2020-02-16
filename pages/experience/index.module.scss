@@ -33,11 +33,18 @@
 .Experience4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/experience4.jpg);
+  padding-bottom: $footer-height-small;
 }
 
 .PhotoContent {
   max-width: 90%;
   text-align: center;
+}
+
+@include medium {
+  .Experience4 {
+    padding-bottom: $footer-height-large;
+  }
 }
 
 @include xlarge {
