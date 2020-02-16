@@ -2,6 +2,7 @@ import React from "react";
 import Head from "../../components/head";
 import Link from "../../components/Link";
 import Section from "../../components/Section";
+import PhotoDiv from "../../components/PhotoDiv";
 import { H1, H3, H4, H5, P } from "../../components/Typography";
 
 const positions = require("./data.json");
@@ -12,7 +13,7 @@ export default () => {
   return (
     <div>
       <Head title="Get Involved | Impact Music Festival" />
-      <div className={styles.PhotoDiv}>
+      <PhotoDiv className={styles.NightMainStage}>
         <div className={styles.Wrapper}>
           <Section className={styles.Details}>
             <div className={styles.MakeImpact}>
@@ -97,7 +98,7 @@ export default () => {
             </div>
           </Section>
         </div>
-      </div>
+      </PhotoDiv>
     </div>
   );
 };
