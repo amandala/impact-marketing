@@ -27,7 +27,9 @@ export default () => {
           <H3>July 2nd - 4th</H3>
         </div>
         {/* <div className={styles.TicketsLink}>
-          <Link href="/tickets">Get Tickets</Link>
+          <Link disabled href="/tickets">
+            Ticket on sale soon
+          </Link>
         </div> */}
       </div>
       {/* <Section>
