@@ -11,7 +11,7 @@ export default ({ details, name, price }) => (
     </span>
     <ul className={styles.Details}>
       {details.map(detail => (
-        <li>
+        <li key={detail}>
           <H4>{detail}</H4>
         </li>
       ))}
