@@ -25,26 +25,25 @@ export default () => {
       <div className={styles.PhotoDiv2}>
         <Section className={styles.PhotoContent}>
           <H1>
-            Enjoy Vibrant Live Music and an array of motivational speakers,
-            trail-blazers, and movement workshops.
+            Enjoy vibrant live music and an array of motivational speakers,
+            trail-blazers, and movement workshops
           </H1>
         </Section>
       </div>
       <div className={styles.PhotoDiv3}>
         <Section className={styles.PhotoContent}>
           <H1>
-            Purchase an early entry ticket to become immersed in the
-            transformation. Thursday will feature many transformational aspects
-            to get you in a positive mindset before the festival starts
+            Thursday early entry will feature a full day of transformational
+            workshops to get you in a positive mindset before the festival
+            starts
           </H1>
         </Section>
       </div>
       <div className={styles.PhotoDiv4}>
         <Section className={styles.PhotoContent}>
           <H1>
-            During the rest of the event, workshops and Live music acts will
-            take the stage, alternating throughout the day to bring true
-            diversity to the festival
+            All weekend long, workshops and live music acts alternate throughout
+            the day to bring true diversity to the festival
           </H1>
         </Section>
       </div>
