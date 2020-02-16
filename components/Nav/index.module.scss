@@ -71,6 +71,7 @@
 
 .Links {
   padding-top: 100px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,7 +81,7 @@
   width: 100%;
 
   li {
-    margin-bottom: 24px;
+    margin-bottom: 14px;
   }
 }
 
@@ -107,6 +108,12 @@
 }
 
 @include large {
+  .Links {
+    li {
+      margin-bottom: 24px;
+    }
+  }
+
   .Burger {
     left: 25px;
   }
