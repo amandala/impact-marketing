@@ -1,0 +1,29 @@
+@import "../../../styles/variables";
+
+.Ticket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 24px;
+
+  &Heading {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
+
+.Name {
+  margin-right: 12px;
+}
+
+.Details {
+  color: white;
+  padding-left: 24px;
+}
+
+@include large {
+  .TicketHeading {
+    flex-direction: row;
+  }
+}
