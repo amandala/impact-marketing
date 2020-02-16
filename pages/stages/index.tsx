@@ -6,12 +6,13 @@ import Section from "../../components/Section";
 import { H1, H2 } from "../../components/Typography";
 
 import styles from "./index.module.scss";
+import PhotoDiv from "../../components/PhotoDiv";
 
 export default () => {
   return (
     <div className={styles.Page}>
       <Head title="Stages | Impact Music Festival" />
-      <div className={styles.PhotoDiv1}>
+      <PhotoDiv className={styles.Stages}>
         <Section className={styles.PhotoContent}>
           <H1>IMPACT Festival 2020 has 3 unique stages</H1>
           <H2>
@@ -44,7 +45,7 @@ export default () => {
             </div>
           </Link>
         </Section>
-      </div>
+      </PhotoDiv>
       {/* <Layout>
         <Section>
           <div className={styles.LogoWrapper}>

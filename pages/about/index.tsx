@@ -2,6 +2,7 @@ import React from "react";
 import Head from "../../components/head";
 import { H1, H2, P } from "../../components/Typography";
 import Section from "../../components/Section";
+import PhotoDiv from "../../components/PhotoDiv";
 
 import styles from "./index.module.scss";
 
@@ -9,7 +10,7 @@ export default () => {
   return (
     <div>
       <Head title="About | Impact Music Festival" />
-      <div className={styles.PhotoDiv}>
+      <PhotoDiv className={styles.MainStage}>
         <div className={styles.Wrapper}>
           <Section>
             <H1>
@@ -184,7 +185,7 @@ export default () => {
             <H2>$50 from each ticket goes to one of our selected charities.</H2>
           </Section>
         </div>
-      </div>
+      </PhotoDiv>
     </div>
   );
 };
