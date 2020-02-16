@@ -21,7 +21,7 @@ const Footer = () => (
       <Tiny>
         Site made with ♡ by{" "}
         <a className={styles.Link} href="http://www.portad.ca" target="_blank">
-          Amanda Haynes
+          Port:AD
         </a>
       </Tiny>
     </div>
