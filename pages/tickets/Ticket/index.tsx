@@ -10,11 +10,12 @@ export default ({ details, name, price }) => (
       <H5>${price}</H5>
     </span>
     <ul className={styles.Details}>
-      {details.map(detail => (
-        <li key={detail}>
-          <H4>{detail}</H4>
-        </li>
-      ))}
+      {details &&
+        details.map(detail => (
+          <li key={detail}>
+            <H4>{detail}</H4>
+          </li>
+        ))}
     </ul>
   </div>
 );
