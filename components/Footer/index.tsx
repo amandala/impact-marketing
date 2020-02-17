@@ -10,7 +10,7 @@ const Footer = () => (
     <div className={styles.FormContent}>
       <div className={styles.InTouch}>
         <H3>Stay in touch</H3>
-        <H5>
+        <H5 className={styles.SignUp}>
           Sign up for our newsletter to stay in the loop on contests, updates,
           exclusive offers, and more!
         </H5>

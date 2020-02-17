@@ -47,15 +47,6 @@
 .PhotoDiv4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/uniquestage.jpg);
-
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .PhotoContent {
