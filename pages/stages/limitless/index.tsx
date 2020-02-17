@@ -31,20 +31,20 @@ export default () => {
           </H1>
         </Section>
       </PhotoDiv>
+      <PhotoDiv className={styles.PhotoDiv4}>
+        <Section className={styles.PhotoContent}>
+          <H1>
+            All weekend long, workshops and live music acts alternate throughout
+            the day to bring true diversity to the festival
+          </H1>
+        </Section>
+      </PhotoDiv>
       <PhotoDiv className={styles.PhotoDiv3}>
         <Section className={styles.PhotoContent}>
           <H1>
             Thursday early entry will feature a full day of transformational
             workshops to get you in a positive mindset before the festival
             starts
-          </H1>
-        </Section>
-      </PhotoDiv>
-      <PhotoDiv className={styles.PhotoDiv4}>
-        <Section className={styles.PhotoContent}>
-          <H1>
-            All weekend long, workshops and live music acts alternate throughout
-            the day to bring true diversity to the festival
           </H1>
         </Section>
       </PhotoDiv>

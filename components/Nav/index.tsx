@@ -8,12 +8,11 @@ export default () => {
   const [navOpen, setNavOpen] = React.useState(false);
 
   const setNavOpenState = open => {
-    //TODO: figure out why this isn't working
     setNavOpen(open);
     if (open) {
-      document.body.classList.add("no-scroll");
+      document.body.classList.add("noscroll");
     } else {
-      document.body.classList.remove("no-scroll");
+      document.body.classList.remove("noscroll");
     }
   };
 

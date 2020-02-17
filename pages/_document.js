@@ -28,18 +28,20 @@ class MyDocument extends Document {
             sizes="16x16"
             href="/favicon-16x16.png"
           />
-
           <link
             href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400|Roboto+Slab:100,200,300,400&display=swap"
             rel="stylesheet"
           ></link>
-          <link href="/styles/styles.module.scss" rel="stylesheet"></link>
         </Head>
-
         <body>
           <Main randomProp />
           <NextScript />
         </body>
+        <style jsx>{`
+          .noscroll {
+            overflow: hidden;
+          }
+        `}</style>
       </Html>
     );
   }
