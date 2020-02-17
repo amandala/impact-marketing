@@ -8,8 +8,8 @@ export default () => {
   const [navOpen, setNavOpen] = React.useState(false);
 
   const setNavOpenState = open => {
-    setNavOpen(open);
-    if (open) {
+    setNavOpen(!!open);
+    if (!!open) {
       document.body.classList.add("noscroll");
     } else {
       document.body.classList.remove("noscroll");
@@ -31,13 +31,13 @@ export default () => {
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/">Home</Link>
             </li>
-            <li onClick={() => setNavOpen(false)}>
+            <li onClick={() => setNavOpenState(false)}>
               <Link href="/tickets">Tickets</Link>
             </li>
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/lineup">Lineup</Link>
             </li>
-            <li onClick={() => setNavOpen(false)}>
+            <li onClick={() => setNavOpenState(false)}>
               <Link href="/stages">Stages</Link>
             </li>
             <li onClick={() => setNavOpenState(false)}>
@@ -46,7 +46,6 @@ export default () => {
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/experience">Experience</Link>
             </li>
-
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/get-involved">Get Involved</Link>
             </li>
