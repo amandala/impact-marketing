@@ -20,7 +20,12 @@ const Footer = () => (
     <div className={styles.WithLove}>
       <Tiny>
         Site made with ♡ by{" "}
-        <a className={styles.Link} href="http://www.portad.ca" target="_blank">
+        <a
+          className={styles.Link}
+          href="http://www.portad.ca"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Port:AD
         </a>
       </Tiny>

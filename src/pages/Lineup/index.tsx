@@ -14,7 +14,11 @@ export default () => {
       </Section>
       <Section>
         <P>Check out last year's lineup</P>
-        <img className={styles.Poster} src="lineup19.png" />
+        <img
+          alt="Last year's lineup"
+          className={styles.Poster}
+          src="lineup19.png"
+        />
       </Section>
     </Layout>
   );

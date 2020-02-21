@@ -11,10 +11,10 @@ type PropsType = {
 };
 
 const MyLink = ({ className = "", children, href, ...rest }: PropsType) => (
-  <Link to={href}>
-    <a className={cx(styles.Link, className)} {...rest}>
+  <Link className={styles.Wrapper} to={href}>
+    <span className={cx(styles.Link, className)} {...rest}>
       {children}
-    </a>
+    </span>
   </Link>
 );
 

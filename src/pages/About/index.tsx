@@ -38,6 +38,7 @@ export default () => {
                   className={styles.Link}
                   href="https://www.facebook.com/ImpactFestivalBC/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Visit us on Facebook
                 </a>
@@ -47,6 +48,7 @@ export default () => {
                   className={styles.Link}
                   href="https://www.facebook.com/groups/850413665327638/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Join the IMPACT Group
                 </a>
@@ -56,6 +58,7 @@ export default () => {
                   className={styles.Link}
                   href="https://www.instagram.com/impactfestival_bc/?hl=en"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Follow us on Instagram
                 </a>
@@ -84,6 +87,7 @@ export default () => {
               <a
                 href="https://partywell.org/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className={styles.LogoWrapper}
               >
                 <img
@@ -95,6 +99,7 @@ export default () => {
               <a
                 href="https://www.dusk2dawnproductions.com/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className={styles.LogoWrapper}
               >
                 <img
@@ -150,6 +155,7 @@ export default () => {
               <a
                 href="https://www.we.org/en-CA/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className={styles.LogoWrapper}
               >
                 <img
@@ -161,6 +167,7 @@ export default () => {
               <a
                 href="https://truenorthaid.ca/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className={styles.LogoWrapper}
               >
                 <img

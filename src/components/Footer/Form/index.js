@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 import { Tiny } from "../../Typography";

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { H1, H2, P } from "../../components/Typography";
+import { H1 } from "../../components/Typography";
 import Section from "../../components/Section";
 import PhotoDiv from "../../components/PhotoDiv";
 import Ticket from "./Ticket";
