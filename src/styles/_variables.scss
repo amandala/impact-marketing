@@ -1,3 +1,5 @@
+@import "/index.css";
+
 $black: #000000;
 $ebony-black: #0a0c17;
 $white: #ffffff;
@@ -7,8 +9,7 @@ $spring-green: #00ff9c;
 $gigas-purple: #553f96;
 $bright-turquoise: #19c3f6;
 
-$Roboto: "Roboto Slab", serif;
-$Raleway: "Raleway", sans-serif;
+$alien: "Alien", serif;
 
 //for-phone-only
 @mixin small {
