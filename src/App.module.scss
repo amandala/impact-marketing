@@ -12,3 +12,32 @@
   line-height: 28px;
   letter-spacing: 0.2px;
 }
+
+@import "./styles/variables";
+
+body {
+  padding: 0;
+  margin: 0;
+  background: url(/lonelyspace.jpg) black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadein 1s;
+  font-family: $alien;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Main {
+  position: relative;
+}
+
+.noscroll {
+  overflow: hidden;
+}
