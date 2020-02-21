@@ -20,7 +20,7 @@ export default () => {
           </H2>
         </Section>
         <Section className={styles.MainLogos}>
-          <Link href="/odessey">
+          <Link href="/odessy">
             <div className={styles.LogoWrapper}>
               <img
                 className={styles.Logo}

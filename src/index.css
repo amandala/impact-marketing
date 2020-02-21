@@ -27,3 +27,8 @@
   font-family: "SteelfishOut";
   src: local("SteelfishOut"), url(/steelfish-out.ttf) format("woff");
 }
+
+@font-face {
+  font-family: "SteelfishEb";
+  src: local("SteelfishEb"), url(/steelfish-eb.ttf) format("woff");
+}
