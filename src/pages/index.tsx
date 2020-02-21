@@ -1,4 +1,4 @@
-export { default as About } from "./About";
+export { default as About } from "./AboutPage";
 export { default as Apply } from "./Apply";
 export { default as Experience } from "./Experience";
 export { default as GetInvolved } from "./GetInvolved";

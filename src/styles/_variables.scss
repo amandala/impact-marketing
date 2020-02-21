@@ -62,3 +62,49 @@ $footer-height-small: 250px;
 $footer-height-large: 150px;
 
 $max-width: 1200px;
+
+$open-sans: "Open Sans", sans-serif;
+$open-sans-condensed: "Open Sans Condensed", sans-serif;
+$domine: "Domine", serif;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$borderColor: 1px solid rgba(216, 216, 216, 0.4);
+
+//* LAYOUT */
+
+$breakpoints: (
+  base: 0,
+  small: 540px,
+  medium: 768px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1400px
+);
+
+@mixin breakpoint($breakpoint, $use-max: false) {
+  $size: map-get($breakpoints, $breakpoint);
+  $breakpoint-index: index(map-keys($breakpoints), $breakpoint);
+  @if $use-max == true and $breakpoint-index < length($breakpoints) {
+    $max-size: nth(map-values($breakpoints), $breakpoint-index + 1) - 1;
+    @media screen and (min-width: $size) and (max-width: $max-size) {
+      @content;
+    }
+  } @else {
+    @include breakpoint-on-value($size) {
+      @content;
+    }
+  }
+}
+@mixin breakpoint-on-value($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@function map-get-strict($map, $key) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
+  } @else {
+    @error "ERROR: Specified index #{$key} does not exist in the mapping";
+  }
+}

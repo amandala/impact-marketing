@@ -1,4 +1,4 @@
 @font-face {
   font-family: "Alien";
-  src: local("Alien"), url(/alienleague.ttf) format("ttf");
+  src: local("Alien"), url(/alienleague.ttf) format("woff");
 }

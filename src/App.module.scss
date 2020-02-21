@@ -1,28 +1,14 @@
 @import "./styles/variables";
 
-body {
-  padding: 0;
-  margin: 0;
-  background: url(/lonelyspace.jpg) black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  animation: fadein 1s;
+.App {
   font-family: $alien;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.Main {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  background-color: #202121;
+  height: 100%;
+  color: #ffffff;
   position: relative;
-}
-
-.noscroll {
-  overflow: hidden;
+  line-height: 28px;
+  letter-spacing: 0.2px;
 }
