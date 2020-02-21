@@ -1,0 +1,37 @@
+@import "../../styles/variables";
+
+.Wrapper {
+  text-decoration: none;
+}
+
+.Link {
+  color: $spring-green;
+  font-family: $steelfish-eb;
+  text-transform: uppercase;
+  margin-right: 5px;
+  @include transitionAll;
+  font-size: 35px;
+  text-decoration: none;
+  outline-color: $bayoux-blue;
+
+  &:hover,
+  &:focus {
+    color: $white;
+    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
+      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
+      0 0 30px $spring-green, 0 0 35px $spring-green;
+  }
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
+      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
+      0 0 30px $spring-green, 0 0 35px $spring-green;
+  }
+  to {
+    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
+      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
+      0 0 30px $spring-green, 0 0 35px $spring-green;
+  }
+}

@@ -1,0 +1,116 @@
+@import "/index.css";
+
+$black: #000000;
+$ebony-black: #0a0c17;
+$white: #ffffff;
+$tundora-grey: #4d4d4d;
+$bayoux-blue: #465f7c;
+$spring-green: #00ff9c;
+$gigas-purple: #553f96;
+$bright-turquoise: #19c3f6;
+
+$alien: "Alien", serif;
+$alien-grad: "AlienGrad", serif;
+$alien-cond: "AlienCond", serif;
+$alien-exp: "AlienExp", serif;
+$steelfish: "SteelfishRg", sans-serif;
+$steelfish-out: "SteelfishOut", sans-serif;
+$steelfish-eb: "SteelfishEb", sans-serif;
+
+//for-phone-only
+@mixin small {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
+//for-tablet-portrait-up
+@mixin medium {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+//for-tablet-landscape-up
+@mixin large {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+
+//for-desktop-up
+@mixin xlarge {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+//for-big-desktop-up
+@mixin massive {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
+@mixin transitionAll {
+  transition: all 0.4s ease-in-out;
+}
+
+@mixin transitionTime($args) {
+  -webkit-transition: all $args ease-in-out;
+  -moz-transition: all $args ease-in-out;
+  -ms-transition: all $args ease-in-out;
+  -o-transition: all $args ease-in-out;
+  transition: all $args ease-in-out;
+}
+
+$footer-height-small: 250px;
+$footer-height-large: 150px;
+
+$max-width: 1200px;
+
+$open-sans: "Open Sans", sans-serif;
+$open-sans-condensed: "Open Sans Condensed", sans-serif;
+$domine: "Domine", serif;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$borderColor: 1px solid rgba(216, 216, 216, 0.4);
+
+//* LAYOUT */
+
+$breakpoints: (
+  base: 0,
+  small: 540px,
+  medium: 768px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1400px
+);
+
+@mixin breakpoint($breakpoint, $use-max: false) {
+  $size: map-get($breakpoints, $breakpoint);
+  $breakpoint-index: index(map-keys($breakpoints), $breakpoint);
+  @if $use-max == true and $breakpoint-index < length($breakpoints) {
+    $max-size: nth(map-values($breakpoints), $breakpoint-index + 1) - 1;
+    @media screen and (min-width: $size) and (max-width: $max-size) {
+      @content;
+    }
+  } @else {
+    @include breakpoint-on-value($size) {
+      @content;
+    }
+  }
+}
+@mixin breakpoint-on-value($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@function map-get-strict($map, $key) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
+  } @else {
+    @error "ERROR: Specified index #{$key} does not exist in the mapping";
+  }
+}
