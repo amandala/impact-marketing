@@ -1,0 +1,71 @@
+@import "../../styles/variables";
+
+.Page {
+  padding-bottom: $footer-height-small;
+}
+
+.Logo {
+  width: auto;
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.LogoWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.MainLogos {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+.PhotoDiv1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/hands.jpg);
+}
+
+.PhotoDiv2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/workshop.jpg);
+  background-position: right;
+}
+
+.PhotoDiv3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/yogaworkshop.jpg);
+}
+
+.PhotoDiv4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/sage.jpg);
+}
+
+.PhotoContent {
+  max-width: 80%;
+  text-align: center;
+}
+
+@include medium {
+  .Page {
+    padding-bottom: $footer-height-large;
+  }
+
+  .LogoWrapper {
+    margin-right: 24px;
+    margin-bottom: 0;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
