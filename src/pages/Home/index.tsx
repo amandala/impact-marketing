@@ -2,6 +2,7 @@ import React from "react";
 import { H1, H2, H3 } from "../../components/Typography";
 import Layout from "../../components/Layout";
 import Particle from "../../components/Particles";
+import Link from "../../components/Link";
 
 import styles from "./index.module.scss";
 
@@ -19,14 +20,11 @@ export default () => {
           <H1 className={styles.FestivalDescription}>
             Transformational Charity Music Festival
           </H1>
-          <H2 className={styles.Location}>Pritchard, BC</H2>
-          <H3>July 2nd - 4th</H3>
+          <H3>July 2nd - 4th, Pritchard, BC</H3>
         </div>
-        {/* <div className={styles.TicketsLink}>
-          <Link disabled href="/tickets">
-            Ticket on sale soon
-          </Link>
-        </div> */}
+        <div className={styles.TicketsLink}>
+          <Link href="/tickets">Get Tickets</Link>
+        </div>
       </div>
       {/* <Section>
         <H1 className={styles.SectionHeading}>Our Core Values</H1>

@@ -20,7 +20,7 @@ export default () => {
           <H1 impact>Express yourself</H1>
           <H2>
             We encourage everyone to bring their complete authentic self. Don't
-            hold back ;)
+            hold back!
           </H2>
         </div>
       </div>

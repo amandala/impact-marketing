@@ -87,16 +87,10 @@
   }
 
   .PositionList {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .Position {
-    width: 50%;
-
-    &Content {
-      padding: 10px;
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 1em;
   }
 }
 

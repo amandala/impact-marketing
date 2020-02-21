@@ -83,31 +83,33 @@ export default () => {
             </P>
           </Section>
           <Section>
-            <div className={styles.Logos}>
-              <a
-                href="https://partywell.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.LogoWrapper}
-              >
-                <img
-                  className={styles.Logo}
-                  src="pwLogo.png"
-                  alt="PartyWell Logo"
-                />
-              </a>
-              <a
-                href="https://www.dusk2dawnproductions.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.LogoWrapper}
-              >
-                <img
-                  className={styles.Logo}
-                  src="d2dLogo.png"
-                  alt="Dusk2Dawn Logo"
-                />
-              </a>
+            <div className={styles.LogosSection}>
+              <div className={styles.Logos}>
+                <a
+                  href="https://partywell.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.LogoWrapper}
+                >
+                  <img
+                    className={styles.Logo}
+                    src="pwLogo.png"
+                    alt="PartyWell Logo"
+                  />
+                </a>
+                <a
+                  href="https://www.dusk2dawnproductions.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.LogoWrapper}
+                >
+                  <img
+                    className={styles.Logo}
+                    src="d2dLogo.png"
+                    alt="Dusk2Dawn Logo"
+                  />
+                </a>
+              </div>
             </div>
           </Section>
           <Section>

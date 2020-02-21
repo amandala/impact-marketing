@@ -3,7 +3,7 @@ import React from "react";
 import Link from "../../components/Link";
 import Section from "../../components/Section";
 import PhotoDiv from "../../components/PhotoDiv";
-import { H1, H3, H4, H5, P } from "../../components/Typography";
+import { H1, H2, H3, H5, P, Tiny } from "../../components/Typography";
 import styles from "./index.module.scss";
 
 const positions = require("./data.json");
@@ -56,14 +56,14 @@ export default () => {
                       <div className={styles.Position}>
                         <div className={styles.PositionContent}>
                           <span className={styles.PositionHeading}>
-                            <H3 className={styles.PositionTitle}>
+                            <H2 className={styles.PositionTitle}>
                               {position.title}
-                            </H3>
+                            </H2>
                             <H5>{position.availability}</H5>
                           </span>
-                          <H4 className={styles.PositionDescription}>
+                          <P className={styles.PositionDescription}>
                             {position.description}
-                          </H4>
+                          </P>
                         </div>
                       </div>
                     );
@@ -81,7 +81,7 @@ export default () => {
                 the charity causes.
               </P>
               <H3>Volunteer Deposit $200</H3>
-              <H4>Depending on your shifts we will refund X amount.</H4>
+              <H5>Depending on your shifts we will refund X amount.</H5>
               <H5>
                 2x 6hr Shifts = $100 return ($50 to charity - $50 to Merch
                 Pack/Food)
@@ -95,10 +95,10 @@ export default () => {
                 pack/Food)
               </H5>
               <H3 className={styles.FoodHeading}>Food Pack $100</H3>
-              <H4>
+              <P>
                 Purchase a food pack for $100 to be fed 3 meals a day for the
                 whole event! (Showtime Only) - Vendor charity rates apply.
-              </H4>
+              </P>
             </div>
           </Section>
         </div>

@@ -86,6 +86,14 @@
 
   .Logos {
     flex-direction: row;
+    max-width: 800px;
+    justify-content: space-between;
+
+    &Section {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
   }
 
   .LogoWrapper {

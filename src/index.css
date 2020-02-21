@@ -1,4 +1,29 @@
 @font-face {
   font-family: "Alien";
-  src: local("Alien"), url(/alienleague.ttf) format("woff");
+  src: local("Alien"), url(/fonts/alienleague.ttf) format("woff");
+}
+
+@font-face {
+  font-family: "AlienGrad";
+  src: local("AlienGrad"), url(/fonts/alienleagueiigradbold.ttf) format("woff");
+}
+
+@font-face {
+  font-family: "AlienCond";
+  src: local("AlienCond"), url(/fonts/alienleagueiicond.ttf) format("woff");
+}
+
+@font-face {
+  font-family: "AlienExp";
+  src: local("AlienExp"), url(/fonts/alienleagueiiexpand.ttf) format("woff");
+}
+
+@font-face {
+  font-family: "SteelfishRg";
+  src: local("SteelfishRg"), url(/steelfish-rg.ttf) format("woff");
+}
+
+@font-face {
+  font-family: "SteelfishOut";
+  src: local("SteelfishOut"), url(/steelfish-out.ttf) format("woff");
 }

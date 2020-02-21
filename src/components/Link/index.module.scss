@@ -6,11 +6,11 @@
 
 .Link {
   color: $spring-green;
-  font-family: $alien;
+  font-family: $alien-grad;
   text-transform: uppercase;
   margin-right: 5px;
   @include transitionAll;
-  font-size: 24px;
+  font-size: 35px;
   text-decoration: none;
   outline-color: $bayoux-blue;
 
