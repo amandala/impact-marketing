@@ -13,9 +13,6 @@ $alien: "Alien", serif;
 $alien-grad: "AlienGrad", serif;
 $alien-cond: "AlienCond", serif;
 $alien-exp: "AlienExp", serif;
-$steelfish: "SteelfishRg", sans-serif;
-$steelfish-out: "SteelfishOut", sans-serif;
-$steelfish-eb: "SteelfishEb", sans-serif;
 
 //for-phone-only
 @mixin small {
@@ -72,6 +69,7 @@ $max-width: 1200px;
 $open-sans: "Open Sans", sans-serif;
 $open-sans-condensed: "Open Sans Condensed", sans-serif;
 $domine: "Domine", serif;
+$roboto: "Roboto", serif;
 $font-weight-regular: 400;
 $font-weight-bold: 700;
 $borderColor: 1px solid rgba(216, 216, 216, 0.4);

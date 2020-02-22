@@ -13,7 +13,7 @@ export default () => {
     <div className={styles.Page}>
       <PhotoDiv className={styles.Stages}>
         <Section className={styles.PhotoContent}>
-          <H1>IMPACT Festival 2020 has 3 unique stages</H1>
+          <H1>impact Festival 2020 has 3 unique stages</H1>
           <H2>
             Each will be equipped with world class PK Sound and an
             out-of-this-world visual experience

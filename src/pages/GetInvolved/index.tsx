@@ -25,7 +25,7 @@ export default () => {
               <div>
                 <H1 impact>Make Impact</H1>
                 <P className={styles.P}>
-                  Do you want your IMPACT to go even further than our regular
+                  Do you want your impact to go even further than our regular
                   attendees?
                 </P>
                 <P className={styles.P}>
@@ -33,7 +33,7 @@ export default () => {
                   world a better place?
                 </P>
                 <P className={styles.P}>
-                  Sign up to volunteer at IMPACT and help us build something
+                  Sign up to volunteer at impact and help us build something
                   amazing.
                 </P>
                 <div className={styles.Apply}>

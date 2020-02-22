@@ -13,7 +13,7 @@ export default () => {
         <div className={styles.Wrapper}>
           <Section>
             <H1>
-              IMPACT Festival is a 3 day Transformational Arts & Music
+              impact Festival is a 3 day Transformational Arts & Music
               Experience
             </H1>
             <P>
@@ -21,13 +21,13 @@ export default () => {
               something for everyone
             </P>
             <P>
-              In 2019, IMPACT raised $40,000 for WE Global Water Charities and
+              In 2019, impact raised $40,000 for WE Global Water Charities and
               True North Aid - First Nations Harm Reduction. With the assistance
               of everyone involved, we were able to achieve something incredible
-              that will continue to make IMPACT for years to come.
+              that will continue to make impact for years to come.
             </P>
             <P>
-              Become part of our IMPACT Tribe and help us create a better world
+              Become part of our impact Tribe and help us create a better world
               for tomorrow!
             </P>
           </Section>
@@ -50,7 +50,7 @@ export default () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Join the IMPACT Group
+                  Join the impact Group
                 </a>
               </span>
               <span className={styles.CTA}>
@@ -68,14 +68,14 @@ export default () => {
           <Section>
             <H1>Our Story</H1>
             <P>
-              IMPACT Festival was created by Dusk2Dawn Productions and Party
+              impact Festival was created by Dusk2Dawn Productions and Party
               Well in 2019. The goal was to create a unique festival expirience
               that focused on giving back. By gathering likeminded people to
-              celebrate the gift of life. IMPACT was able to spark some amazing
+              celebrate the gift of life. impact was able to spark some amazing
               creativity and imagination.
             </P>
             <P>
-              IMPACT is more than just a festival, it’s a lifestyle. By
+              impact is more than just a festival, it’s a lifestyle. By
               attending this event, you will aid in making the world a better
               place for everyone, including yourself. Connect with others like
               nowhere before. Create a new reality with the new connections you
@@ -113,7 +113,7 @@ export default () => {
             </div>
           </Section>
           <Section>
-            <H1>Make Impact</H1>
+            <H1>Make impact</H1>
             <P>
               Out there somewhere in the deeps of space, on a world eerily
               similar to our own, an intelligent species of biped revelled in
@@ -136,14 +136,14 @@ export default () => {
               world, preserving their culture and HOPING ANOTHER SPECIES WOULD
               PAY HEED TO THE LESSON. Their story is a sad one... but.... we
               have come to your planet because we have hope for ALL OF YOU, THE
-              IMPACT COMMUNITY.
+              impact community.
             </P>
             <P>
               Come and join us as we continue to tell this story through music,
               art and various other means. Participate in our story with
               ineractive quests and multimedia displays.
             </P>
-            <P>We Are the IMPACT...</P>
+            <P>We Are the impact...</P>
           </Section>
           <Section>
             <H1>Charities</H1>

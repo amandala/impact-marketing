@@ -18,7 +18,7 @@ export default () => {
             alt="Impact Wordmark Logo"
           />
           <H1 className={styles.FestivalDescription}>
-            Transformational Charity Music Festival
+            Transformational Charity Festival
           </H1>
           <H3>July 2nd - 4th, Pritchard, BC</H3>
         </div>

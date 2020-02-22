@@ -32,7 +32,7 @@ export default () => {
               <Link href="/">Home</Link>
             </li>
             <li onClick={() => setNavOpenState(false)}>
-              <Link href="/tickets">Tickets</Link>
+              <Link href="/tickets">TIckets</Link>
             </li>
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/lineup">Lineup</Link>
@@ -50,11 +50,11 @@ export default () => {
               <Link href="/get-involved">Get Involved</Link>
             </li>
           </ul>
-          <img
+          {/* <img
             className={styles.Mountains}
             src="/mountains.png"
             alt="moutains"
-          />
+          /> */}
         </div>
       </nav>
     </>

@@ -21,7 +21,7 @@ export default ({
       {details &&
         details.map((detail: string) => (
           <li key={detail}>
-            <P>{detail}</P>
+            <P className={styles.Detail}>{detail}</P>
           </li>
         ))}
     </ul>
