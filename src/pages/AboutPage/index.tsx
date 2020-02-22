@@ -141,7 +141,7 @@ export default () => {
             <P>
               Come and join us as we continue to tell this story through music,
               art and various other means. Participate in our story with
-              ineractive quests and multimedia displays.
+              interactive quests and multimedia displays.
             </P>
             <P>We Are the impact...</P>
           </Section>

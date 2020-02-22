@@ -3,7 +3,7 @@ import React from "react";
 import Link from "../../components/Link";
 
 import Section from "../../components/Section";
-import { H1, H2 } from "../../components/Typography";
+import { H1, P } from "../../components/Typography";
 
 import styles from "./index.module.scss";
 import PhotoDiv from "../../components/PhotoDiv";
@@ -14,12 +14,12 @@ export default () => {
       <PhotoDiv className={styles.Stages}>
         <Section className={styles.PhotoContent}>
           <H1>impact Festival 2020 has 3 unique stages</H1>
-          <H2>
+          <P>
             Each will be equipped with world class PK Sound and an
             out-of-this-world visual experience
-          </H2>
+          </P>
         </Section>
-        <Section className={styles.MainLogos}>
+        <div className={styles.MainLogos}>
           <Link href="/odessy">
             <div className={styles.LogoWrapper}>
               <img
@@ -43,7 +43,7 @@ export default () => {
               />
             </div>
           </Link>
-        </Section>
+        </div>
       </PhotoDiv>
       {/* <Layout>
         <Section>

@@ -21,14 +21,14 @@
 }
 
 .Button {
+  font-family: $alien-exp;
   padding: 10px;
   background-color: transparent;
   border: 1px solid whitesmoke;
   border-radius: 0;
   color: whitesmoke;
-  font-size: 12px;
+  font-size: 25px;
   width: 100px;
-  text-transform: uppercase;
 }
 
 .Input {
@@ -42,6 +42,8 @@
   padding: 3px;
   background-color: $ebony-black;
   outline-color: $bayoux-blue;
+  font-family: $roboto;
+  padding-left: 12px;
   @include transitionAll;
 }
 

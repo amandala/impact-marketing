@@ -31,7 +31,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         />
         <br />
         <button className={styles.Button} onClick={submit}>
-          Im in!
+          im in!
         </button>
       </div>
     </div>

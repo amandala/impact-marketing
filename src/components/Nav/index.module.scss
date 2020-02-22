@@ -40,7 +40,7 @@
   position: fixed;
   left: 5px;
   top: 30px;
-  color: white;
+  color: $spring-green;
   z-index: 9999;
   font-size: 20px;
   transform: rotate(-90deg);
@@ -109,12 +109,6 @@
 }
 
 @include large {
-  .Links {
-    li {
-      margin-bottom: 24px;
-    }
-  }
-
   .Burger {
     left: 25px;
   }

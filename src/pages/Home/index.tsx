@@ -23,7 +23,9 @@ export default () => {
           <H3>July 2nd - 4th, Pritchard, BC</H3>
         </div>
         <div className={styles.TicketsLink}>
-          <Link href="/tickets">Get Tickets</Link>
+          <Link href="/about">
+            What is a transformational charity festival?
+          </Link>
         </div>
       </div>
       {/* <Section>
