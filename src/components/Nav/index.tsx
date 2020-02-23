@@ -47,11 +47,6 @@ export default () => {
               <Link href="/lineup">Lineup</Link>
             </li>
           </ul>
-          <img
-            className={styles.Mountains}
-            src="/mountains.png"
-            alt="moutains"
-          />
         </div>
       </nav>
     </div>
