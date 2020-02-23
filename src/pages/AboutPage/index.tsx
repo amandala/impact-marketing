@@ -183,26 +183,6 @@ export default () => {
       </PhotoDiv>
       <PhotoDiv className={styles.MakeImpact}>
         <Section className={styles.Section}>
-          <H1>Core values</H1>
-          <div className={styles.ValuesImages}>
-            <img
-              className={styles.Value}
-              src="/connected-community.png"
-              alt="Connected community"
-            />
-            <img
-              className={styles.Value}
-              src="/transformational-growth.png"
-              alt="Transformational Growth"
-            />
-            <img
-              className={styles.Value}
-              src="/positive-impact.png"
-              alt="Positive Impact"
-            />
-          </div>
-        </Section>
-        <Section className={styles.Section}>
           <H1>Make impact</H1>
           <P>
             Out there somewhere in the deeps of space, on a world eerily similar
@@ -234,6 +214,26 @@ export default () => {
             interactive quests and multimedia displays.
           </P>
           <P>We Are the IMPACT...</P>
+        </Section>
+        <Section className={styles.Section}>
+          <H1>Core values</H1>
+          <div className={styles.ValuesImages}>
+            <img
+              className={styles.Value}
+              src="/connected-community.png"
+              alt="Connected community"
+            />
+            <img
+              className={styles.Value}
+              src="/transformational-growth.png"
+              alt="Transformational Growth"
+            />
+            <img
+              className={styles.Value}
+              src="/positive-impact.png"
+              alt="Positive Impact"
+            />
+          </div>
         </Section>
       </PhotoDiv>
     </div>

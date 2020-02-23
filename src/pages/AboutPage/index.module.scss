@@ -38,13 +38,7 @@
 .MakeImpact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/lumidDay.jpg);
-  padding-bottom: 300px;
-  padding-top: 100px;
-}
-
-.CoreValues {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/rainbowglow.jpg);
+  padding-bottom: 250px;
 }
 
 .Value {
@@ -56,7 +50,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 200px;
 }
 
 .CTA {
@@ -79,15 +72,15 @@
 
 .Section {
   text-align: center;
-  max-width: 800px;
-  margin: 24px 24px 0;
+  margin: 24px 35px 0;
+  padding: 50px 0;
 }
 
 .Link {
+  margin: 0;
   color: $white;
   font-family: $alien;
   text-transform: uppercase;
-  margin-right: 10px;
   @include transitionAll;
   font-size: 24px;
   text-decoration: none;
@@ -105,16 +98,17 @@
 
 .SocialLinks {
   flex-direction: row;
+  margin-top: 32px;
+}
+
+.SocialIcon {
+  max-width: 50px;
 }
 
 .Logos {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.LogosSection {
-  margin-bottom: 24px;
 }
 
 .LogoWrapper {
@@ -140,17 +134,13 @@
   max-width: 150px;
 }
 
-.SocialIcon {
-  max-width: 100px;
-}
-
 @include medium {
   .VideoWrapper {
     display: block;
   }
 
   .Section {
-    margin: 24px auto 0;
+    margin: 24px 10% 0;
   }
 
   .Wrapper {
@@ -194,11 +184,15 @@
 }
 
 @include large {
+  .Section {
+    margin: 24px auto 0;
+    max-width: 1000px;
+  }
+
   .ValuesImages {
     display: grid;
     grid-gap: 35px;
     grid-template-columns: repeat(3, 300px);
-    padding-bottom: 100px;
   }
 
   .Value {
