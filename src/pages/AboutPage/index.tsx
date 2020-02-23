@@ -8,13 +8,16 @@ import PhotoDiv from "../../components/PhotoDiv";
 import styles from "./index.module.scss";
 
 export default () => {
+  console.log(window);
   return (
     <div>
-      <div className="VideoWrapper">
-        <video style={{ maxWidth: "100%" }} autoPlay loop muted>
-          <source src="/promo.mp4" type="video/mp4" />
-        </video>
-      </div>
+      {window.screen.width > 900 && (
+        <div className="VideoWrapper">
+          <video style={{ maxWidth: "100%" }} autoPlay loop muted>
+            <source src="/promo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      )}
       <PhotoDiv className={styles.Above}>
         <Section className={styles.Section}>
           {/* <img
@@ -132,7 +135,7 @@ export default () => {
             We will be supporting 4 different charities in 2020, donating to
             local, provincial, national, and international causes.
           </P>
-          <div className={styles.Links}>
+          <div className={styles.SocialLinks}>
             <span className={styles.CTA}>
               <a
                 className={styles.Link}
@@ -140,7 +143,11 @@ export default () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Visit us on Facebook
+                <img
+                  className={styles.SocialIcon}
+                  src="/fb.png"
+                  alt="Facebook"
+                />
               </a>
             </span>
             <span className={styles.CTA}>
@@ -150,7 +157,11 @@ export default () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Join the IMPACT Group
+                <img
+                  className={styles.SocialIcon}
+                  src="/imp.png"
+                  alt="Impact Group"
+                />
               </a>
             </span>
             <span className={styles.CTA}>
@@ -160,13 +171,17 @@ export default () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Follow us on Instagram
+                <img
+                  className={styles.SocialIcon}
+                  src="/insta.png"
+                  alt="Instagram"
+                />
               </a>
             </span>
           </div>
         </Section>
       </PhotoDiv>
-      <PhotoDiv className={styles.CoreValues}>
+      <PhotoDiv className={styles.MakeImpact}>
         <Section className={styles.Section}>
           <H1>Core values</H1>
           <div className={styles.ValuesImages}>
@@ -187,8 +202,6 @@ export default () => {
             />
           </div>
         </Section>
-      </PhotoDiv>
-      <PhotoDiv className={styles.MakeImpact}>
         <Section className={styles.Section}>
           <H1>Make impact</H1>
           <P>

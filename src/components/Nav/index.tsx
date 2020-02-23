@@ -40,9 +40,9 @@ export default () => {
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/stages">Stages</Link>
             </li>
-            <li onClick={() => setNavOpenState(false)}>
+            {/* <li onClick={() => setNavOpenState(false)}>
               <Link href="/tickets">Tickets</Link>
-            </li>
+            </li> */}
             <li onClick={() => setNavOpenState(false)}>
               <Link href="/lineup">Lineup</Link>
             </li>

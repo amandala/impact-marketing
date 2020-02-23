@@ -11,39 +11,40 @@
 }
 
 .VideoWrapper {
+  display: none;
   max-width: 100%;
 }
 
 .Above {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/nightLasers.jpg);
+    url(/umbrella.jpg);
 }
 
 .Story {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/valley.jpg);
+    url(/riley.jpg);
 }
 
 .AttendCTA {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/mainStage.jpg);
+    url(/valley.jpg);
 }
 
 .Social {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/happyConnections.jpg);
+    url(/youdecide.jpg);
 }
 
 .MakeImpact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/lumidDay.jpg);
   padding-bottom: 300px;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .CoreValues {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/mainStage.jpg);
+    url(/rainbowglow.jpg);
 }
 
 .Value {
@@ -61,10 +62,6 @@
 .CTA {
   text-align: center;
   margin-bottom: 24px;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.2)
-  );
   padding: 30px;
   cursor: pointer;
   @include transitionAll;
@@ -83,7 +80,7 @@
 .Section {
   text-align: center;
   max-width: 800px;
-  margin: 24px auto 0;
+  margin: 24px 24px 0;
 }
 
 .Link {
@@ -106,6 +103,10 @@
   flex-direction: column;
 }
 
+.SocialLinks {
+  flex-direction: row;
+}
+
 .Logos {
   display: flex;
   flex-direction: column;
@@ -118,10 +119,6 @@
 
 .LogoWrapper {
   padding: 20px;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.2)
-  );
   margin-bottom: 24px;
   display: flex;
   justify-content: center;
@@ -143,7 +140,19 @@
   max-width: 150px;
 }
 
+.SocialIcon {
+  max-width: 100px;
+}
+
 @include medium {
+  .VideoWrapper {
+    display: block;
+  }
+
+  .Section {
+    margin: 24px auto 0;
+  }
+
   .Wrapper {
     padding-top: 40px;
   }
