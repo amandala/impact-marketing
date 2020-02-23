@@ -25,7 +25,7 @@ export default () => {
               <div>
                 <H1 impact>Make Impact</H1>
                 <P className={styles.P}>
-                  Do you want your impact to go even further than our regular
+                  Do you want your IMPACT to go even further than our regular
                   attendees?
                 </P>
                 <P className={styles.P}>
@@ -73,14 +73,14 @@ export default () => {
             </div>
             <div className={styles.Deposit}>
               <H1>Deposits</H1>
-              <P>
+              <P className={styles.P}>
                 In order to add to the overall volunteer experience, we will be
                 implementing a tiered volunteer payment system. This will allow
                 for you to be fed for each shift as well as an exclusive
                 volunteer merch pack! This will also include your donation to
                 the charity causes.
               </P>
-              <H3>Volunteer Deposit $200</H3>
+              <H3 className={styles.DepositTitle}>Volunteer Deposit $200</H3>
               <H5>Depending on your shifts we will refund X amount.</H5>
               <H5>
                 2x 6hr Shifts = $100 return ($50 to charity - $50 to Merch
@@ -95,7 +95,7 @@ export default () => {
                 pack/Food)
               </H5>
               <H3 className={styles.FoodHeading}>Food Pack $100</H3>
-              <P>
+              <P className={styles.P}>
                 Purchase a food pack for $100 to be fed 3 meals a day for the
                 whole event! (Showtime Only) - Vendor charity rates apply.
               </P>

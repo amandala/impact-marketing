@@ -12,22 +12,24 @@ export default () => {
       <PhotoDiv className={styles.MainStage}>
         <div className={styles.Wrapper}>
           <Section>
-            <H1>
-              impact Festival is a 3 day Transformational Arts & Music
-              Experience
-            </H1>
+            <div className={styles.SectionHeading}>
+              <H1>
+                impact Festival is a 3 day Transformational Arts & Music
+                Experience
+              </H1>
+            </div>
             <P>
               With 3 Stages, Art Installations and A variaty of music, there is
               something for everyone
             </P>
             <P>
-              In 2019, impact raised $40,000 for WE Global Water Charities and
+              In 2019, IMPACT raised $40,000 for WE Global Water Charities and
               True North Aid - First Nations Harm Reduction. With the assistance
               of everyone involved, we were able to achieve something incredible
-              that will continue to make impact for years to come.
+              that will continue to make IMPACT for years to come.
             </P>
             <P>
-              Become part of our impact Tribe and help us create a better world
+              Become part of our IMPACT Tribe and help us create a better world
               for tomorrow!
             </P>
           </Section>
@@ -36,7 +38,7 @@ export default () => {
               <span className={styles.CTA}>
                 <a
                   className={styles.Link}
-                  href="https://www.facebook.com/ImpactFestivalBC/"
+                  href="https://www.facebook.com/IMPACTFestivalBC/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -50,13 +52,13 @@ export default () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Join the impact Group
+                  Join the IMPACT Group
                 </a>
               </span>
               <span className={styles.CTA}>
                 <a
                   className={styles.Link}
-                  href="https://www.instagram.com/impactfestival_bc/?hl=en"
+                  href="https://www.instagram.com/IMPACTfestival_bc/?hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -66,16 +68,18 @@ export default () => {
             </div>
           </Section>
           <Section>
-            <H1>Our Story</H1>
+            <div className={styles.SectionHeading}>
+              <H1>Our Story</H1>
+            </div>
             <P>
-              impact Festival was created by Dusk2Dawn Productions and Party
+              IMPACT Festival was created by Dusk2Dawn Productions and Party
               Well in 2019. The goal was to create a unique festival expirience
               that focused on giving back. By gathering likeminded people to
-              celebrate the gift of life. impact was able to spark some amazing
+              celebrate the gift of life. IMPACT was able to spark some amazing
               creativity and imagination.
             </P>
             <P>
-              impact is more than just a festival, it’s a lifestyle. By
+              IMPACT is more than just a festival, it’s a lifestyle. By
               attending this event, you will aid in making the world a better
               place for everyone, including yourself. Connect with others like
               nowhere before. Create a new reality with the new connections you
@@ -113,7 +117,9 @@ export default () => {
             </div>
           </Section>
           <Section>
-            <H1>Make impact</H1>
+            <div className={styles.SectionHeading}>
+              <H1>Make impact</H1>
+            </div>
             <P>
               Out there somewhere in the deeps of space, on a world eerily
               similar to our own, an intelligent species of biped revelled in
@@ -136,17 +142,19 @@ export default () => {
               world, preserving their culture and HOPING ANOTHER SPECIES WOULD
               PAY HEED TO THE LESSON. Their story is a sad one... but.... we
               have come to your planet because we have hope for ALL OF YOU, THE
-              impact community.
+              IMPACT community.
             </P>
             <P>
               Come and join us as we continue to tell this story through music,
               art and various other means. Participate in our story with
               interactive quests and multimedia displays.
             </P>
-            <P>We Are the impact...</P>
+            <P>We Are the IMPACT...</P>
           </Section>
           <Section>
-            <H1>Charities</H1>
+            <div className={styles.SectionHeading}>
+              <H1>Charities</H1>
+            </div>
             <P>
               In 2019 we raised $40,000 with our sponsor ENUF to WE Water
               Charity and True North Aid
@@ -183,7 +191,7 @@ export default () => {
           <Section>
             <H2>This year you decide!</H2>
             <P>
-              Head over to our facebook page and look for our poll on which
+              Head over to our Facebook page and look for our poll on which
               charities you would like to support.
             </P>
             <P>

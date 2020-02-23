@@ -6,13 +6,13 @@
   padding-bottom: $footer-height-small;
 }
 
-.NightMainStage {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/nightMainStage.jpg);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+// .NightMainStage {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+//     url(/nightMainStage.jpg);
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
 
 .FoodHeading {
   margin-top: 24px !important;
@@ -39,9 +39,14 @@
   margin-bottom: 24px;
 }
 
-.P {
-  font-size: 16px !important;
-  margin-bottom: 12px !important;
+.DepositTitle {
+  margin-top: 20px;
+}
+
+.P,
+.PositionDescription {
+  font-size: 20px;
+  margin-bottom: 12px;
 }
 
 .Apply {
