@@ -9,7 +9,7 @@ import {
   Apply,
   Experience,
   GetInvolved,
-  Home,
+  Landing,
   Limitless,
   Lineup,
   Media,
@@ -40,7 +40,7 @@ function App() {
             <Route path="/odessy" component={Odessey} />
             <Route path="/stages" component={Stages} />
             <Route path="/tickets" component={Tickets} />
-            <Route path="/" component={Home} />
+            <Route path="/" component={Landing} />
           </Switch>
           <Footer />
         </div>

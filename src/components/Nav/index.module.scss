@@ -1,5 +1,11 @@
 @import "../../styles/variables";
 
+.Wrapper {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
 .Nav {
   width: 100%;
   position: absolute;

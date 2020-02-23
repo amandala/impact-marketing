@@ -19,8 +19,8 @@ export default () => {
               </H1>
             </div>
             <P>
-              With 3 Stages, Art Installations and A variaty of music, there is
-              something for everyone
+              With 3 Stages, art installations and a variety of music, there is
+              something for everyone.
             </P>
             <P>
               In 2019, IMPACT raised $40,000 for WE Global Water Charities and
@@ -73,8 +73,8 @@ export default () => {
             </div>
             <P>
               IMPACT Festival was created by Dusk2Dawn Productions and Party
-              Well in 2019. The goal was to create a unique festival expirience
-              that focused on giving back. By gathering likeminded people to
+              Well in 2019. The goal was to create a unique festival experience
+              that focused on giving back. By gathering like minded people to
               celebrate the gift of life. IMPACT was able to spark some amazing
               creativity and imagination.
             </P>
