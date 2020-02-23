@@ -10,18 +10,18 @@ import styles from "./index.module.scss";
 export default () => {
   return (
     <div>
-      {/* <div className="VideoWrapper">
+      <div className="VideoWrapper">
         <video style={{ maxWidth: "100%" }} autoPlay loop muted>
           <source src="/promo.mp4" type="video/mp4" />
         </video>
-      </div> */}
+      </div>
       <PhotoDiv className={styles.Above}>
         <Section className={styles.Section}>
-          <img
+          {/* <img
             className={styles.Wordmark}
             src="/wordmark.png"
             alt="Impact Wordmark Logo"
-          />
+          /> */}
           <H1 impact>Your favorite charity festival is back</H1>
           <H1>and better than ever!</H1>
           <Section>
@@ -132,8 +132,6 @@ export default () => {
             We will be supporting 4 different charities in 2020, donating to
             local, provincial, national, and international causes.
           </P>
-          <H2>$50 from each ticket goes to one of our selected charities.</H2>
-
           <div className={styles.Links}>
             <span className={styles.CTA}>
               <a
@@ -179,13 +177,13 @@ export default () => {
             />
             <img
               className={styles.Value}
-              src="/positive-impact.png"
-              alt="Positive Impact"
+              src="/transformational-growth.png"
+              alt="Transformational Growth"
             />
             <img
               className={styles.Value}
-              src="/transformational-growth.png"
-              alt="Transformational Growth"
+              src="/positive-impact.png"
+              alt="Positive Impact"
             />
           </div>
         </Section>
