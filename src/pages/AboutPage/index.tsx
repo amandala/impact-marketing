@@ -26,7 +26,7 @@ export default () => {
           <H1>and better than ever!</H1>
           <Section>
             <P>
-              Imagine a festival that has all of your favorite bass bumpin
+              Imagine a festival that has all of your favorite bass bumpin'
               tunes, interactive art, workshops, games and more. Now imagine
               that attending this festival meant you were changing the world! Is
               this too good to be true?
@@ -39,10 +39,8 @@ export default () => {
           <H1 impact>Our Story</H1>
           <P>
             IMPACT Festival was created by Dusk2Dawn Productions and Party Well
-            in 2019. The goal was to create a unique festival experience that
-            focused on giving back. By gathering like minded people to celebrate
-            the gift of life. IMPACT was able to spark some amazing creativity
-            and imagination.
+            in 2019 with the goal to create a unique festival experience focused
+            on giving back.
           </P>
           <div className={styles.LogosSection}>
             <div className={styles.Logos}>
@@ -73,20 +71,16 @@ export default () => {
             </div>
           </div>
           <P>
-            IMPACT is more than just a festival, it’s a lifestyle. By attending
-            this event, you will aid in making the world a better place for
-            everyone, including yourself. Connect with others like nowhere
-            before. Create a new reality with the new connections you have made
-            and work together to change the world!
+            IMPACT is more than just a festival, it’s a lifestyle. Our mission
+            is to empower you to maximize your positive IMPACT. Our
+            Transformational Music Festival will have you changing the world one
+            beat at a time.
           </P>
         </Section>
       </PhotoDiv>
       <PhotoDiv className={styles.AttendCTA}>
         <Section className={styles.Section}>
-          <H1 impact>
-            Attend to impact festival 2020 - have the time of your life while
-            changing lives around the world.
-          </H1>
+          <H1 impact>$50 from each ticket goes to charity</H1>
           <P>
             In 2019 we raised $40,000 for WE Charity’s clean water wells in
             Kenya and True North Aid’s harm reduction & youth empowerment
@@ -121,6 +115,10 @@ export default () => {
               </a>
             </div>
           </div>
+          <P>
+            Attend IMPACT Festival 2020 and have the time of your life while
+            changing lives around the world.
+          </P>
         </Section>
       </PhotoDiv>
       <PhotoDiv className={styles.Social}>
@@ -170,6 +168,28 @@ export default () => {
           </div>
         </Section>
       </PhotoDiv>
+      <PhotoDiv className={styles.CoreValues}>
+        <Section className={styles.Section}>
+          <H1>Core values</H1>
+          <div className={styles.ValuesImages}>
+            <img
+              className={styles.Value}
+              src="/connected-community.png"
+              alt="Connected community"
+            />
+            <img
+              className={styles.Value}
+              src="/positive-impact.png"
+              alt="Positive Impact"
+            />
+            <img
+              className={styles.Value}
+              src="/transformational-growth.png"
+              alt="Transformational Growth"
+            />
+          </div>
+        </Section>
+      </PhotoDiv>
       <PhotoDiv className={styles.MakeImpact}>
         <Section className={styles.Section}>
           <H1>Make impact</H1>
@@ -203,28 +223,6 @@ export default () => {
             interactive quests and multimedia displays.
           </P>
           <P>We Are the IMPACT...</P>
-        </Section>
-      </PhotoDiv>
-      <PhotoDiv className={styles.CoreValues}>
-        <Section className={styles.Section}>
-          <H1>Core values</H1>
-          <div className={styles.ValuesImages}>
-            <img
-              className={styles.Value}
-              src="/connected-community.png"
-              alt="Connected community"
-            />
-            <img
-              className={styles.Value}
-              src="/positive-impact.png"
-              alt="Positive Impact"
-            />
-            <img
-              className={styles.Value}
-              src="/transformational-growth.png"
-              alt="Transformational Growth"
-            />
-          </div>
         </Section>
       </PhotoDiv>
     </div>
