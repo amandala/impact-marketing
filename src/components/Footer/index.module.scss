@@ -51,3 +51,9 @@
     padding-left: 24px;
   }
 }
+
+@include large {
+  .InTouch {
+    padding-left: 0;
+  }
+}
