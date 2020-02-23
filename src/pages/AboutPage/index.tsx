@@ -11,26 +11,25 @@ export default () => {
     <div>
       <PhotoDiv className={styles.MainStage}>
         <div className={styles.Wrapper}>
+          <img
+            className={styles.Wordmark}
+            src="/wordmark.png"
+            alt="Impact Wordmark Logo"
+          />
           <Section>
             <div className={styles.SectionHeading}>
-              <H1>
-                impact Festival is a 3 day Transformational Arts & Music
-                Experience
-              </H1>
+              <H1>Your favorite charity festival is back</H1>
+              <H1>and better than ever!</H1>
             </div>
             <P>
-              With 3 Stages, art installations and a variety of music, there is
-              something for everyone.
+              Imagine a festival that has all of your favorite bass bumpin
+              tunes, interactive art, workshops, games and more. Now imagine
+              that attending this festival meant you were changing the world! Is
+              this too good to be true?
             </P>
             <P>
-              In 2019, IMPACT raised $40,000 for WE Global Water Charities and
-              True North Aid - First Nations Harm Reduction. With the assistance
-              of everyone involved, we were able to achieve something incredible
-              that will continue to make IMPACT for years to come.
-            </P>
-            <P>
-              Become part of our IMPACT Tribe and help us create a better world
-              for tomorrow!
+              Attend to IMPACT Festival 2020 - Have the time of your life while
+              changing lives around the world.
             </P>
           </Section>
           <Section>

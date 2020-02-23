@@ -3,6 +3,11 @@
 .Wrapper {
   max-width: 75%;
   padding-bottom: $footer-height-small;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95px;
 }
 
 .MainStage {
@@ -24,6 +29,12 @@
   &:hover {
     transform: scale(1.02);
   }
+}
+
+.Wordmark {
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 15px;
 }
 
 .SectionHeading {
