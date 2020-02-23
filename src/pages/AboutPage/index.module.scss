@@ -10,9 +10,45 @@
   margin-top: 95px;
 }
 
-.MainStage {
+.VideoWrapper {
+  max-width: 100%;
+}
+
+.Above {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/nightLasers.jpg);
+}
+
+.Story {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/valley.jpg);
+}
+
+.AttendCTA {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/mainStage.jpg);
+}
+
+.Social {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/happyConnections.jpg);
+}
+
+.MakeImpact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/lumidDay.jpg);
+}
+
+.Value {
+  max-width: 300px;
+  margin-bottom: 24px;
+}
+
+.ValuesImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 200px;
 }
 
 .CTA {
@@ -33,14 +69,14 @@
 
 .Wordmark {
   width: 90%;
-  max-width: 500px;
-  margin-bottom: 15px;
+  max-width: 650px;
+  margin-bottom: 24px;
 }
 
-.SectionHeading {
+.Section {
   text-align: center;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 24px auto 0;
 }
 
 .Link {
@@ -69,6 +105,10 @@
   justify-content: space-between;
 }
 
+.LogosSection {
+  margin-bottom: 24px;
+}
+
 .LogoWrapper {
   padding: 20px;
   background: linear-gradient(
@@ -93,7 +133,7 @@
 
 .Logo {
   width: 100%;
-  max-width: 300px;
+  max-width: 150px;
 }
 
 @include medium {
@@ -105,12 +145,12 @@
     flex-direction: row;
     max-width: 800px;
     justify-content: space-between;
+  }
 
-    &Section {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
+  .LogosSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .LogoWrapper {
@@ -138,6 +178,17 @@
 }
 
 @include large {
+  .ValuesImages {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(3, 300px);
+    padding-bottom: 100px;
+  }
+
+  .Value {
+    margin: 5px;
+  }
+
   .MainStage {
     background-position: initial;
   }

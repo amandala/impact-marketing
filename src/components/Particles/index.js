@@ -23,13 +23,13 @@ export default () => {
               }
             },
             color: {
-              value: "#ffffff"
+              value: "#C2D6FE"
             },
             shape: {
               type: "circle",
               stroke: {
                 width: 0,
-                color: "#ffffff"
+                color: "#9DBAF4"
               },
               polygon: {
                 nb_sides: 5
@@ -41,7 +41,7 @@ export default () => {
               }
             },
             opacity: {
-              value: 0.5,
+              value: 0.75,
               random: false,
               anim: {
                 enable: false,
@@ -63,8 +63,8 @@ export default () => {
             line_linked: {
               enable: true,
               distance: 150,
-              color: "#ffffff",
-              opacity: 0.4,
+              color: "#C2D6FE",
+              opacity: 0.6,
               width: 1
             },
             move: {
