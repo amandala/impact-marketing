@@ -8,10 +8,9 @@ import PhotoDiv from "../../components/PhotoDiv";
 import styles from "./index.module.scss";
 
 export default () => {
-  console.log(window);
   return (
     <div>
-      {window.screen.width > 900 && (
+      {window.screen.width > 1024 && (
         <div className="VideoWrapper">
           <video style={{ maxWidth: "100%" }} autoPlay loop muted>
             <source src="/promo.mp4" type="video/mp4" />
@@ -188,7 +187,7 @@ export default () => {
             Out there somewhere in the deeps of space, on a world eerily similar
             to our own, an intelligent species of biped revelled in their
             prosperity, developing wonderous scientific advances and economic
-            prosperity. But... with the spoils of technology, came a blissful
+            prosperity. However, with the spoils of technology came a blissful
             ignorance towards the natural life and overall harmony on the
             planet.
           </P>
@@ -204,16 +203,15 @@ export default () => {
             The bipeds gathered their finest minds and launched a ship out into
             space with the mission of sharing the STORY of their failed world,
             preserving their culture and HOPING ANOTHER SPECIES WOULD PAY HEED
-            TO THE LESSON. Their story is a sad one... but.... we have come to
-            your planet because we have hope for ALL OF YOU, THE IMPACT
-            community.
+            TO THE LESSON. Their story is a sad one, but, we have come to your
+            planet because we have hope for ALL OF YOU, THE IMPACT community.
           </P>
           <P>
             Come and join us as we continue to tell this story through music,
             art and various other means. Participate in our story with
             interactive quests and multimedia displays.
           </P>
-          <P>We Are the IMPACT...</P>
+          <H2>We Are the IMPACT...</H2>
         </Section>
         <Section className={styles.Section}>
           <H1>Core values</H1>

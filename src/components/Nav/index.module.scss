@@ -3,30 +3,29 @@
 .Wrapper {
   height: 100%;
   width: 100%;
+  z-index: 1;
 
   &Fixed {
     position: fixed;
-    z-index: 9;
   }
 }
 
 .Nav {
   width: 100%;
   position: absolute;
-  z-index: 9998;
-  background: url(/lonelyspace.png) no-repeat;
+  background: url(/lonelyspace1.jpg) no-repeat;
   background-size: cover;
   background-position: bottom;
   visibility: hidden;
   height: 100vh;
   @include transitionAll;
+
   transition-duration: 0.25s;
-  opacity: 0;
+
   left: -100%;
 
   &FadeIn {
-    opacity: 1 !important;
-    visibility: visible !important;
+    visibility: visible;
     left: 0;
   }
 }
@@ -47,6 +46,7 @@
   border: none;
   cursor: pointer;
   outline: transparent;
+  z-index: 2;
 }
 
 .Burger {
@@ -118,7 +118,6 @@
   width: 100%;
   position: absolute;
   bottom: 0;
-  z-index: -1;
 }
 
 @include large {
