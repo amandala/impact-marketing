@@ -10,13 +10,6 @@ import styles from "./index.module.scss";
 export default () => {
   return (
     <div>
-      {window.screen.width > 1024 && (
-        <div className="VideoWrapper">
-          <video style={{ maxWidth: "100%" }} autoPlay loop muted>
-            <source src="/promo.mp4" type="video/mp4" />
-          </video>
-        </div>
-      )}
       <PhotoDiv className={styles.Above}>
         <Section className={styles.Section}>
           {/* <img
@@ -234,6 +227,13 @@ export default () => {
           </div>
         </Section>
       </PhotoDiv>
+      {window.screen.width > 1024 && (
+        <div className="VideoWrapper">
+          <video style={{ maxWidth: "100%" }} autoPlay loop muted>
+            <source src="/promo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      )}
     </div>
   );
 };
