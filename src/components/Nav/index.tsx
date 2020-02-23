@@ -17,7 +17,7 @@ export default () => {
   };
 
   return (
-    <div className={styles.Wrapper}>
+    <div className={cx(styles.Wrapper, { [styles.WrapperFixed]: navOpen })}>
       <button className={styles.Bun} onClick={() => setNavOpenState(!navOpen)}>
         <div className={cx(styles.Burger, { [styles.BurgerAnimate]: navOpen })}>
           <b>|</b>

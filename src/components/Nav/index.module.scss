@@ -1,9 +1,13 @@
 @import "../../styles/variables";
 
 .Wrapper {
-  position: fixed;
   height: 100%;
   width: 100%;
+
+  &Fixed {
+    position: fixed;
+    z-index: 9;
+  }
 }
 
 .Nav {
