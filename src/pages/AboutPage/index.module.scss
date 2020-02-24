@@ -38,7 +38,7 @@
 .MakeImpact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/lumidDay.jpg);
-  padding-bottom: 50px;
+  padding-bottom: 250px;
   padding-top: 50px;
 }
 
@@ -204,5 +204,9 @@
 
   .MainStage {
     background-position: initial;
+  }
+
+  .MakeImpact {
+    padding-bottom: 50px;
   }
 }
