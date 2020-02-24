@@ -79,7 +79,27 @@
   width: 100%;
 }
 
+.NoMobile {
+  display: none;
+}
+
+.Location {
+  text-align: center;
+}
+
+.BlockMobile {
+  display: block;
+}
+
 @include medium {
+  .NoMobile {
+    display: inline;
+  }
+
+  .BlockMobile {
+    display: inline;
+  }
+
   .CTA {
     width: 60%;
   }

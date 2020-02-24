@@ -20,7 +20,10 @@ export default () => {
           <H1 className={styles.FestivalDescription}>
             Transformational Charity Festival
           </H1>
-          <H3>July 2nd - 4th, Pritchard, BC</H3>
+          <H3 className={styles.Location}>
+            July 2nd - 4th<span className={styles.NoMobile}>, </span>
+            <span className={styles.BlockMobile}>Pritchard, BC</span>
+          </H3>
         </div>
         <div className={styles.TicketsLink}>
           <Link href="/about">
