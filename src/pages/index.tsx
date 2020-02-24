@@ -7,6 +7,6 @@ export { default as Limitless } from "./Limitless";
 export { default as Lineup } from "./Lineup";
 export { default as Media } from "./Media";
 export { default as Oasis } from "./Oasis";
-export { default as Odessey } from "./Odessy";
+export { default as Odyssey } from "./Odyssey";
 export { default as Stages } from "./Stages";
 export { default as Tickets } from "./Tickets";

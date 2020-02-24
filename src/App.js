@@ -15,7 +15,7 @@ import {
   Lineup,
   Media,
   Oasis,
-  Odessey,
+  Odyssey,
   Stages,
   Tickets
 } from "./pages";
@@ -39,7 +39,7 @@ function App() {
               <Route path="/lineup" component={Lineup} />
               <Route path="/media" component={Media} />
               <Route path="/oasis" component={Oasis} />
-              <Route path="/odessy" component={Odessey} />
+              <Route path="/odyssey" component={Odyssey} />
               <Route path="/stages" component={Stages} />
               <Route path="/tickets" component={Tickets} />
               <Route path="/" component={Landing} />

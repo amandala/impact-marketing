@@ -20,12 +20,12 @@ export default () => {
           </P>
         </Section>
         <div className={styles.MainLogos}>
-          <Link href="/odessy">
+          <Link href="/odyssey">
             <div className={styles.LogoWrapper}>
               <img
                 className={styles.Logo}
-                src="/odessy.png"
-                alt="Odessey Stage"
+                src="/odyssey.png"
+                alt="Odyssey Stage"
               />
             </div>
           </Link>
