@@ -128,48 +128,40 @@ export default () => {
             local, provincial, national, and international causes.
           </P>
           <div className={styles.SocialLinks}>
-            <span className={styles.CTA}>
-              <a
-                className={styles.Link}
-                href="https://www.facebook.com/IMPACTFestivalBC/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className={styles.SocialIcon}
-                  src="/fb.png"
-                  alt="Facebook"
-                />
-              </a>
-            </span>
-            <span className={styles.CTA}>
-              <a
-                className={styles.Link}
-                href="https://www.facebook.com/groups/850413665327638/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className={styles.SocialIcon}
-                  src="/imp.png"
-                  alt="Impact Group"
-                />
-              </a>
-            </span>
-            <span className={styles.CTA}>
-              <a
-                className={styles.Link}
-                href="https://www.instagram.com/IMPACTfestival_bc/?hl=en"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className={styles.SocialIcon}
-                  src="/insta.png"
-                  alt="Instagram"
-                />
-              </a>
-            </span>
+            <a
+              className={styles.Link}
+              href="https://www.facebook.com/IMPACTFestivalBC/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className={styles.SocialIcon} src="/fb.png" alt="Facebook" />
+            </a>
+
+            <a
+              className={styles.Link}
+              href="https://www.facebook.com/groups/850413665327638/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className={styles.SocialIcon}
+                src="/imp.png"
+                alt="Impact Group"
+              />
+            </a>
+
+            <a
+              className={styles.Link}
+              href="https://www.instagram.com/IMPACTfestival_bc/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className={styles.SocialIcon}
+                src="/insta.png"
+                alt="Instagram"
+              />
+            </a>
           </div>
         </Section>
       </PhotoDiv>
