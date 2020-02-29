@@ -1,5 +1,5 @@
 import React from "react";
-import { H1, H2, H3 } from "../../components/Typography";
+import { H1, H3 } from "../../components/Typography";
 import Layout from "../../components/Layout";
 import Particle from "../../components/Particles";
 import Link from "../../components/Link";
