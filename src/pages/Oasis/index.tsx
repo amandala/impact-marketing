@@ -12,7 +12,11 @@ export default () => {
       <PhotoDiv className={styles.PhotoDiv1}>
         <Section className={styles.PhotoContent}>
           <div className={styles.LogoWrapper}>
-            <img className={styles.Logo} src="/oasis.png" alt="Oasis Stage" />
+            <img
+              className={styles.Logo}
+              src="/assets/oasis.png"
+              alt="Oasis Stage"
+            />
           </div>
           <H1>
             Enjoy human connection in the Lumid Lounge and get lost enjoying the

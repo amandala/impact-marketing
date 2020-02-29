@@ -14,7 +14,7 @@ export default () => {
         <div className={styles.Details}>
           <img
             className={styles.Wordmark}
-            src="/wordmark.png"
+            src="/assets/wordmark.png"
             alt="Impact Wordmark Logo"
           />
           <H1 className={styles.FestivalDescription}>
@@ -31,23 +31,6 @@ export default () => {
           </Link>
         </div>
       </div>
-      {/* <Section>
-        <H1 className={styles.SectionHeading}>Our Core Values</H1>
-        <div className={styles.ValuesList}>
-          <div className={styles.Value}>
-            <span className={styles.Placeholder}>value placeholder</span>
-          </div>
-          <div className={styles.Value}>
-            <span className={styles.Placeholder}>value placeholder</span>
-          </div>
-          <div className={styles.Value}>
-            <span className={styles.Placeholder}>value placeholder</span>
-          </div>
-          <div className={styles.Value}>
-            <span className={styles.Placeholder}>value placeholder</span>
-          </div>
-        </div>
-      </Section> */}
     </Layout>
   );
 };

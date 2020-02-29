@@ -12,11 +12,6 @@ export default () => {
     <div>
       <PhotoDiv className={styles.Above}>
         <Section className={styles.Section}>
-          {/* <img
-            className={styles.Wordmark}
-            src="/wordmark.png"
-            alt="Impact Wordmark Logo"
-          /> */}
           <H1 impact>Your favorite charity festival is back</H1>
           <H1>and better than ever!</H1>
           <Section>
@@ -47,7 +42,7 @@ export default () => {
               >
                 <img
                   className={styles.Logo}
-                  src="pwLogo.png"
+                  src="/assets/pwLogo.png"
                   alt="PartyWell Logo"
                 />
               </a>
@@ -59,7 +54,7 @@ export default () => {
               >
                 <img
                   className={styles.Logo}
-                  src="d2dLogo.png"
+                  src="/assets/d2dLogo.png"
                   alt="Dusk2Dawn Logo"
                 />
               </a>
@@ -92,7 +87,7 @@ export default () => {
               >
                 <img
                   className={styles.Logo}
-                  src="welogo.png"
+                  src="/assets/welogo.png"
                   alt="WE Water Charity Logo"
                 />
               </a>
@@ -104,7 +99,7 @@ export default () => {
               >
                 <img
                   className={styles.Logo}
-                  src="tnalogo.jpg"
+                  src="/assets/tnalogo.jpg"
                   alt="True North Aid Logo"
                 />
               </a>
@@ -134,7 +129,11 @@ export default () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img className={styles.SocialIcon} src="/fb.png" alt="Facebook" />
+              <img
+                className={styles.SocialIcon}
+                src="/assets/fb.png"
+                alt="Facebook"
+              />
             </a>
 
             <a
@@ -145,7 +144,7 @@ export default () => {
             >
               <img
                 className={styles.SocialIcon}
-                src="/imp.png"
+                src="/assets/imp.png"
                 alt="Impact Group"
               />
             </a>
@@ -158,7 +157,7 @@ export default () => {
             >
               <img
                 className={styles.SocialIcon}
-                src="/insta.png"
+                src="/assets/insta.png"
                 alt="Instagram"
               />
             </a>
@@ -203,22 +202,22 @@ export default () => {
           <div className={styles.ValuesImages}>
             <img
               className={styles.Value}
-              src="/connected-community.png"
+              src="/assets/connected-community.png"
               alt="Connected community"
             />
             <img
               className={styles.Value}
-              src="/transformational-growth.png"
+              src="/assets/transformational-growth.png"
               alt="Transformational Growth"
             />
             <img
               className={styles.Value}
-              src="/positive-impact.png"
+              src="/assets/positive-impact.png"
               alt="Positive Impact"
             />
             <img
               className={styles.Value}
-              src="/radical-responsibility.png"
+              src="/assets/radical-responsibility.png"
               alt="Radical Responsibility"
             />
           </div>
@@ -227,7 +226,7 @@ export default () => {
       {window.screen.width > 1024 && (
         <div className="VideoWrapper">
           <video style={{ maxWidth: "100%" }} autoPlay loop muted>
-            <source src="/promo.mp4" type="video/mp4" />
+            <source src="/videos/promo.mp4" type="video/mp4" />
           </video>
         </div>
       )}

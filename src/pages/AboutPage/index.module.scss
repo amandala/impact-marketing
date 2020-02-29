@@ -7,17 +7,17 @@
 
 .Above {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/umbrella.jpg);
+    url(/photos/umbrella-min.jpg);
 }
 
 .Story {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/riley.jpg);
+    url(/photos/riley-min.jpg);
 }
 
 .AttendCTA {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/valley.jpg);
+    url(/photos/valley-min.jpg);
 }
 
 .Social {
@@ -25,9 +25,11 @@
     url(/youdecide.jpg);
 }
 
+//TODO: get compressed asset
+
 .MakeImpact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/lumidDay.jpg);
+    url(/photos/lumidDay-min.jpg);
   padding-bottom: 250px;
   padding-top: 50px;
 }

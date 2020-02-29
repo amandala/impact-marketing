@@ -14,7 +14,7 @@ export default () => {
           <div className={styles.LogoWrapper}>
             <img
               className={styles.Logo}
-              src="/odyssey.png"
+              src="/assets/odyssey.png"
               alt="Odyssey Stage"
             />
           </div>

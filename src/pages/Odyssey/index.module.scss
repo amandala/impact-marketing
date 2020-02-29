@@ -31,23 +31,25 @@
 
 .PhotoDiv1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/colorloop.jpg);
+    url(/photos/colorloop-min.jpg);
 }
 
 .PhotoDiv2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/worldclasstalent.jpg);
+    url(/photos/worldclasstalent-min.jpg);
 }
 
 .PhotoDiv3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/nextlevellistening.jpg);
 }
+//TODO: get compressed asset
 
 .PhotoDiv4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/uniquestage.jpg);
 }
+//TODO: get compressed asset
 
 .PhotoContent {
   max-width: 80%;

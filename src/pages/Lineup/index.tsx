@@ -17,7 +17,8 @@ export default () => {
         <img
           alt="Last year's lineup"
           className={styles.Poster}
-          src="lineup19.png"
+          src="/assets/lineup19.png"
+          //TODO: get compressed image
         />
       </Section>
     </Layout>

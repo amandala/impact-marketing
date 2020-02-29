@@ -24,52 +24,31 @@ export default () => {
             <div className={styles.LogoWrapper}>
               <img
                 className={styles.Logo}
-                src="/odyssey.png"
+                src="/assets/odyssey.png"
                 alt="Odyssey Stage"
               />
             </div>
           </Link>
           <Link href="/oasis">
             <div className={styles.LogoWrapper}>
-              <img className={styles.Logo} src="/oasis.png" alt="Oasis Stage" />
+              <img
+                className={styles.Logo}
+                src="/assets/oasis.png"
+                alt="Oasis Stage"
+              />
             </div>
           </Link>
           <Link href="/limitless">
             <div className={styles.LogoWrapper}>
               <img
                 className={styles.Logo}
-                src="/limitless.png"
+                src="/assets/limitless.png"
                 alt="Limitless Stage"
               />
             </div>
           </Link>
         </div>
       </PhotoDiv>
-      {/* <Layout>
-        <Section>
-          <div className={styles.LogoWrapper}>
-            <img className={styles.Logo} src="/oasis.png" alt="Oasis Stage" />
-          </div>
-          <H1>
-            The digital Oasis is somewhere you must find on your journey to
-            experience peaceful serenity.
-          </H1>
-          <H2>
-            Enjoy human connection in the Lumid Lounge and experience the
-            various artwork found at this unique stage
-          </H2>
-        </Section>
-        <Section>
-          <div className={styles.LogoWrapper}>
-            <img
-              className={styles.Logo}
-              src="/limitless.png"
-              alt="Limitless Stage"
-            />
-          </div>
-          <H1>Learn to become Limitless at our new transformational stage</H1>
-        </Section>
-      </Layout> */}
     </div>
   );
 };

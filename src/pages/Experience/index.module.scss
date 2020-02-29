@@ -18,21 +18,23 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/experience1.jpg);
 }
+//TODO: get compressed asset
 
 .Experience2 {
   background-position: top;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/experience2.jpg);
+    url(/photos/experience2-min.jpg);
 }
 
 .Experience3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/experience3.jpg);
 }
+//TODO: get compressed asset
 
 .Experience4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/experience4.jpg);
+    url(/photos/experience4-min.jpg);
   padding-bottom: $footer-height-small;
 }
 
