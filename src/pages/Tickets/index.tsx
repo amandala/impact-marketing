@@ -4,6 +4,7 @@ import { H1 } from "../../components/Typography";
 import Section from "../../components/Section";
 import PhotoDiv from "../../components/PhotoDiv";
 import Ticket from "./Ticket";
+import TicketLink from "../../components/TicketLink";
 
 import styles from "./index.module.scss";
 
@@ -12,8 +13,9 @@ export default () => {
     <div>
       <PhotoDiv className={styles.MainStage}>
         <div className={styles.Wrapper}>
+          <TicketLink />
           <Section className={styles.Tickets}>
-            <div className={styles.TicketSection}>
+            <div>
               <H1>Tickets</H1>
               <Ticket
                 name="General Admission Early Bird"
@@ -44,7 +46,7 @@ export default () => {
                 ]}
               />
             </div>
-            <div className={styles.TicketSection}>
+            <div>
               <H1>Add-ons</H1>
               <Ticket
                 name="Early Entry"
@@ -56,7 +58,7 @@ export default () => {
               />
               <Ticket
                 name="Parking pass"
-                price={25}
+                price={30}
                 details={[
                   "We encourage everyone to carpool!",
                   "Let's work together to lower our carbon footprint"

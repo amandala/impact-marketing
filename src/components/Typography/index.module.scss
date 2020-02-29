@@ -13,10 +13,16 @@ p {
 .P {
   font-family: $roboto;
   font-weight: 200;
-  font-size: 26px;
-  line-height: 28px;
+  font-size: 22px;
+  line-height: 22px;
   margin-bottom: 20px;
   letter-spacing: 0.5px;
+
+  &Small {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
 }
 
 .Tiny {
@@ -44,8 +50,8 @@ p {
 .H2 {
   font-family: $roboto;
   font-weight: 400;
-  font-size: 28px;
-  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 26px;
   letter-spacing: 2px;
 }
 
@@ -80,9 +86,20 @@ p {
     }
   }
 
+  .H2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
   .P {
     font-size: 28px;
     line-height: 30px;
     margin-bottom: 24px;
+
+    &Small {
+      font-size: 20px;
+      line-height: 22px;
+      margin-bottom: 0;
+    }
   }
 }

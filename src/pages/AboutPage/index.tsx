@@ -1,6 +1,5 @@
 import React from "react";
-import cx from "classnames";
-
+import TicketsLink from "../../components/TicketLink";
 import { H1, H2, P } from "../../components/Typography";
 import Section from "../../components/Section";
 import PhotoDiv from "../../components/PhotoDiv";
@@ -22,6 +21,7 @@ export default () => {
               this too good to be true?
             </P>
           </Section>
+          <TicketsLink />
         </Section>
       </PhotoDiv>
       <PhotoDiv className={styles.Story}>

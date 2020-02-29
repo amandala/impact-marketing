@@ -12,6 +12,9 @@
   font-size: 35px;
   text-decoration: none;
   outline-color: $bayoux-blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
   &:hover,
   &:focus {

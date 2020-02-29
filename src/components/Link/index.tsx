@@ -19,3 +19,16 @@ const MyLink = ({ className = "", children, href, ...rest }: PropsType) => (
 );
 
 export default MyLink;
+
+export const AnchorLink = ({
+  className = "",
+  children,
+  href,
+  ...rest
+}: PropsType) => (
+  <a className={styles.Wrapper} target="_blank" href={href}>
+    <span className={cx(styles.Link, className)} {...rest}>
+      {children}
+    </span>
+  </a>
+);

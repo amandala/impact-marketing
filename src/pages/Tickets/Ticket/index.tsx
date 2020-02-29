@@ -1,5 +1,5 @@
 import React from "react";
-import { H2, P, H5 } from "../../../components/Typography";
+import { H2, P, H3 } from "../../../components/Typography";
 
 import styles from "./index.module.scss";
 
@@ -13,15 +13,15 @@ export default ({
   price: number;
 }) => (
   <div className={styles.Ticket}>
-    <span className={styles.TicketHeading}>
-      <H2 className={styles.Name}>{name}</H2>
-      <H5>${price}</H5>
-    </span>
+    <H2 className={styles.Name}>{name}</H2>
+    <H3 className={styles.Price}>${price}</H3>
     <ul className={styles.Details}>
       {details &&
         details.map((detail: string) => (
           <li key={detail}>
-            <P className={styles.Detail}>{detail}</P>
+            <P tiny className={styles.Detail}>
+              {detail}
+            </P>
           </li>
         ))}
     </ul>

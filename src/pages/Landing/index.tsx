@@ -3,6 +3,7 @@ import { H1, H3 } from "../../components/Typography";
 import Layout from "../../components/Layout";
 import Particle from "../../components/Particles";
 import Link from "../../components/Link";
+import TicketsLink from "../../components/TicketLink";
 
 import styles from "./index.module.scss";
 
@@ -30,6 +31,7 @@ export default () => {
             What is a transformational charity festival?
           </Link>
         </div>
+        <TicketsLink />
       </div>
     </Layout>
   );
