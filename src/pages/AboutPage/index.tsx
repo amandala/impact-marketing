@@ -216,6 +216,11 @@ export default () => {
               src="/positive-impact.png"
               alt="Positive Impact"
             />
+            <img
+              className={styles.Value}
+              src="/radical-responsibility.png"
+              alt="Radical Responsibility"
+            />
           </div>
         </Section>
       </PhotoDiv>

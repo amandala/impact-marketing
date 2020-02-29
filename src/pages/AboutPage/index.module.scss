@@ -1,15 +1,5 @@
 @import "../../styles/variables";
 
-.Wrapper {
-  max-width: 75%;
-  padding-bottom: $footer-height-small;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 95px;
-}
-
 .VideoWrapper {
   display: none;
   max-width: 100%;
@@ -43,7 +33,7 @@
 }
 
 .Value {
-  max-width: 300px;
+  max-width: 250px;
   margin-bottom: 24px;
 }
 
@@ -172,6 +162,12 @@
     }
   }
 
+  .ValuesImages {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(2, 250px);
+  }
+
   .Links {
     flex-direction: row;
     justify-content: space-between;
@@ -193,14 +189,9 @@
     max-width: 1000px;
   }
 
-  .ValuesImages {
-    display: grid;
-    grid-gap: 35px;
-    grid-template-columns: repeat(3, 300px);
-  }
-
   .Value {
     margin: 5px;
+    max-width: 250px;
   }
 
   .MainStage {
@@ -209,5 +200,17 @@
 
   .MakeImpact {
     padding-bottom: 50px;
+  }
+
+  .ValuesImages {
+    margin-bottom: 200px;
+  }
+}
+
+@include breakpoint(xlarge) {
+  .ValuesImages {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(4, 250px);
   }
 }
