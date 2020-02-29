@@ -11,7 +11,7 @@ const positions = require("./data.json");
 export default () => {
   return (
     <div>
-      <PhotoDiv className={styles.NightMainStage}>
+      <PhotoDiv className={styles.GetInvolved}>
         <div className={styles.Wrapper}>
           <Section className={styles.Details}>
             <div className={styles.MakeImpact}>

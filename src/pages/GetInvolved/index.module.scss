@@ -6,6 +6,19 @@
   padding-bottom: $footer-height-small;
 }
 
+.GetInvolved {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/lonely-space-min.jpg);
+  background-size: cover;
+  background-position: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
 .FoodHeading {
   margin-top: 24px !important;
 }
