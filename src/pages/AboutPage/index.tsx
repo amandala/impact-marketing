@@ -11,7 +11,7 @@ export default () => {
     <div>
       <PhotoDiv className={styles.Above}>
         <Section className={styles.Section}>
-          <H1 impact>Your favorite charity festival is back</H1>
+          <H1 impact>BC's First Transformational Charity Festival is back</H1>
           <H1>and better than ever!</H1>
           <Section>
             <P>
