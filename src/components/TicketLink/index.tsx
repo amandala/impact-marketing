@@ -7,7 +7,7 @@ const TicketLink = () => {
   return (
     <div className={styles.TicketLink}>
       <AnchorLink href="https://eventchain.io/event-details/8f4c27078ca411503165c7a9b960892c/IMPACT_Festival_2020">
-        Buy tickets on EventChain{" "}
+        Buy tickets
         <img
           src="https://eventchain.io/images/logo/logo-white-svg.svg"
           alt="eventchain"
