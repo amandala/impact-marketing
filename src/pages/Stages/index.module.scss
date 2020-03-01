@@ -16,10 +16,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.2)
-  );
   padding: 30px;
   cursor: pointer;
   @include transitionAll;
@@ -36,12 +32,13 @@
 .MainLogos {
   display: flex;
   flex-direction: column;
-  max-width: 80%;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 50px;
 }
 
 .Stages {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/photos/stages-min.jpg);
 }
 
