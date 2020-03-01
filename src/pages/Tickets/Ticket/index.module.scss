@@ -5,18 +5,35 @@
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  border: 1px solid white;
 }
 
 .Name {
-  margin-right: 12px;
+  padding: 10px 12px;
+  text-align: center;
   margin-bottom: 10px;
+  border-bottom: 1px solid white;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.3)
+  );
+}
+
+.Details,
+.Tiers {
+  padding: 10px 12px;
+}
+
+.Tiers {
+  text-align: center;
 }
 
 .Price {
-  margin-bottom: 14px;
+  margin: 5px 0;
 }
 
-.Details {
+.List {
   color: white;
   padding-left: 24px;
   margin: 0;

@@ -14,28 +14,26 @@ export default () => {
       <PhotoDiv className={styles.MainStage}>
         <div className={styles.Wrapper}>
           <TicketLink />
-          <Section className={styles.Tickets}>
-            <div>
+          <div className={styles.BoxOffice}>
+            <Section className={styles.Tickets}>
               <H1>Tickets</H1>
               <Ticket
-                name="General Admission Early Bird"
-                price={150}
+                name="General Admission"
+                tiers={[
+                  { label: "Early Birds", price: 149 },
+                  { label: "Tier 1", price: 199 },
+                  { label: "Tier 2", price: 225 },
+                  { label: "Tier 3", price: 249 }
+                ]}
                 details={[
                   "Limited number available",
                   "$50 charitable donation"
                 ]}
               />
+
               <Ticket
-                name="General Admission"
-                price={200}
-                details={[
-                  "Friday & Saturday access",
-                  "$50 charitable donation"
-                ]}
-              />
-              <Ticket
-                name="VIP - Very Important Philanthropist"
-                price={400}
+                name="Very Important Philanthropist"
+                tiers={[{ label: "vip", price: 400 }]}
                 details={[
                   "Early entry included",
                   "$100 charitable donation",
@@ -45,12 +43,12 @@ export default () => {
                   "Social shout out"
                 ]}
               />
-            </div>
-            <div>
+            </Section>
+            <Section className={styles.Tickets}>
               <H1>Add-ons</H1>
               <Ticket
                 name="Early Entry"
-                price={50}
+                tiers={[{ label: "", price: 50 }]}
                 details={[
                   "Thursday access",
                   "Beat the lineup & get the best camp"
@@ -58,14 +56,15 @@ export default () => {
               />
               <Ticket
                 name="Parking pass"
-                price={30}
+                tiers={[{ label: "", price: 30 }]}
                 details={[
+                  "Park in the general parking lot - no car camping",
                   "We encourage everyone to carpool!",
                   "Let's work together to lower our carbon footprint"
                 ]}
               />
-            </div>
-          </Section>
+            </Section>
+          </div>
         </div>
       </PhotoDiv>
     </div>

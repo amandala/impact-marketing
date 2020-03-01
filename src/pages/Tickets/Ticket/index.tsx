@@ -6,24 +6,32 @@ import styles from "./index.module.scss";
 export default ({
   details,
   name,
-  price
+  tiers
 }: {
-  details: string[];
+  details?: string[];
   name: string;
-  price: number;
+  tiers: Array<{ price: number; label: string }>;
 }) => (
   <div className={styles.Ticket}>
     <H2 className={styles.Name}>{name}</H2>
-    <H3 className={styles.Price}>${price}</H3>
-    <ul className={styles.Details}>
-      {details &&
-        details.map((detail: string) => (
-          <li key={detail}>
-            <P tiny className={styles.Detail}>
-              {detail}
-            </P>
-          </li>
-        ))}
-    </ul>
+    <div className={styles.Details}>
+      <ul className={styles.List}>
+        {details &&
+          details.map((detail: string) => (
+            <li key={detail}>
+              <P small className={styles.Detail}>
+                {detail}
+              </P>
+            </li>
+          ))}
+      </ul>
+    </div>
+    <div className={styles.Tiers}>
+      {tiers.map(tier => (
+        <H3 className={styles.Price}>
+          {tier.label} ${tier.price}
+        </H3>
+      ))}
+    </div>
   </div>
 );
