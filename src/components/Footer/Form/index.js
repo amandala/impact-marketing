@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-
+import { Button } from "../../Button/";
 import { Tiny } from "../../Typography";
 import styles from "./index.module.scss";
 
@@ -30,9 +30,9 @@ const CustomForm = ({ status, message, onValidated }) => {
           placeholder="Your email"
         />
         <br />
-        <button className={styles.Button} onClick={submit}>
+        <Button className={styles.Button} onClick={submit}>
           im in!
-        </button>
+        </Button>
       </div>
     </div>
   );

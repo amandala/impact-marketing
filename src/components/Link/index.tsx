@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link as ReactLink } from "react-router-dom";
 import cx from "classnames";
 
 import styles from "./index.module.scss";
@@ -10,25 +10,24 @@ type PropsType = {
   className?: string;
 };
 
-const MyLink = ({ className = "", children, href, ...rest }: PropsType) => (
-  <Link className={styles.Wrapper} to={href}>
+const Link = ({ className = "", children, href, ...rest }: PropsType) => (
+  <ReactLink className={styles.Wrapper} to={href}>
     <span className={cx(styles.Link, className)} {...rest}>
       {children}
     </span>
-  </Link>
+  </ReactLink>
 );
 
-export default MyLink;
+export default Link;
 
-export const AnchorLink = ({
-  className = "",
+export const InlineLink = ({
   children,
-  href,
-  ...rest
-}: PropsType) => (
-  <a className={styles.Wrapper} target="_blank" href={href}>
-    <span className={cx(styles.Link, className)} {...rest}>
-      {children}
-    </span>
+  href
+}: {
+  children: React.ReactNode;
+  href: string;
+}) => (
+  <a className={styles.InlineLink} href={href}>
+    {children}
   </a>
 );

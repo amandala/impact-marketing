@@ -2,7 +2,7 @@ import React from "react";
 import Form from "./Form";
 
 import { H3, Tiny, H5 } from "../Typography";
-
+import { InlineLink } from "../Link";
 import styles from "./index.module.scss";
 
 const Footer = () => (
@@ -14,11 +14,17 @@ const Footer = () => (
           Sign up for our newsletter to stay in the loop on contests, updates,
           exclusive offers, and more!
         </H5>
+        <H5>
+          Or send us an email at{" "}
+          <InlineLink href="mailto:impactfestivalbc@gmail.com">
+            impactfestivalbc@gmail.com
+          </InlineLink>
+        </H5>
       </div>
       <Form />
     </div>
     <div className={styles.WithLove}>
-      <Tiny>
+      <Tiny className={styles.WithLove}>
         Site made with ♡ by{" "}
         <a
           className={styles.Link}

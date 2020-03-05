@@ -224,11 +224,9 @@ export default () => {
         </Section>
       </PhotoDiv>
       {window.screen.width > 1024 && (
-        <div className="VideoWrapper">
-          <video style={{ maxWidth: "100%" }} autoPlay loop muted>
-            <source src="/videos/promo.mp4" type="video/mp4" />
-          </video>
-        </div>
+        <video style={{ height: "100%", width: "100vw" }} autoPlay loop muted>
+          <source src="/videos/promo.mp4" type="video/mp4" />
+        </video>
       )}
     </div>
   );

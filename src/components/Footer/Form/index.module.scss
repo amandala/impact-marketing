@@ -21,14 +21,8 @@
 }
 
 .Button {
-  font-family: $alien-exp;
-  padding: 10px;
-  background-color: transparent;
-  border: 1px solid whitesmoke;
-  border-radius: 0;
-  color: whitesmoke;
-  font-size: 25px;
   width: 100px;
+  background-color: transparent;
 }
 
 .Input {
@@ -36,12 +30,12 @@
   width: 100%;
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid whitesmoke;
-  color: whitesmoke;
+  border-bottom: 1px solid $white;
+  color: $white;
   font-size: 16px;
   padding: 3px;
   background-color: transparent;
-  outline-color: $bayoux-blue;
+  outline-color: $spring-green;
   font-family: $roboto;
   padding-left: 12px;
   @include transitionAll;
@@ -63,6 +57,6 @@
 
 @include large {
   .SignUpForm {
-    margin-right: 0;
+    padding-right: 0;
   }
 }
