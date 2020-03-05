@@ -3,6 +3,7 @@
 .Wrapper {
   padding: 40px 40px 0;
   max-width: $max-width;
+  margin: 0 auto;
 }
 
 @include large {
@@ -13,5 +14,5 @@
 
 .Poster {
   width: 100%;
-  max-width: 900px;
+  max-width: $max-width;
 }
