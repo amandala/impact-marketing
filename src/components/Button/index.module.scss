@@ -3,10 +3,7 @@
 .Button {
   font-family: $alien-exp;
   padding: 10px 14px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   background-color: $black;
   transition: all 0.25s ease-in;
   outline-color: $spring-green;

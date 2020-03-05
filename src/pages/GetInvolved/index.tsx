@@ -1,9 +1,9 @@
 import React from "react";
 
-import Link from "../../components/Link";
+import { ButtonLink } from "../../components/Button";
 import Section from "../../components/Section";
 import PhotoDiv from "../../components/PhotoDiv";
-import { H1, H2, H3, H5, P, Tiny } from "../../components/Typography";
+import { H1, H2, H3, H5, P } from "../../components/Typography";
 import styles from "./index.module.scss";
 
 const positions = require("./data.json");
@@ -37,7 +37,7 @@ export default () => {
                   amazing.
                 </P>
                 <div className={styles.Apply}>
-                  <Link href="/apply">Join our team!</Link>
+                  <ButtonLink to="/apply">Join our team!</ButtonLink>
                 </div>
               </div>
             </div>

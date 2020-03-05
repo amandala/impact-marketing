@@ -1,13 +1,5 @@
-@import "../../styles/variables";
-
 .Wrapper {
   min-height: 100vh;
   position: relative;
-  padding-bottom: $footer-height-small;
-}
-
-@include medium {
-  .Wrapper {
-    padding-bottom: $footer-height-large;
-  }
+  margin-bottom: 100px;
 }
