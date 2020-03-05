@@ -2,6 +2,7 @@
 
 .Wrapper {
   text-decoration: none;
+  outline-color: $spring-green;
 }
 
 .Link {
@@ -9,7 +10,7 @@
   font-family: $alien-grad;
   margin-right: 5px;
   @include transitionAll;
-  font-size: 35px;
+  font-size: 40px;
   text-decoration: none;
   outline-color: $bayoux-blue;
   display: flex;
@@ -25,15 +26,20 @@
   }
 }
 
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
-      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
-      0 0 30px $spring-green, 0 0 35px $spring-green;
+.InlineLink {
+  text-decoration: none;
+  color: $white;
+  transition: all 0.25s ease-in;
+  font-weight: 400;
+  outline-color: $spring-green;
+
+  &:hover {
+    color: $spring-green;
   }
-  to {
-    text-shadow: 0 0 5px $spring-green, 0 0 10px $spring-green,
-      0 0 15px $spring-green, 0 0 20px $spring-green, 0 0 25px $spring-green,
-      0 0 30px $spring-green, 0 0 35px $spring-green;
+}
+
+@include breakpoint(large) {
+  .Link {
+    font-size: 55px;
   }
 }
