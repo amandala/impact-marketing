@@ -1,3 +1,5 @@
+@import "../../styles/variables";
+
 .TicketLink {
   width: 100%;
   display: flex;
@@ -7,5 +9,11 @@
 
 .EventChain {
   max-height: 25px;
-  margin-left: 5px;
+  margin-left: 15px;
+}
+
+.Text {
+  font-family: $alien;
+  font-weight: 400;
+  font-size: 26px;
 }
