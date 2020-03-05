@@ -2,7 +2,7 @@
 
 .Wrapper {
   max-width: 75%;
-  padding: 40px 24px $footer-height-small;
+  padding-top: 100px;
 }
 
 .MainStage {
@@ -29,10 +29,6 @@
 @include large {
   .MainStage {
     background-position: initial;
-  }
-
-  .Wrapper {
-    padding-bottom: $footer-height-large;
   }
 }
 

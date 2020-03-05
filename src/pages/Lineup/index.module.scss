@@ -1,3 +1,16 @@
+@import "../../styles/variables";
+
+.Wrapper {
+  padding: 40px 40px 0;
+  max-width: $max-width;
+}
+
+@include large {
+  .Wrapper {
+    padding: 40px 100px 0;
+  }
+}
+
 .Poster {
   width: 100%;
   max-width: 900px;

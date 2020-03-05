@@ -1,13 +1,13 @@
 import React from "react";
 
 import { ReactTypeformEmbed } from "react-typeform-embed";
-import Layout from "../../components/Layout";
+import PadFooterWrapper from "../../components/PadFooterWrapper";
 
 import styles from "./index.module.scss";
 
 export default () => {
   return (
-    <Layout>
+    <PadFooterWrapper>
       <div className={styles.Wrapper}>
         <ReactTypeformEmbed
           style={{
@@ -20,6 +20,6 @@ export default () => {
           url="https://dasrecord.typeform.com/to/elGZqC"
         />
       </div>
-    </Layout>
+    </PadFooterWrapper>
   );
 };

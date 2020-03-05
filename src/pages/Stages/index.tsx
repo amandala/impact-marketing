@@ -12,7 +12,7 @@ export default () => {
   return (
     <div className={styles.Page}>
       <PhotoDiv className={styles.Stages}>
-        <Section className={styles.PhotoContent}>
+        <div className={styles.Content}>
           <H1>impact Festival 2020 has 3 unique stages</H1>
           <P>
             Each will be equipped with world class PK Sound and an
@@ -47,7 +47,7 @@ export default () => {
               </div>
             </Link>
           </div>
-        </Section>
+        </div>
       </PhotoDiv>
     </div>
   );

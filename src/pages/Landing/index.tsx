@@ -1,6 +1,6 @@
 import React from "react";
 import { H1, H3 } from "../../components/Typography";
-import Layout from "../../components/Layout";
+import PadFooterWrapper from "../../components/PadFooterWrapper";
 import Particle from "../../components/Particles";
 import Link from "../../components/Link";
 import TicketsLink from "../../components/TicketLink";
@@ -9,7 +9,7 @@ import styles from "./index.module.scss";
 
 export default () => {
   return (
-    <Layout>
+    <PadFooterWrapper>
       <Particle />
       <div className={styles.AboveTheFold}>
         <div className={styles.Details}>
@@ -33,6 +33,6 @@ export default () => {
         </div>
         <TicketsLink />
       </div>
-    </Layout>
+    </PadFooterWrapper>
   );
 };

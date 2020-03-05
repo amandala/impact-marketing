@@ -1,7 +1,6 @@
 @import "../../styles/variables";
 
 .Footer {
-  height: $footer-height-small;
   position: absolute;
   bottom: 0;
   border-top: 0.5px solid #f0f0f0;
@@ -27,13 +26,16 @@
   text-decoration: none;
 }
 
+.FormContent {
+  margin-bottom: 20px;
+}
+
 .WithLove {
   margin: 0;
 }
 
 @include medium {
   .Footer {
-    height: $footer-height-large;
     justify-content: space-evenly;
   }
 
