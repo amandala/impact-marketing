@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import ScrollToTop from "react-router-scroll-top";
+import { withTracker } from "./withTracker";
 
 import styles from "./App.module.scss";
 
@@ -30,19 +31,25 @@ function App() {
           <Nav />
           <div className={styles.Main}>
             <Switch>
-              <Route path="/about" component={About} />
-              <Route path="/apply" component={Apply} />
-              <Route path="/experience" component={Experience} />
-              <Route path="/get-involved" component={GetInvolved} />
-              <Route path="/limitless" component={Limitless} />
-              <Route path="/get-involved" component={GetInvolved} />
-              <Route path="/lineup" component={Lineup} />
-              <Route path="/media" component={Media} />
-              <Route path="/oasis" component={Oasis} />
-              <Route path="/odyssey" component={Odyssey} />
-              <Route path="/stages" component={Stages} />
-              <Route path="/tickets" component={Tickets} />
-              <Route path="/" component={Landing} />
+              <Route path="/about" component={withTracker(About)} />
+              <Route path="/apply" component={withTracker(Apply)} />
+              <Route path="/experience" component={withTracker(Experience)} />
+              <Route
+                path="/get-involved"
+                component={withTracker(GetInvolved)}
+              />
+              <Route path="/limitless" component={withTracker(Limitless)} />
+              <Route
+                path="/get-involved"
+                component={withTracker(GetInvolved)}
+              />
+              <Route path="/lineup" component={withTracker(Lineup)} />
+              <Route path="/media" component={withTracker(Media)} />
+              <Route path="/oasis" component={withTracker(Oasis)} />
+              <Route path="/odyssey" component={withTracker(Odyssey)} />
+              <Route path="/stages" component={withTracker(Stages)} />
+              <Route path="/tickets" component={withTracker(Tickets)} />
+              <Route path="/" component={withTracker(Landing)} />
             </Switch>
             <Footer />
           </div>
