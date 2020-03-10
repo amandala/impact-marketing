@@ -1,11 +1,14 @@
 import React, { useEffect } from "react";
 import ReactGA, { FieldsObject } from "react-ga";
+import ReactPixel from "react-facebook-pixel";
 import { RouteComponentProps } from "react-router-dom";
 
 export const withTracker = <P extends RouteComponentProps>(
   WrappedComponent: React.ComponentType<P>,
   options: FieldsObject = {}
 ) => {
+  ReactPixel.init("2764779720253813");
+
   ReactGA.initialize("UA-159972276-1");
 
   const trackPage = (page: string) => {
@@ -15,6 +18,7 @@ export const withTracker = <P extends RouteComponentProps>(
 
   return (props: P) => {
     useEffect(() => {
+      ReactPixel.pageView();
       trackPage(props.location.pathname);
     }, [props.location.pathname]);
 
