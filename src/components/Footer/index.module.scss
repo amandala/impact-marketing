@@ -10,7 +10,6 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  padding: 14px 0;
 }
 
 .InTouch {
@@ -35,6 +34,7 @@
   .Footer {
     height: $footer-height-large;
     justify-content: space-evenly;
+    padding: 0;
   }
 
   .FormContent {
@@ -47,7 +47,6 @@
     text-align: left;
     max-width: 50%;
     margin-bottom: 0;
-    padding: 0;
   }
 }
 

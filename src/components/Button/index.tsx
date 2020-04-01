@@ -6,13 +6,19 @@ import styles from "./index.module.scss";
 export const Button = ({
   children,
   className,
+  onClick,
   ...rest
 }: {
   children: React.ReactNode;
+  onClick: () => void;
   className?: string;
 }) => {
   return (
-    <button className={cx(styles.Button, className)} {...rest}>
+    <button
+      onClick={onClick}
+      className={cx(styles.Button, className)}
+      {...rest}
+    >
       {children}
     </button>
   );

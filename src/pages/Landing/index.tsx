@@ -3,7 +3,6 @@ import { H1, H3 } from "../../components/Typography";
 import Layout from "../../components/Layout";
 import Particle from "../../components/Particles";
 import Link from "../../components/Link";
-import TicketsLink from "../../components/TicketLink";
 
 import styles from "./index.module.scss";
 
@@ -19,19 +18,18 @@ export default () => {
             alt="Impact Wordmark Logo"
           />
           <H1 className={styles.FestivalDescription}>
-            Transformational Charity Festival
+            Transformational Charity Organization
           </H1>
           <H3 className={styles.Location}>
-            July 2nd - 4th<span className={styles.NoMobile}>, </span>
-            <span className={styles.BlockMobile}>Pritchard, BC</span>
+            April 16 & 17 6pm - 1am<span className={styles.NoMobile}>, </span>
+            <span className={styles.BlockMobile}>COED-19 Twitch Stream</span>
           </H3>
         </div>
-        <div className={styles.TicketsLink}>
+        <div className={styles.HomeLink}>
           <Link href="/about">
-            What is a transformational charity festival?
+            What is a transformational charity organization?
           </Link>
         </div>
-        <TicketsLink />
       </div>
     </Layout>
   );
