@@ -20,14 +20,10 @@ export default () => {
           <H1 className={styles.FestivalDescription}>
             Transformational Charity Organization
           </H1>
-          <H3 className={styles.Location}>
-            April 16 & 17 6pm - 1am<span className={styles.NoMobile}>, </span>
-            <span className={styles.BlockMobile}>COED-19 Twitch Stream</span>
-          </H3>
         </div>
         <div className={styles.HomeLink}>
-          <Link href="/about">
-            What is a transformational charity organization?
+          <Link href="/stream">
+            COED-19 Twitch Stream April 16 & 17 6pm - 1am
           </Link>
         </div>
       </div>

@@ -8,18 +8,18 @@ import styles from "./index.module.scss";
 
 export default () => {
   return (
-    <Layout>
+    <Layout className={styles.Coed}>
       <Section>
-        <H1>Lineup TBA</H1>
+        <H1>We're streaming awesome bass straight to your home!</H1>
       </Section>
       <Section>
-        <P>Check out last year's lineup</P>
-        <img
-          alt="Last year's lineup"
-          className={styles.Poster}
-          src="/assets/lineup19.png"
-          //TODO: get compressed image
-        />
+        <a href="/stream">
+          <img
+            alt="COED-19"
+            className={styles.Coed19}
+            src="/assets/coed19-min.jpg"
+          />
+        </a>
       </Section>
     </Layout>
   );

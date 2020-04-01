@@ -14,7 +14,6 @@ export default () => {
         className={styles.Coed19}
         src="/assets/coed19-min.jpg"
       />
-
       <ReactTwitchEmbedVideo
         layout={showChat ? "video-with-chat" : "video"}
         chat={window.innerWidth > 1025 ? "default" : "mobile"}
