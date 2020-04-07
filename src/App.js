@@ -18,7 +18,7 @@ import {
   Oasis,
   Odyssey,
   Stages,
-  Tickets
+  Stream
 } from "./pages";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -48,7 +48,7 @@ function App() {
               <Route path="/oasis" component={withTracker(Oasis)} />
               <Route path="/odyssey" component={withTracker(Odyssey)} />
               <Route path="/stages" component={withTracker(Stages)} />
-              <Route path="/tickets" component={withTracker(Tickets)} />
+              <Route path="/stream" component={withTracker(Stream)} />
               <Route path="/" component={withTracker(Landing)} />
             </Switch>
             <Footer />

@@ -6,13 +6,19 @@ import styles from "./index.module.scss";
 export const Button = ({
   children,
   className,
+  onClick,
   ...rest
 }: {
   children: React.ReactNode;
+  onClick: () => void;
   className?: string;
 }) => {
   return (
-    <button className={cx(styles.Button, className)} {...rest}>
+    <button
+      onClick={onClick}
+      className={cx(styles.Button, className)}
+      {...rest}
+    >
       {children}
     </button>
   );
@@ -41,20 +47,18 @@ export const ButtonLink = ({
 
 export const ButtonLinkExternal = ({
   children,
-  href,
+  to,
   className,
   ...rest
 }: {
   children: React.ReactNode;
-  href: string;
+  to: string;
   className?: string;
 }) => {
   return (
     <a
-      rel="noopener noreferrer"
-      target="_blank"
       className={cx(styles.Link, styles.Button, className)}
-      href={href}
+      href={to}
       {...rest}
     >
       {children}

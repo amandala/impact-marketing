@@ -42,17 +42,11 @@ export default () => {
                 <Link href="/about">Home</Link>
               </li>
               <li onClick={() => setNavOpenState(false)}>
+                <Link href="/stream">Live Stream</Link>
+              </li>
+              {/* <li onClick={() => setNavOpenState(false)}>
                 <Link href="/experience">Experience</Link>
-              </li>
-              <li onClick={() => setNavOpenState(false)}>
-                <Link href="/get-involved">Get Involved</Link>
-              </li>
-              <li onClick={() => setNavOpenState(false)}>
-                <Link href="/stages">Stages</Link>
-              </li>
-              <li onClick={() => setNavOpenState(false)}>
-                <Link href="/tickets">Tickets</Link>
-              </li>
+              </li> */}
               <li onClick={() => setNavOpenState(false)}>
                 <Link href="/lineup">Lineup</Link>
               </li>

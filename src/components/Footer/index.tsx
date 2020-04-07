@@ -10,10 +10,7 @@ const Footer = () => (
     <div className={styles.FormContent}>
       <div className={styles.InTouch}>
         <H3>Stay in touch</H3>
-        <H5 className={styles.SignUp}>
-          Sign up for our newsletter to stay in the loop on contests, updates,
-          exclusive offers, and more!
-        </H5>
+        <H5 className={styles.SignUp}>Stay in the loop via our mailing list</H5>
         <H5>
           Or send us an email at{" "}
           <InlineLink href="mailto:impactfestivalbc@gmail.com">

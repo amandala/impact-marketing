@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.Content {
+  margin-top: 60px;
+}
+
+@include breakpoint(large) {
+  .Content {
+    margin: 120px auto;
+  }
+
+  .Layout {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
