@@ -1,9 +1,8 @@
 import React from "react";
 
 import Section from "../../components/Section";
-import { H1, P } from "../../components/Typography";
+import { H1 } from "../../components/Typography";
 import Layout from "../../components/Layout";
-
 import styles from "./index.module.scss";
 
 export default () => {

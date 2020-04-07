@@ -1,7 +1,6 @@
 @import "../../styles/variables";
 
 .Footer {
-  height: $footer-height-small;
   position: absolute;
   bottom: 0;
   border-top: 0.5px solid #f0f0f0;
@@ -10,6 +9,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  padding: 20px 0;
 }
 
 .InTouch {
@@ -26,15 +26,17 @@
   text-decoration: none;
 }
 
+.FormContent {
+  margin-bottom: 20px;
+}
+
 .WithLove {
   margin: 0;
 }
 
 @include medium {
   .Footer {
-    height: $footer-height-large;
     justify-content: space-evenly;
-    padding: 0;
   }
 
   .FormContent {
@@ -53,7 +55,8 @@
 @include xlarge {
   .FormContent {
     width: 100%;
-    max-width: 1100px;
-    margin: 0 24px;
+    max-width: $max-width;
+    margin: 0;
+    padding: 0;
   }
 }

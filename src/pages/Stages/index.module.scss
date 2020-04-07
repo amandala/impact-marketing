@@ -1,7 +1,10 @@
 @import "../../styles/variables";
 
-.Page {
-  padding-bottom: $footer-height-small;
+.Content {
+  min-height: 100vh;
+  padding: 100px 24px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .Logo {
@@ -34,7 +37,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
 }
 
 .Stages {
@@ -42,14 +44,9 @@
     url(/photos/stages-min.jpg);
 }
 
-.PhotoContent {
-  max-width: 80%;
-  text-align: center;
-}
-
 @include medium {
-  .Page {
-    padding-bottom: $footer-height-large;
+  .Content {
+    min-height: unset;
   }
 
   .LogoWrapper {

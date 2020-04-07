@@ -1,20 +1,16 @@
 @import "../../styles/variables";
 
 .Content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  margin-top: 60px;
 }
 
-.Layout {
-  width: 100%;
-  padding: 40px 40px $footer-height-small;
-  max-width: $max-width;
-}
+@include breakpoint(large) {
+  .Content {
+    margin: 120px auto;
+  }
 
-@include large {
   .Layout {
-    padding: 40px 100px $footer-height-large;
+    max-width: 1100px;
+    margin: 0 auto;
   }
 }
