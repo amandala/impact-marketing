@@ -1,6 +1,7 @@
 import React from "react";
 // @ts-ignore
 import ReactTwitchEmbedVideo from "react-twitch-embed-video";
+import { ButtonLinkExternal } from "../../components/Button";
 
 import styles from "./index.module.scss";
 
@@ -9,6 +10,12 @@ export default () => {
 
   return (
     <div className={styles.Wrapper}>
+      <ButtonLinkExternal
+        className={styles.DonateButton}
+        to="https://paypal.me/makeimpact"
+      >
+        Donate @ paypal.me/makeimpact
+      </ButtonLinkExternal>
       <img
         alt="COED-19"
         className={styles.Coed19}

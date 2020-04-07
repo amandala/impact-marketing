@@ -19,8 +19,21 @@
   padding: 10px;
 }
 
+.DonateButton {
+  margin: 20px auto;
+  justify-content: center;
+  max-width: 285px;
+}
+
 @include medium {
   .Wrapper {
     padding-bottom: $footer-height-large;
+    position: relative;
+  }
+
+  .DonateButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
   }
 }

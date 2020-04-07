@@ -44,3 +44,24 @@ export const ButtonLink = ({
     </Link>
   );
 };
+
+export const ButtonLinkExternal = ({
+  children,
+  to,
+  className,
+  ...rest
+}: {
+  children: React.ReactNode;
+  to: string;
+  className?: string;
+}) => {
+  return (
+    <a
+      className={cx(styles.Link, styles.Button, className)}
+      href={to}
+      {...rest}
+    >
+      {children}
+    </a>
+  );
+};
