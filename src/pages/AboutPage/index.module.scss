@@ -20,13 +20,10 @@
     url(/photos/youdecide-min.jpg);
 }
 
-//TODO: get compressed asset
-
 .MakeImpact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/photos/lumidDay-min.jpg);
   padding-bottom: 250px;
-  padding-top: 50px;
 }
 
 .Value {
@@ -38,7 +35,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 30px;
+  margin: 40px 0;
 }
 
 .CTA {
@@ -128,6 +125,10 @@
   text-align: left;
 }
 
+.CoreValue {
+  margin-bottom: 45px;
+}
+
 @include medium {
   .Section {
     margin: 24px 10% 0;
@@ -193,6 +194,10 @@
 
   .MainStage {
     background-position: initial;
+  }
+
+  .CoreValue {
+    margin-bottom: 65px;
   }
 }
 

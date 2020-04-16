@@ -174,8 +174,8 @@ export default () => {
         </Section>
       </PhotoDiv>
       <PhotoDiv className={styles.MakeImpact}>
-        <Section className={styles.Section}>
-          {/* <H1>Make impact</H1>
+        {/* <Section className={styles.Section}>
+         <H1>Make impact</H1>
           <P>
             Out there somewhere in the deeps of space, on a world eerily similar
             to our own, an intelligent species of biped revelled in their
@@ -204,10 +204,9 @@ export default () => {
             art and various other means. Participate in our story with
             interactive quests and multimedia displays.
           </P>
-          <H2>We Are the IMPACT...</H2> */}
-        </Section>
+          <H2>We Are the IMPACT...</H2> 
+        </Section>*/}
         <Section className={styles.Section}>
-          <H1>Core values</H1>
           <div className={styles.ValuesImages}>
             <img
               className={styles.Value}
@@ -230,60 +229,57 @@ export default () => {
               alt="Radical Responsibility"
             />
           </div>
-        </Section>
-        <Section className={styles.Section}>
-          <H2>Connected Community</H2>
-          <P className={styles.Covid}>
-            Reach out to friends and family and offer support where you can
-          </P>
-          <P className={styles.Covid}>
-            Become active in social media groups and spread joy and love rather
-            than fear and worry.
-          </P>
-        </Section>
-        <Section className={styles.Section}>
-          <H2>Transformational Growth</H2>
-          <P className={styles.Covid}>
-            Take this opportunity to learn a new skill: Udemy or any other
-            online learning platform
-          </P>
-          <P className={styles.Covid}>
-            Spend time exercising, eating healthy and developing new habits that
-            will make you a stronger, happier, healthier person
-          </P>
-          <P className={styles.Covid}>
-            Take some time to reflect on your life and plan out a map for where
-            you want to be in the future.
-          </P>
-        </Section>
-        <Section className={styles.Section}>
-          <H2>Positive Impact:</H2>
-          <P className={styles.Covid}>
-            Take time every day to think of one way you can bring love to the
-            world. Even as easy as an inspiring post or picture.
-          </P>
-          <P className={styles.Covid}>
-            Find ways to give to others that are less fortunate, or that may be
-            impacted by this worse than others.
-          </P>
-        </Section>
-
-        <Section className={styles.Section}>
-          <H2>Radical Responsibility</H2>
-          <P className={styles.Covid}>
-            Take responsibility for your safety and the safety of others.
-          </P>
-          <P className={styles.Covid}>
-            Follow the guidelines set in place. Practice social distancing and
-            be mindful of others.
-          </P>
-          <P className={styles.Covid}>
-            Be responsible towards yourself during these times. Take some time
-            to reflect on events in your life and take accountability towards a
-            brighter future for yourself.
-          </P>
-        </Section>
-        <Section className={styles.Section}>
+          <div className={styles.CoreValue}>
+            <H2>Connected Community</H2>
+            <P className={styles.Covid}>
+              Reach out to friends and family and offer support where you can
+            </P>
+            <P className={styles.Covid}>
+              Become active in social media groups and spread joy and love
+              rather than fear and worry.
+            </P>
+          </div>
+          <div className={styles.CoreValue}>
+            <H2>Transformational Growth</H2>
+            <P className={styles.Covid}>
+              Take this opportunity to learn a new skill: Udemy or any other
+              online learning platform
+            </P>
+            <P className={styles.Covid}>
+              Spend time exercising, eating healthy and developing new habits
+              that will make you a stronger, happier, healthier person
+            </P>
+            <P className={styles.Covid}>
+              Take some time to reflect on your life and plan out a map for
+              where you want to be in the future.
+            </P>
+          </div>
+          <div className={styles.CoreValue}>
+            <H2>Positive Impact</H2>
+            <P className={styles.Covid}>
+              Take time every day to think of one way you can bring love to the
+              world. Even as easy as an inspiring post or picture.
+            </P>
+            <P className={styles.Covid}>
+              Find ways to give to others that are less fortunate, or that may
+              be impacted by this worse than others.
+            </P>
+          </div>
+          <div className={styles.CoreValue}>
+            <H2>Radical Responsibility</H2>
+            <P className={styles.Covid}>
+              Take responsibility for your safety and the safety of others.
+            </P>
+            <P className={styles.Covid}>
+              Follow the guidelines set in place. Practice social distancing and
+              be mindful of others.
+            </P>
+            <P className={styles.Covid}>
+              Be responsible towards yourself during these times. Take some time
+              to reflect on events in your life and take accountability towards
+              a brighter future for yourself.
+            </P>
+          </div>
           <P className={styles.Covid}>
             We know that many of you may be disappointed with the events that
             are transpiring, but this can become a great opportunity for change
