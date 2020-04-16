@@ -1,40 +1,37 @@
 import React from "react";
-// @ts-ignore
-import ReactTwitchEmbedVideo from "react-twitch-embed-video";
-import { ButtonLinkExternal } from "../../components/Button";
 
+import TwitchChannel from "../../components/TwitchChannel";
+import Layout from "../../components/Layout";
+import { ButtonLinkExternal } from "../../components/Button";
+import { H1 } from "../../components/Typography";
+import ChannelLink from "./ChannelLink";
 import styles from "./index.module.scss";
 
 export default () => {
-  const [showChat, setShowChat] = React.useState(false);
-
   return (
     <div className={styles.Wrapper}>
-      <ButtonLinkExternal
-        className={styles.DonateButton}
-        to="https://paypal.me/makeimpact"
-      >
-        Donate @ paypal.me/makeimpact
-      </ButtonLinkExternal>
       <img
         alt="COED-19"
         className={styles.Coed19}
-        src="/assets/coed19-min.jpg"
+        src="/assets/coed19/coed19-day1.jpg"
       />
-      <ReactTwitchEmbedVideo
-        layout={showChat ? "video-with-chat" : "video"}
-        chat={window.innerWidth > 1025 ? "default" : "mobile"}
-        theme="dark"
-        width="100%"
-        height={window.innerWidth > 1025 || showChat ? "900px" : "300px"}
-        channel="dusk2dawnproductions"
-      />
-      <button
-        className={styles.ChatButton}
-        onClick={() => setShowChat(!showChat)}
-      >
-        {showChat ? "Hide" : "Show"} Chat
-      </button>
+
+      <Layout className={styles.Channels}>
+        <ButtonLinkExternal
+          className={styles.DonateButton}
+          to="https://paypal.me/makeimpact"
+        >
+          Donate @ paypal.me/makeimpact
+        </ButtonLinkExternal>
+        <H1>Thursday's Showcase Channels</H1>
+        <div className={styles.ChannelLinks}>
+          <ChannelLink channel="dusk2dawnproductions" />
+          <ChannelLink channel="fouroverfourmusic" />
+          <ChannelLink channel="socialsound" />
+          <ChannelLink channel="truesoundevents" />
+        </div>
+      </Layout>
+      {/* <TwitchChannel channel={"dusk2dawnproductions"} /> */}
     </div>
   );
 };

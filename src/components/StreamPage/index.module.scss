@@ -6,38 +6,35 @@
   padding-bottom: $footer-height-small;
 }
 
-.Coed19 {
+.Header {
+  margin: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Logo {
+  max-height: 300px;
+  margin: 0 auto;
+}
+
+.EventGraphic {
   width: 100vw;
   max-width: 100vw;
 }
 
 .DonateButton {
-  margin: 20px auto 40px;
+  margin: 40px;
   justify-content: center;
   display: block;
 }
 
 .Channels {
   padding: 0 50px;
-  margin-bottom: 200px;
-}
-
-.ChannelLinks {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 1em;
-  grid-column-gap: 1em;
 }
 
 @include medium {
   .Wrapper {
     padding-bottom: $footer-height-large;
     position: relative;
-  }
-}
-
-@include large {
-  .ChannelLinks {
-    grid-template-columns: repeat(4, 1fr);
   }
 }
