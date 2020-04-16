@@ -25,7 +25,6 @@ export default ({
           alt={`${channel} Twitch Stream`}
         />
       </div>
-      <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
       <ButtonLinkExternal
         className={styles.DonateButton}
         to="https://paypal.me/makeimpact"
@@ -33,6 +32,7 @@ export default ({
         Donate @ paypal.me/makeimpact
       </ButtonLinkExternal>
       <TwitchChannel channel={channel} />
+      <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
     </div>
   );
 };
