@@ -18,8 +18,10 @@ import {
   Oasis,
   Odyssey,
   Stages,
-  Stream
+  Stream,
 } from "./pages";
+
+import { Dusk2DawnProductions } from "./pages/streams";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -49,6 +51,10 @@ function App() {
               <Route path="/odyssey" component={withTracker(Odyssey)} />
               <Route path="/stages" component={withTracker(Stages)} />
               <Route path="/stream" component={withTracker(Stream)} />
+              <Route
+                path="/dusk2dawnproductions"
+                component={Dusk2DawnProductions}
+              />
               <Route path="/" component={withTracker(Landing)} />
             </Switch>
             <Footer />
