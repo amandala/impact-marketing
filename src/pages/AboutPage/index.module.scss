@@ -1,10 +1,5 @@
 @import "../../styles/variables";
 
-.VideoWrapper {
-  display: none;
-  max-width: 100%;
-}
-
 .Above {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/photos/umbrella-min.jpg);
@@ -43,6 +38,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .CTA {
@@ -128,6 +124,10 @@
   max-width: 150px;
 }
 
+.Covid {
+  text-align: left;
+}
+
 @include medium {
   .Section {
     margin: 24px 10% 0;
@@ -194,14 +194,6 @@
   .MainStage {
     background-position: initial;
   }
-
-  .MakeImpact {
-    padding-bottom: 50px;
-  }
-
-  .ValuesImages {
-    margin-bottom: 200px;
-  }
 }
 
 @include breakpoint(xlarge) {
@@ -209,6 +201,5 @@
     display: grid;
     grid-gap: 35px;
     grid-template-columns: repeat(4, 250px);
-    margin-bottom: 0;
   }
 }
