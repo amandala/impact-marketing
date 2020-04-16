@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 import cx from "classnames";
 import TwitchChannel from "../../components/TwitchChannel";
 import Layout from "../../components/Layout";
@@ -32,6 +33,13 @@ export default ({
       <ButtonLinkExternal
         className={styles.DonateButton}
         to="https://paypal.me/makeimpact"
+        onClick={() => {
+          ReactGA.event({
+            category: "stream",
+            action: "donate button click",
+            label: "coed19",
+          });
+        }}
       >
         Donate @ paypal.me/makeimpact
       </ButtonLinkExternal>

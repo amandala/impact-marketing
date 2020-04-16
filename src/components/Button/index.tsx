@@ -49,16 +49,21 @@ export const ButtonLinkExternal = ({
   children,
   to,
   className,
+  onClick,
   ...rest
 }: {
   children: React.ReactNode;
   to: string;
+  onClick?: () => void;
   className?: string;
 }) => {
   return (
     <a
       className={cx(styles.Link, styles.Button, className)}
       href={to}
+      onClick={onClick}
+      target="_blank"
+      rel="noopener noreferrer"
       {...rest}
     >
       {children}

@@ -8,10 +8,17 @@ type PropsType = {
   children: React.ReactNode | string;
   href: string;
   className?: string;
+  onClick?: () => void;
 };
 
-const Link = ({ className = "", children, href, ...rest }: PropsType) => (
-  <ReactLink className={styles.Wrapper} to={href}>
+const Link = ({
+  className = "",
+  children,
+  href,
+  onClick,
+  ...rest
+}: PropsType) => (
+  <ReactLink className={styles.Wrapper} to={href} onClick={onClick}>
     <span className={cx(styles.Link, className)} {...rest}>
       {children}
     </span>
@@ -22,7 +29,7 @@ export default Link;
 
 export const InlineLink = ({
   children,
-  href
+  href,
 }: {
   children: React.ReactNode;
   href: string;

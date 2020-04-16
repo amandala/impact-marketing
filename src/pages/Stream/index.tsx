@@ -1,5 +1,5 @@
 import React from "react";
-
+import ReactGA from "react-ga";
 import Layout from "../../components/Layout";
 import Section from "../../components/Section";
 import { ButtonLinkExternal } from "../../components/Button";
@@ -19,6 +19,13 @@ export default () => {
         <ButtonLinkExternal
           className={styles.DonateButton}
           to="https://paypal.me/makeimpact"
+          onClick={() => {
+            ReactGA.event({
+              category: "stream",
+              action: "donate button click",
+              label: "coed19",
+            });
+          }}
         >
           Donate @ paypal.me/makeimpact
         </ButtonLinkExternal>

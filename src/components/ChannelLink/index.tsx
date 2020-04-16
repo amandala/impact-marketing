@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 import cx from "classnames";
 import Link from "../Link";
 import styles from "./index.module.scss";
@@ -14,6 +15,13 @@ const ChannelLink = ({
     <Link
       href={`/streams/${channel}`}
       className={cx(styles.Channel, { [styles.ChannelSmall]: small })}
+      onClick={() => {
+        ReactGA.event({
+          category: "stream",
+          action: "channel nav click",
+          label: channel,
+        });
+      }}
     >
       <img
         className={cx(styles.Logo, {
