@@ -7,13 +7,15 @@
 }
 
 .Header {
-  margin: 40px 20px;
+  margin: 60px 20px 40px;
   display: flex;
   justify-content: center;
 }
 
 .Logo {
+  height: auto;
   max-height: 300px;
+  width: auto;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -34,9 +36,8 @@
   padding: 0 50px;
 }
 
-@include medium {
+@include xlarge {
   .Wrapper {
     padding-bottom: $footer-height-large;
-    position: relative;
   }
 }

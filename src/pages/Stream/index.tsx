@@ -1,10 +1,9 @@
 import React from "react";
 
-import TwitchChannel from "../../components/TwitchChannel";
 import Layout from "../../components/Layout";
 import { ButtonLinkExternal } from "../../components/Button";
 import { H1 } from "../../components/Typography";
-import ChannelLink from "./ChannelLink";
+import ChannelLink from "../../components/ChannelLink";
 import styles from "./index.module.scss";
 
 export default () => {

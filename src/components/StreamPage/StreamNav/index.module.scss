@@ -1,0 +1,19 @@
+@import "../../../styles/variables";
+
+.StreamNav {
+  padding: 40px 40px 0;
+}
+
+.ChannelLinks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  margin-top: 24px;
+}
+
+@include large {
+  .ChannelLinks {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

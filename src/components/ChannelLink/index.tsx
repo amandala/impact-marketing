@@ -1,10 +1,20 @@
 import React from "react";
-import Link from "../../../components/Link";
+import cx from "classnames";
+import Link from "../Link";
 import styles from "./index.module.scss";
 
-const ChannelLink = ({ channel }: { channel: string }) => {
+const ChannelLink = ({
+  channel,
+  small,
+}: {
+  channel: string;
+  small?: boolean;
+}) => {
   return (
-    <Link href={`/streams/${channel}`} className={styles.Channel}>
+    <Link
+      href={`/streams/${channel}`}
+      className={cx(styles.Channel, { [styles.ChannelSmall]: small })}
+    >
       <img
         className={styles.Logo}
         src={`/assets/streamChannelLogos/${channel}.png`}
