@@ -1,7 +1,7 @@
 import React from "react";
 
 import TwitchChannel from "../../components/TwitchChannel";
-
+import Layout from "../../components/Layout";
 import { ButtonLinkExternal } from "../../components/Button";
 import StreamNav from "./StreamNav";
 
@@ -33,15 +33,17 @@ export default ({
       </ButtonLinkExternal>
       <TwitchChannel channel={channel} />
       <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
-      <StreamNav
-        activeChannel={channel}
-        channels={[
-          "dusk2dawnproductions",
-          "fouroverfourmusic",
-          "socialsound",
-          "truesoundevents",
-        ]}
-      />
+      <Layout>
+        <StreamNav
+          activeChannel={channel}
+          channels={[
+            "dusk2dawnproductions",
+            "fouroverfourmusic",
+            "socialsound",
+            "truesoundevents",
+          ]}
+        />
+      </Layout>
     </div>
   );
 };
