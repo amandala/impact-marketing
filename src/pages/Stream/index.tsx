@@ -30,7 +30,6 @@ export default () => {
           <ChannelLink channel="truesoundevents" />
         </div>
       </Layout>
-      {/* <TwitchChannel channel={"dusk2dawnproductions"} /> */}
     </div>
   );
 };

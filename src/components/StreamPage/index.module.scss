@@ -36,6 +36,10 @@
   padding: 0 50px;
 }
 
+.Nav {
+  margin: 0 auto;
+}
+
 @include xlarge {
   .Wrapper {
     padding-bottom: $footer-height-large;
