@@ -4,7 +4,7 @@ import styles from "./index.module.scss";
 
 const ChannelLink = ({ channel }: { channel: string }) => {
   return (
-    <Link href={`/${channel}`} className={styles.Channel}>
+    <Link href={`/streams/${channel}`} className={styles.Channel}>
       <img
         className={styles.Logo}
         src={`/assets/streamChannelLogos/${channel}.png`}

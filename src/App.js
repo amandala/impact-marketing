@@ -21,7 +21,12 @@ import {
   Stream,
 } from "./pages";
 
-import { Dusk2DawnProductions } from "./pages/streams";
+import {
+  Dusk2DawnProductions,
+  FourOverFourMusic,
+  SocialSound,
+  TrueSoundEvents,
+} from "./pages/streams";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -52,8 +57,17 @@ function App() {
               <Route path="/stages" component={withTracker(Stages)} />
               <Route path="/stream" component={withTracker(Stream)} />
               <Route
-                path="/dusk2dawnproductions"
+                path="/streams/dusk2dawnproductions"
                 component={Dusk2DawnProductions}
+              />
+              <Route
+                path="/streams/fouroverfourmusic"
+                component={FourOverFourMusic}
+              />
+              <Route path="/streams/socialsound" component={SocialSound} />
+              <Route
+                path="/streams/truesoundevents"
+                component={TrueSoundEvents}
               />
               <Route path="/" component={withTracker(Landing)} />
             </Switch>
