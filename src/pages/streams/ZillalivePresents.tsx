@@ -2,20 +2,20 @@ import React from "react";
 
 import StreamPage from "../../components/StreamPage";
 
-const TrueSoundEvents = () => {
+const ZillalivePresents = () => {
   return (
     <StreamPage
       eventChannels={[
         "dusk2dawnproductions",
-        "fouroverfourmusic",
-        "socialsound",
+        "emengymusic",
+        "zillalivepresents",
         "truesoundevents",
       ]}
-      channel="truesoundevents"
-      eventLogo="/assets/coed19/coed19-day1.jpg"
+      channel="zillalivepresents"
+      eventLogo="/assets/coed19/coed19-day2.jpg"
       eventName="COED-19"
     />
   );
 };
 
-export default TrueSoundEvents;
+export default ZillalivePresents;

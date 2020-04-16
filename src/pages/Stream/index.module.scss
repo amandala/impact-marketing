@@ -29,6 +29,11 @@
   grid-column-gap: 1em;
 }
 
+.Schedule {
+  max-width: 100%;
+  margin-top: 24px;
+}
+
 @include medium {
   .Wrapper {
     padding-bottom: $footer-height-large;

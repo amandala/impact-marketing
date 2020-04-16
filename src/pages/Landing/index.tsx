@@ -23,7 +23,7 @@ export default () => {
         </div>
         <div className={styles.HomeLink}>
           <Link className={styles.CTA} href="/stream">
-            COED-19 Twitch Stream April 16 & 17 6pm - 1am
+            COED-19 Twitch Stream April 16 & 17 6pm - 2am
           </Link>
         </div>
       </div>

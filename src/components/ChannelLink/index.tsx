@@ -16,7 +16,9 @@ const ChannelLink = ({
       className={cx(styles.Channel, { [styles.ChannelSmall]: small })}
     >
       <img
-        className={styles.Logo}
+        className={cx(styles.Logo, {
+          [styles.LogoInvert]: channel === "zillalivepresents",
+        })}
         src={`/assets/streamChannelLogos/${channel}.png`}
         alt={`${channel} Twitch Stream`}
       />

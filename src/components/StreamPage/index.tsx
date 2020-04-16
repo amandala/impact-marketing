@@ -1,5 +1,5 @@
 import React from "react";
-
+import cx from "classnames";
 import TwitchChannel from "../../components/TwitchChannel";
 import Layout from "../../components/Layout";
 import { ButtonLinkExternal } from "../../components/Button";
@@ -9,10 +9,12 @@ import styles from "./index.module.scss";
 
 export default ({
   channel,
+  eventChannels,
   eventLogo,
   eventName,
 }: {
   channel: string;
+  eventChannels: Array<string>;
   eventLogo: string;
   eventName: string;
 }) => {
@@ -20,7 +22,9 @@ export default ({
     <div className={styles.Wrapper}>
       <div className={styles.Header}>
         <img
-          className={styles.Logo}
+          className={cx(styles.Logo, {
+            [styles.LogoInvert]: channel === "zillalivepresents",
+          })}
           src={`/assets/streamChannelLogos/${channel}.png`}
           alt={`${channel} Twitch Stream`}
         />
@@ -33,17 +37,9 @@ export default ({
       </ButtonLinkExternal>
       <TwitchChannel channel={channel} />
       <Layout className={styles.Nav}>
-        <StreamNav
-          activeChannel={channel}
-          channels={[
-            "dusk2dawnproductions",
-            "fouroverfourmusic",
-            "socialsound",
-            "truesoundevents",
-          ]}
-        />
+        <StreamNav activeChannel={channel} channels={eventChannels} />
+        <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
       </Layout>
-      <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 
 import Layout from "../../components/Layout";
+import Section from "../../components/Section";
 import { ButtonLinkExternal } from "../../components/Button";
 import { H1 } from "../../components/Typography";
 import ChannelLink from "../../components/ChannelLink";
@@ -12,9 +13,8 @@ export default () => {
       <img
         alt="COED-19"
         className={styles.Coed19}
-        src="/assets/coed19/coed19-day1.jpg"
+        src="/assets/coed19/coed19-promo.jpg"
       />
-
       <Layout className={styles.Channels}>
         <ButtonLinkExternal
           className={styles.DonateButton}
@@ -22,13 +22,34 @@ export default () => {
         >
           Donate @ paypal.me/makeimpact
         </ButtonLinkExternal>
-        <H1>Thursday's Showcase Channels</H1>
-        <div className={styles.ChannelLinks}>
-          <ChannelLink channel="dusk2dawnproductions" />
-          <ChannelLink channel="fouroverfourmusic" />
-          <ChannelLink channel="socialsound" />
-          <ChannelLink channel="truesoundevents" />
-        </div>
+        <Section>
+          <H1>Thursday's Channel Partners</H1>
+          <div className={styles.ChannelLinks}>
+            <ChannelLink channel="dusk2dawnproductions" />
+            <ChannelLink channel="fouroverfourmusic" />
+            <ChannelLink channel="socialsound" />
+            <ChannelLink channel="truesoundevents" />
+          </div>
+          <img
+            alt="COED-19"
+            className={styles.Schedule}
+            src="/assets/coed19/coed19-day1.jpg"
+          />
+        </Section>
+        <Section>
+          <H1>Friday's Channel Partners</H1>
+          <div className={styles.ChannelLinks}>
+            <ChannelLink channel="dusk2dawnproductions" />
+            <ChannelLink channel="emengymusic" />
+            <ChannelLink channel="zillalivepresents" />
+            <ChannelLink channel="truesoundevents" />
+          </div>
+          <img
+            alt="COED-19"
+            className={styles.Schedule}
+            src="/assets/coed19/coed19-day2.jpg"
+          />
+        </Section>
       </Layout>
     </div>
   );

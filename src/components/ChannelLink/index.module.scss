@@ -22,4 +22,8 @@
 .Logo {
   max-width: 100%;
   max-height: 100px;
+
+  &Invert {
+    filter: grayscale(1) invert(1);
+  }
 }

@@ -16,7 +16,7 @@ export default () => {
           <img
             alt="COED-19"
             className={styles.Coed19}
-            src="/assets/coed19/coed19-promo.jpg"
+            src="/assets/coed19/coed19-lineup.jpg"
           />
         </a>
       </Section>

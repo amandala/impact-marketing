@@ -18,11 +18,15 @@
   width: auto;
   max-width: 100%;
   margin: 0 auto;
+
+  &Invert {
+    filter: grayscale(1) invert(1);
+  }
 }
 
 .EventGraphic {
-  width: 100vw;
-  max-width: 100vw;
+  max-width: 100%;
+  margin-bottom: 40px;
 }
 
 .DonateButton {
