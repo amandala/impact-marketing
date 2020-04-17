@@ -13,9 +13,7 @@
 }
 
 .Logo {
-  max-width: 100%;
-  max-height: 300px;
-  margin: 0 auto;
+  width: 100%;
 
   &Invert {
     filter: grayscale(1) invert(1);
@@ -45,15 +43,15 @@
   .Wrapper {
     padding-bottom: $footer-height-medium;
   }
+
+  .Logo {
+    max-width: 700px;
+    margin: 0 auto;
+  }
 }
 
 @include xlarge {
   .Wrapper {
     padding-bottom: $footer-height-large;
-  }
-
-  .Logo {
-    max-width: 700px;
-    margin: 0 auto;
   }
 }
