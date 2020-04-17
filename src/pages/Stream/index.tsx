@@ -30,20 +30,6 @@ export default () => {
           Donate @ paypal.me/makeimpact
         </ButtonLinkExternal>
         <Section>
-          <H1>Thursday's Channel Partners</H1>
-          <div className={styles.ChannelLinks}>
-            <ChannelLink channel="dusk2dawnproductions" />
-            <ChannelLink channel="fouroverfourmusic" />
-            <ChannelLink channel="socialsound" />
-            <ChannelLink channel="truesoundevents" />
-          </div>
-          <img
-            alt="COED-19"
-            className={styles.Schedule}
-            src="/assets/coed19/coed19-day1.jpg"
-          />
-        </Section>
-        <Section>
           <H1>Friday's Channel Partners</H1>
           <div className={styles.ChannelLinks}>
             <ChannelLink channel="dusk2dawnproductions" />
