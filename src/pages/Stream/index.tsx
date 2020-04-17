@@ -37,13 +37,13 @@ export default () => {
             <ChannelLink channel="zillalivepresents" />
             <ChannelLink channel="truesoundevents" />
           </div>
-          <img
-            alt="COED-19"
-            className={styles.Schedule}
-            src="/assets/coed19/coed19-day2.jpg"
-          />
         </Section>
       </Layout>
+      <img
+        alt="COED-19"
+        className={styles.Schedule}
+        src="/assets/coed19/coed19-day2.jpg"
+      />
     </div>
   );
 };
