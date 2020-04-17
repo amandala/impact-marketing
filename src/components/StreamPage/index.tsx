@@ -48,8 +48,8 @@ export default ({
       <TwitchChannel channel={channel} />
       <Layout className={styles.Nav}>
         <StreamNav activeChannel={channel} channels={eventChannels} />
-        <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
       </Layout>
+      <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
     </div>
   );
 };
