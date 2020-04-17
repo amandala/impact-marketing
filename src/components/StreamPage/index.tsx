@@ -22,13 +22,15 @@ export default ({
   return (
     <div className={styles.Wrapper}>
       <div className={styles.Header}>
-        <img
-          className={cx(styles.Logo, {
-            [styles.LogoInvert]: channel === "zillalivepresents",
-          })}
-          src={`/assets/streamChannelLogos/${channel}.png`}
-          alt={`${channel} Twitch Stream`}
-        />
+        <div className={styles.LogoWrapper}>
+          <img
+            className={cx(styles.Logo, {
+              [styles.LogoInvert]: channel === "zillalivepresents",
+            })}
+            src={`/assets/streamChannelLogos/${channel}.png`}
+            alt={`${channel} Twitch Stream`}
+          />
+        </div>
       </div>
       <ButtonLinkExternal
         className={styles.DonateButton}

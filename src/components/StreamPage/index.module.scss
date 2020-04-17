@@ -12,8 +12,13 @@
   justify-content: center;
 }
 
+.LogoWrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .Logo {
-  width: 100%;
+  max-width: 100%;
 
   &Invert {
     filter: grayscale(1) invert(1);
@@ -42,11 +47,6 @@
 @include medium {
   .Wrapper {
     padding-bottom: $footer-height-medium;
-  }
-
-  .Logo {
-    max-width: 700px;
-    margin: 0 auto;
   }
 }
 
