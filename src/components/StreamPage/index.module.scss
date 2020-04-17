@@ -18,7 +18,7 @@
 }
 
 .Logo {
-  max-height: 200px;
+  max-width: 100%;
 
   &Invert {
     filter: grayscale(1) invert(1);
@@ -47,10 +47,6 @@
 @include medium {
   .Wrapper {
     padding-bottom: $footer-height-medium;
-  }
-
-  .Logo {
-    max-height: 300px;
   }
 }
 
