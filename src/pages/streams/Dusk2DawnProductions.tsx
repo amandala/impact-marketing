@@ -7,12 +7,12 @@ const Dusk2DawnProductions = () => {
     <StreamPage
       eventChannels={[
         "dusk2dawnproductions",
-        "fouroverfourmusic",
-        "socialsound",
+        "emengymusic",
+        "zillalivepresents",
         "truesoundevents",
       ]}
       channel="dusk2dawnproductions"
-      eventLogo="/assets/coed19/coed19-day1.jpg"
+      eventLogo="/assets/coed19/coed19-day2.jpg"
       eventName="COED-19"
     />
   );

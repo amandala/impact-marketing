@@ -7,12 +7,12 @@ const TrueSoundEvents = () => {
     <StreamPage
       eventChannels={[
         "dusk2dawnproductions",
-        "fouroverfourmusic",
-        "socialsound",
+        "emengymusic",
+        "zillalivepresents",
         "truesoundevents",
       ]}
       channel="truesoundevents"
-      eventLogo="/assets/coed19/coed19-day1.jpg"
+      eventLogo="/assets/coed19/coed19-day2.jpg"
       eventName="COED-19"
     />
   );
