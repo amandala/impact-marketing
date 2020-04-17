@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .Channel {
-  padding: 30px 20px;
+  padding: 10px 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,5 +25,26 @@
 
   &Invert {
     filter: grayscale(1) invert(1);
+  }
+}
+
+@include large {
+  .Channel {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+
+    &Small {
+      padding: 10px 5px;
+    }
+
+    &:hover,
+    &:focus {
+      color: $spring-green;
+      border-color: $spring-green;
+      transition: all ease-in-out 0.5s;
+    }
   }
 }
