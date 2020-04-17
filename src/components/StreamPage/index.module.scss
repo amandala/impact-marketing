@@ -3,7 +3,6 @@
 .Wrapper {
   min-height: 100vh;
   position: relative;
-  padding-bottom: $footer-height-small;
 }
 
 .Header {
@@ -42,16 +41,4 @@
 
 .Nav {
   margin: 0 auto;
-}
-
-@include medium {
-  .Wrapper {
-    padding-bottom: $footer-height-medium;
-  }
-}
-
-@include xlarge {
-  .Wrapper {
-    padding-bottom: $footer-height-large;
-  }
 }

@@ -1,7 +1,15 @@
+@import "../../styles/variables";
+
 .Coed19 {
   width: 100%;
 }
 
-.Coed {
-  min-height: 100vh;
+.Heading {
+  margin: 20px;
+}
+
+@include breakpoint(large) {
+  .Heading {
+    margin: 0;
+  }
 }
