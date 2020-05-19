@@ -10,11 +10,13 @@ import styles from "./index.module.scss";
 export default () => {
   return (
     <div className={styles.Wrapper}>
-      <img
-        alt="COED-19"
-        className={styles.Coed19}
-        src="/assets/coed19/coed19-promo.jpg"
-      />
+      {window.screen.width > 1024 && (
+        <div className="VideoWrapper">
+          <video style={{ height: "100%", width: "100vw" }} autoPlay>
+            <source src="/videos/blastoffv2.mp4" type="video/mp4" />
+          </video>
+        </div>
+      )}
       <Layout className={styles.Channels}>
         <ButtonLinkExternal
           className={styles.DonateButton}
@@ -30,20 +32,12 @@ export default () => {
           Donate @ paypal.me/makeimpact
         </ButtonLinkExternal>
         <Section>
-          <H1>Friday's Channel Partners</H1>
+          <H1>Channel Partners</H1>
           <div className={styles.ChannelLinks}>
             <ChannelLink channel="dusk2dawnproductions" />
-            <ChannelLink channel="emengymusic" />
-            <ChannelLink channel="zillalivepresents" />
-            <ChannelLink channel="truesoundevents" />
           </div>
         </Section>
       </Layout>
-      <img
-        alt="COED-19"
-        className={styles.Schedule}
-        src="/assets/coed19/coed19-day2.jpg"
-      />
     </div>
   );
 };

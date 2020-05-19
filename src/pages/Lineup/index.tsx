@@ -9,9 +9,7 @@ export default () => {
   return (
     <Layout>
       <Section>
-        <H1 className={styles.Heading}>
-          We're streaming awesome bass straight to your home!
-        </H1>
+        <H1 className={styles.Heading}>Previous Events</H1>
       </Section>
       <Section>
         <a href="/stream">
@@ -19,6 +17,15 @@ export default () => {
             alt="COED-19"
             className={styles.Coed19}
             src="/assets/coed19/coed19-lineup.jpg"
+          />
+        </a>
+      </Section>
+      <Section>
+        <a href="/stream">
+          <img
+            alt="Impact 2019"
+            className={styles.Coed19}
+            src="/assets/lineup19.png"
           />
         </a>
       </Section>

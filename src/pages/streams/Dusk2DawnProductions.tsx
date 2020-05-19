@@ -12,8 +12,8 @@ const Dusk2DawnProductions = () => {
         "truesoundevents",
       ]}
       channel="dusk2dawnproductions"
-      eventLogo="/assets/coed19/coed19-day2.jpg"
-      eventName="COED-19"
+      eventLogo="/assets/difbanner-min.jpg"
+      eventName="Digital Impact Festival"
     />
   );
 };

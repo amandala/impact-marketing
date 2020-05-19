@@ -33,7 +33,7 @@ export default () => {
         </button>
         <nav
           className={cx(styles.Nav, {
-            [styles.NavFadeIn]: !!navOpen
+            [styles.NavFadeIn]: !!navOpen,
           })}
         >
           <div className={styles.Content}>
@@ -44,9 +44,9 @@ export default () => {
               <li onClick={() => setNavOpenState(false)}>
                 <Link href="/stream">Live Stream</Link>
               </li>
-              {/* <li onClick={() => setNavOpenState(false)}>
-                <Link href="/experience">Experience</Link>
-              </li> */}
+              <li onClick={() => setNavOpenState(false)}>
+                <Link href="/apply">Apply</Link>
+              </li>
               <li onClick={() => setNavOpenState(false)}>
                 <Link href="/lineup">Lineup</Link>
               </li>

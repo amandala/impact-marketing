@@ -62,20 +62,6 @@ function App() {
                 path="/streams/dusk2dawnproductions"
                 component={Dusk2DawnProductions}
               />
-              <Route path="/streams/emengymusic" component={EmengyMusic} />
-              <Route
-                path="/streams/fouroverfourmusic"
-                component={FourOverFourMusic}
-              />
-              <Route path="/streams/socialsound" component={SocialSound} />
-              <Route
-                path="/streams/truesoundevents"
-                component={TrueSoundEvents}
-              />
-              <Route
-                path="/streams/zillalivepresents"
-                component={ZillalivePresents}
-              />
               <Route path="/" component={withTracker(Landing)} />
             </Switch>
             <Footer />
