@@ -23,7 +23,7 @@ export default () => {
         </div>
         <div className={styles.HomeLink}>
           <Link className={styles.CTA} href="/stream">
-            DIF - Digital Impact Festival July 16 - 19
+            Digital Impact Festival July 16 - 19
           </Link>
         </div>
       </div>
