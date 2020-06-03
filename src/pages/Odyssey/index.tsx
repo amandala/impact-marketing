@@ -2,13 +2,12 @@ import React from "react";
 
 import Section from "../../components/Section";
 import { H1 } from "../../components/Typography";
-import PadFooterWrapper from "../../components/PadFooterWrapper";
 import styles from "./index.module.scss";
 import PhotoDiv from "../../components/PhotoDiv";
 
 export default () => {
   return (
-    <PadFooterWrapper>
+    <div>
       <PhotoDiv className={styles.PhotoDiv1}>
         <Section className={styles.PhotoContent}>
           <div className={styles.LogoWrapper}>
@@ -39,6 +38,6 @@ export default () => {
           <H1>Unique stage design</H1>
         </Section>
       </PhotoDiv>
-    </PadFooterWrapper>
+    </div>
   );
 };

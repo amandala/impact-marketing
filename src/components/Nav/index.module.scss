@@ -121,6 +121,15 @@
   bottom: 0;
 }
 
+.SocialLinks {
+  flex-direction: row;
+  margin-top: 32px;
+}
+
+.SocialIcon {
+  max-width: 50px;
+}
+
 @include large {
   .Burger {
     left: 25px;

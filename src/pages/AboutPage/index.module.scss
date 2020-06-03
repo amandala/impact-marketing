@@ -83,48 +83,6 @@
   flex-direction: column;
 }
 
-.SocialLinks {
-  flex-direction: row;
-  margin-top: 32px;
-}
-
-.SocialIcon {
-  max-width: 50px;
-}
-
-.Logos {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.LogoWrapper {
-  padding: 20px;
-  margin-bottom: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &:last-of-type {
-    margin-bottom: 0;
-  }
-
-  @include transitionAll;
-
-  &:hover {
-    transform: scale(1.02);
-  }
-}
-
-.Logo {
-  width: 100%;
-  max-width: 150px;
-}
-
-.Covid {
-  text-align: left;
-}
-
 .CoreValue {
   margin-bottom: 45px;
 }
@@ -137,27 +95,6 @@
 
   .Wrapper {
     padding-top: 40px;
-  }
-
-  .Logos {
-    flex-direction: row;
-    max-width: 800px;
-    justify-content: space-between;
-  }
-
-  .LogosSection {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .LogoWrapper {
-    margin-bottom: 0;
-    margin-right: 24px;
-
-    &:last-of-type {
-      margin-right: 0;
-    }
   }
 
   .ValuesImages {
