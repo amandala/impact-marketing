@@ -11,11 +11,6 @@ import styles from "./index.module.scss";
 export default () => {
   return (
     <div className={styles.Wrapper}>
-      <img
-        className={styles.DifBanner}
-        src="/assets/difbanner-min.jpg"
-        alt="Dif Banner"
-      />
       <Section>
         <StreamPage
           eventChannels={[
@@ -25,6 +20,7 @@ export default () => {
             "truesoundevents",
           ]}
           channel="impact"
+          eventLogo="/assets/difbanner-min.jpg"
           eventName="Digital Impact Festival"
         />
       </Section>

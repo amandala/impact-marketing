@@ -15,7 +15,7 @@ export default () => {
           </video>
         </div>
       )}
-      <PhotoDiv className={styles.Above}>
+      <PhotoDiv className={styles.Home1}>
         <Section className={styles.Section}>
           <H1 impact>
             Digital IMPACT Festival will feature fully immersive Virtual Stages
@@ -29,7 +29,7 @@ export default () => {
           </Section>
         </Section>
       </PhotoDiv>
-      <PhotoDiv className={styles.Story}>
+      <PhotoDiv className={styles.Home2}>
         <Section className={styles.Section}>
           <H1 impact>Join our Workshop Stage and get inspired!</H1>
           <P>Yoga, Dance, Flow</P>
@@ -38,7 +38,7 @@ export default () => {
           <P>Learn new skills</P>
         </Section>
       </PhotoDiv>
-      <PhotoDiv className={styles.AttendCTA}>
+      <PhotoDiv className={styles.Home3}>
         <Section className={styles.Section}>
           <H1 impact>Check out the Virtual Marketplace</H1>
           <P>Artist Merchandise</P>
@@ -46,7 +46,7 @@ export default () => {
           <P>Support small businesses</P>
         </Section>
       </PhotoDiv>
-      <PhotoDiv className={styles.Social}>
+      <PhotoDiv className={styles.Home4}>
         <Section className={styles.Section}>
           <H1 impact>vip - Very important Philanthropist</H1>
           <P>Zoom meet-n-greets with select artists</P>
@@ -56,7 +56,7 @@ export default () => {
           <Tiny>Headset not required for VR Experience</Tiny>
         </Section>
       </PhotoDiv>
-      <PhotoDiv className={styles.Social}>
+      <PhotoDiv className={styles.Home5}>
         <Section className={styles.Section}>
           <H1 impact>Virtual art gallery</H1>
           <P>Watch live art unfold before your eyes</P>
