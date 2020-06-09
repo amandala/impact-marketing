@@ -16,7 +16,7 @@ export default ({
 }: {
   channel: string;
   eventChannels: Array<string>;
-  eventLogo: string;
+  eventLogo?: string;
   eventName: string;
 }) => {
   return (
@@ -49,7 +49,9 @@ export default ({
       {/* <Layout className={styles.Nav}>
         <StreamNav activeChannel={channel} channels={eventChannels} />
       </Layout> */}
-      <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
+      {eventLogo ? (
+        <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
+      ) : null}
     </div>
   );
 };

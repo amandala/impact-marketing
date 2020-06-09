@@ -50,6 +50,50 @@ export default () => {
               <li onClick={() => setNavOpenState(false)}>
                 <Link href="/lineup">Lineup</Link>
               </li>
+              <div className={styles.SocialLinks}>
+                <li onClick={() => setNavOpenState(false)}>
+                  <a
+                    className={styles.Link}
+                    href="https://www.facebook.com/IMPACTFestivalBC/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className={styles.SocialIcon}
+                      src="/assets/fb.png"
+                      alt="Facebook"
+                    />
+                  </a>
+                </li>
+                <li onClick={() => setNavOpenState(false)}>
+                  <a
+                    className={styles.Link}
+                    href="https://www.facebook.com/groups/850413665327638/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className={styles.SocialIcon}
+                      src="/assets/imp.png"
+                      alt="Impact Group"
+                    />
+                  </a>
+                </li>
+                <li onClick={() => setNavOpenState(false)}>
+                  <a
+                    className={styles.Link}
+                    href="https://www.instagram.com/IMPACTfestival_bc/?hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className={styles.SocialIcon}
+                      src="/assets/insta.png"
+                      alt="Instagram"
+                    />
+                  </a>
+                </li>
+              </div>
             </ul>
           </div>
         </nav>

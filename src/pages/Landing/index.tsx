@@ -22,8 +22,8 @@ export default () => {
           </H1>
         </div>
         <div className={styles.HomeLink}>
-          <Link className={styles.CTA} href="/stream">
-            Digital Impact Festival July 16 - 19
+          <Link className={styles.CTA} href="/about">
+            Enter Site
           </Link>
         </div>
       </div>

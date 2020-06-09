@@ -1,28 +1,34 @@
 @import "../../styles/variables";
 
-.Above {
+.Home1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/photos/umbrella-min.jpg);
+    url(/photos/home1.jpg);
 }
 
-.Story {
+.Home2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/photos/riley-min.jpg);
+    url(/photos/home2.jpg);
 }
 
-.AttendCTA {
+.Home3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/photos/valley-min.jpg);
+    url(/photos/home3.jpg);
 }
 
-.Social {
+.Home4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/photos/youdecide-min.jpg);
+    url(/photos/home4.jpg);
+}
+
+.Home5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/photos/home5.jpg);
+  padding-bottom: 250px;
 }
 
 .MakeImpact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/photos/lumidDay-min.jpg);
+    url(/photos/valley-min.jpg);
   padding-bottom: 250px;
 }
 
@@ -83,48 +89,6 @@
   flex-direction: column;
 }
 
-.SocialLinks {
-  flex-direction: row;
-  margin-top: 32px;
-}
-
-.SocialIcon {
-  max-width: 50px;
-}
-
-.Logos {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.LogoWrapper {
-  padding: 20px;
-  margin-bottom: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &:last-of-type {
-    margin-bottom: 0;
-  }
-
-  @include transitionAll;
-
-  &:hover {
-    transform: scale(1.02);
-  }
-}
-
-.Logo {
-  width: 100%;
-  max-width: 150px;
-}
-
-.Covid {
-  text-align: left;
-}
-
 .CoreValue {
   margin-bottom: 45px;
 }
@@ -137,27 +101,6 @@
 
   .Wrapper {
     padding-top: 40px;
-  }
-
-  .Logos {
-    flex-direction: row;
-    max-width: 800px;
-    justify-content: space-between;
-  }
-
-  .LogosSection {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .LogoWrapper {
-    margin-bottom: 0;
-    margin-right: 24px;
-
-    &:last-of-type {
-      margin-right: 0;
-    }
   }
 
   .ValuesImages {
