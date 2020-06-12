@@ -23,7 +23,7 @@ export default () => {
         </div>
         <div className={styles.HomeLink}>
           <Link className={styles.CTA} href="/about">
-            Enter Site
+            make impact
           </Link>
         </div>
       </div>
