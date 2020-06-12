@@ -1,5 +1,6 @@
 import React from "react";
 import { H1, Tiny, P } from "../../components/Typography";
+import { ButtonLinkExternal, ButtonLink } from "../../components/Button";
 import Section from "../../components/Section";
 import PhotoDiv from "../../components/PhotoDiv";
 
@@ -9,8 +10,8 @@ export default () => {
   return (
     <div>
       {window.screen.width > 1024 && (
-        <div>
-          <video muted style={{ height: "100%", width: "100vw" }} autoPlay>
+        <div className={styles.VideoWrapper}>
+          <video className={styles.Video} muted autoPlay>
             <source src="/videos/blastoffv2.mp4" type="video/mp4" />
           </video>
         </div>
@@ -36,6 +37,9 @@ export default () => {
           <P>Music production</P>
           <P>Inspirational talks</P>
           <P>Learn new skills</P>
+          <ButtonLink className={styles.Apply} to="/apply">
+            Host a workshop
+          </ButtonLink>
         </Section>
       </PhotoDiv>
       <PhotoDiv className={styles.Home3}>
@@ -59,8 +63,21 @@ export default () => {
       <PhotoDiv className={styles.Home5}>
         <Section className={styles.Section}>
           <H1 impact>Virtual art gallery</H1>
-          <P>Watch live art unfold before your eyes</P>
-          <P>Purchase artwork directly to support the artist</P>
+          <P>
+            Watch live art unfold before your eyes on the graffiti mural jam
+            stream
+          </P>
+          <P>
+            Purchase artwork directly to support the artist through our
+            marketplace
+          </P>
+          <P>Visit a virtual art gallery and browse art for sale</P>
+          <ButtonLinkExternal
+            className={styles.Apply}
+            to="https://forms.gle/ZBgczQZZaEA8HQxN8"
+          >
+            Apply as a creative
+          </ButtonLinkExternal>
         </Section>
       </PhotoDiv>
       <PhotoDiv className={styles.MakeImpact}>

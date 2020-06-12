@@ -1,5 +1,10 @@
 @import "../../styles/variables";
 
+.Apply {
+  display: inline-block;
+  margin-top: 20px;
+}
+
 .Home1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/photos/home1.jpg);
@@ -30,6 +35,17 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/photos/valley-min.jpg);
   padding-bottom: 250px;
+}
+
+.Video {
+  height: 100%;
+  width: 100vw;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+
+.VideoWrapper {
+  background-color: black;
 }
 
 .Value {
