@@ -40,7 +40,6 @@ function App() {
           <Nav />
           <div className={styles.Main}>
             <Switch>
-              <Route path="/about" component={withTracker(About)} />
               <Route path="/apply" component={withTracker(Apply)} />
               <Route path="/experience" component={withTracker(Experience)} />
               <Route
@@ -62,7 +61,7 @@ function App() {
                 path="/streams/dusk2dawnproductions"
                 component={Dusk2DawnProductions}
               />
-              <Route path="/" component={withTracker(Landing)} />
+              <Route path="/" component={withTracker(About)} />
             </Switch>
             <Footer />
           </div>
