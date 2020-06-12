@@ -1,8 +1,17 @@
 @import "../../styles/variables";
 
+.About {
+  background-color: black;
+}
+
 .Apply {
   display: inline-block;
   margin-top: 20px;
+}
+
+.Mosaic {
+  border: 5px solid white;
+  width: 100%;
 }
 
 .Home1 {
@@ -28,13 +37,12 @@
 .Home5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/photos/home5.jpg);
-  padding-bottom: 250px;
 }
 
 .MakeImpact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/photos/valley-min.jpg);
-  padding-bottom: 250px;
+  padding-bottom: 45px;
 }
 
 .Video {

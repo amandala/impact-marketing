@@ -8,7 +8,7 @@ import styles from "./index.module.scss";
 
 export default () => {
   return (
-    <div>
+    <div className={styles.About}>
       {window.screen.width > 1024 && (
         <div className={styles.VideoWrapper}>
           <video className={styles.Video} muted autoPlay>
@@ -48,6 +48,9 @@ export default () => {
           <P>Artist Merchandise</P>
           <P>Local Merchants</P>
           <P>Support small businesses</P>
+          <ButtonLink className={styles.Apply} to="/apply">
+            Sell in our Marketplace
+          </ButtonLink>
         </Section>
       </PhotoDiv>
       <PhotoDiv className={styles.Home4}>
@@ -161,6 +164,11 @@ export default () => {
             stronger, happier and more grateful than ever before.
           </P>
           <H1>Love - The IMPACT Fam 💙</H1>
+          <img
+            className={styles.Mosaic}
+            src="/assets/impact-mosaic.jpg"
+            alt="Mosaic"
+          />
         </Section>
       </PhotoDiv>
     </div>

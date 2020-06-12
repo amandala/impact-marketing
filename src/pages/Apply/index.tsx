@@ -9,7 +9,7 @@ export default () => {
     <div className={styles.Wrapper}>
       <ReactTypeformEmbed
         style={{
-          "max-width": "900px",
+          // "max-width": "1200px",
           "margin-left": "auto",
           "margin-right": "auto",
           left: 0,

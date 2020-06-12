@@ -1,5 +1,6 @@
 .Wrapper {
   min-height: 100vh;
   position: relative;
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
