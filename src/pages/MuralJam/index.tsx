@@ -110,6 +110,11 @@ export default () => {
           </strong>
           .
         </P>
+        <P>
+          To save a spot in the mural jam, please fill apply as an Art
+          Contributor through our{" "}
+          <InlineLink href="/apply">application portal.</InlineLink>
+        </P>
         <P>Initial planning session: June 20, 2PM</P>
         <P>Mural Jam July 18 8pm - July 19 8pm</P>
         <P>
