@@ -19,8 +19,8 @@ export default () => {
             "zillalivepresents",
             "truesoundevents",
           ]}
-          channel="blackfreedomsociety"
-          eventLogo="/assets/freedom-march-poster.png"
+          channel="dusk2dawnproductions"
+          eventLogo="/assets/difbanner-min.jpg"
           eventName="Digital Impact Festival"
         />
       </Section>
