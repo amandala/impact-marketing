@@ -26,6 +26,12 @@
 
 .EventGraphic {
   max-width: 100%;
+  width: 100vw;
+
+  &Wrapper {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .DonateButton {

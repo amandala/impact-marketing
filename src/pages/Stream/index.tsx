@@ -19,12 +19,12 @@ export default () => {
             "zillalivepresents",
             "truesoundevents",
           ]}
-          channel="impact"
+          channel="dusk2dawnproductions"
           eventLogo="/assets/difbanner-min.jpg"
           eventName="Digital Impact Festival"
         />
       </Section>
-      <Layout className={styles.Channels}>
+      {/* <Layout className={styles.Channels}>
         <ButtonLinkExternal
           className={styles.DonateButton}
           to="https://paypal.me/makeimpact"
@@ -45,7 +45,7 @@ export default () => {
             <ChannelLink channel="dusk2dawnproductions" />
           </div>
         </Section>
-      </Layout>
+      </Layout> */}
     </div>
   );
 };

@@ -45,13 +45,19 @@ export default ({
       >
         Donate @ paypal.me/makeimpact
       </ButtonLinkExternal>
+      {eventLogo ? (
+        <div className={styles.EventGraphicWrapper}>
+          <img
+            alt={eventName}
+            className={styles.EventGraphic}
+            src={eventLogo}
+          />
+        </div>
+      ) : null}
       <TwitchChannel channel={channel} />
       {/* <Layout className={styles.Nav}>
         <StreamNav activeChannel={channel} channels={eventChannels} />
       </Layout> */}
-      {eventLogo ? (
-        <img alt={eventName} className={styles.EventGraphic} src={eventLogo} />
-      ) : null}
     </div>
   );
 };

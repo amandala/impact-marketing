@@ -1,6 +1,6 @@
 import React from "react";
 import { H1, Tiny, P } from "../../components/Typography";
-import { ButtonLinkExternal, ButtonLink } from "../../components/Button";
+import { ButtonLink } from "../../components/Button";
 import Section from "../../components/Section";
 import PhotoDiv from "../../components/PhotoDiv";
 
@@ -75,12 +75,9 @@ export default () => {
             marketplace
           </P>
           <P>Visit a virtual art gallery and browse art for sale</P>
-          <ButtonLinkExternal
-            className={styles.Apply}
-            to="https://forms.gle/ZBgczQZZaEA8HQxN8"
-          >
+          <ButtonLink className={styles.Apply} to="/apply">
             Apply as a creative
-          </ButtonLinkExternal>
+          </ButtonLink>
         </Section>
       </PhotoDiv>
       <PhotoDiv className={styles.MakeImpact}>
