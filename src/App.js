@@ -15,6 +15,7 @@ import {
   Limitless,
   Lineup,
   Media,
+  MuralJam,
   Oasis,
   Odyssey,
   Stages,
@@ -46,6 +47,7 @@ function App() {
               />
               <Route path="/lineup" component={withTracker(Lineup)} />
               <Route path="/media" component={withTracker(Media)} />
+              <Route path="/liveart" component={withTracker(MuralJam)} />
               <Route path="/oasis" component={withTracker(Oasis)} />
               <Route path="/odyssey" component={withTracker(Odyssey)} />
               <Route path="/stages" component={withTracker(Stages)} />

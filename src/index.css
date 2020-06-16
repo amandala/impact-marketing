@@ -17,3 +17,7 @@
   font-family: "AlienExp";
   src: local("AlienExp"), url(/fonts/alienleagueiiexpand.ttf) format("woff");
 }
+
+a {
+  text-decoration: none;
+}
