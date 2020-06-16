@@ -54,7 +54,7 @@ export default ({
           />
         </div>
       ) : null}
-      <TwitchChannel channel={channel} />
+      {/* <TwitchChannel channel={channel} /> */}
       {/* <Layout className={styles.Nav}>
         <StreamNav activeChannel={channel} channels={eventChannels} />
       </Layout> */}
