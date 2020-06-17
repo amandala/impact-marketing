@@ -7,15 +7,18 @@ import { withTracker } from "./withTracker";
 import styles from "./App.module.scss";
 
 import {
+  Art,
   About,
   Apply,
   Experience,
   GetInvolved,
+  Gallery,
   Landing,
   Limitless,
   Lineup,
   Media,
   MuralJam,
+  Marketplace,
   Oasis,
   Odyssey,
   Stages,
@@ -35,7 +38,9 @@ function App() {
           <div className={styles.Main}>
             <Switch>
               <Route path="/apply" component={withTracker(Apply)} />
+              <Route path="/art" component={withTracker(Art)} />
               <Route path="/experience" component={withTracker(Experience)} />
+              <Route path="/gallery" component={withTracker(Gallery)} />
               <Route
                 path="/get-involved"
                 component={withTracker(GetInvolved)}
@@ -46,6 +51,7 @@ function App() {
                 component={withTracker(GetInvolved)}
               />
               <Route path="/lineup" component={withTracker(Lineup)} />
+              <Route path="/marketplace" component={withTracker(Marketplace)} />
               <Route path="/media" component={withTracker(Media)} />
               <Route path="/liveart" component={withTracker(MuralJam)} />
               <Route path="/oasis" component={withTracker(Oasis)} />

@@ -50,6 +50,9 @@ export default () => {
               <li onClick={() => setNavOpenState(false)}>
                 <Link href="/lineup">Lineup</Link>
               </li>
+              <li onClick={() => setNavOpenState(false)}>
+                <Link href="/art">Art</Link>
+              </li>
               <div className={styles.SocialLinks}>
                 <li onClick={() => setNavOpenState(false)}>
                   <a

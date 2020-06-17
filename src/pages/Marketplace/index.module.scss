@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+.Coed19 {
+  width: 100%;
+}
+
+.HeadingWrapper {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Logo {
+  max-width: 200px;
+  margin-bottom: 25px;
+}
+
+.Black {
+  padding: 20px;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+}
+
+.ListItem {
+  line-height: 40px;
+  margin-bottom: 24px;
+}
+
+@include breakpoint(large) {
+  .Heading {
+    margin: 0;
+  }
+
+  .Logo {
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
+
+  .HeadingWrapper {
+    flex-direction: row;
+
+    text-align: left;
+  }
+}
