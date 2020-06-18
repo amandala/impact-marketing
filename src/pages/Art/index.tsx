@@ -1,8 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import Section from "../../components/Section";
-import { InlineLink } from "../../components/Link";
-import { H1, H2, P } from "../../components/Typography";
+import { H1, P } from "../../components/Typography";
 
 import styles from "./index.module.scss";
 import { ButtonLink } from "../../components/Button";

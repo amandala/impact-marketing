@@ -4,6 +4,7 @@ export { default as Apply } from "./Apply";
 export { default as Experience } from "./Experience";
 export { default as Gallery } from "./Gallery";
 export { default as GetInvolved } from "./GetInvolved";
+export { default as GraffitiInfo } from "./GraffitiInfo";
 export { default as Landing } from "./Landing";
 export { default as Limitless } from "./Limitless";
 export { default as Lineup } from "./Lineup";
