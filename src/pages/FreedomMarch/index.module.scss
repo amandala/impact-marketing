@@ -1,0 +1,18 @@
+.Black {
+  padding: 20px;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+}
+
+.Poster {
+  width: 100%;
+}
+
+.Logo {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.LogoWrapper {
+  display: flex;
+  align-items: center;
+}

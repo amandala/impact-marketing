@@ -1,6 +1,7 @@
 export { default as Art } from "./Art";
 export { default as About } from "./AboutPage";
 export { default as Apply } from "./Apply";
+export { default as FreedomMarch } from "./FreedomMarch";
 export { default as Experience } from "./Experience";
 export { default as Gallery } from "./Gallery";
 export { default as GetInvolved } from "./GetInvolved";

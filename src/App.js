@@ -24,6 +24,7 @@ import {
   Stages,
   Stream,
   GraffitiInfo,
+  FreedomMarch,
 } from "./pages";
 
 import { Dusk2DawnProductions } from "./pages/streams";
@@ -52,6 +53,10 @@ function App() {
                 component={withTracker(GetInvolved)}
               />
               <Route path="/lineup" component={withTracker(Lineup)} />
+              <Route
+                path="/freedom-march"
+                component={withTracker(FreedomMarch)}
+              />
               <Route path="/graff-info" component={withTracker(GraffitiInfo)} />
               <Route path="/marketplace" component={withTracker(Marketplace)} />
               <Route path="/media" component={withTracker(Media)} />
