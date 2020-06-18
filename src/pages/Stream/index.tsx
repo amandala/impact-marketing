@@ -13,15 +13,10 @@ export default () => {
     <div className={styles.Wrapper}>
       <Section>
         <StreamPage
-          eventChannels={[
-            "dusk2dawnproductions",
-            "emengymusic",
-            "zillalivepresents",
-            "truesoundevents",
-          ]}
-          channel="dusk2dawnproductions"
-          eventLogo="/assets/difbanner-min.jpg"
-          eventName="Digital Impact Festival"
+          eventChannels={[]}
+          channel="blackfreedomsociety"
+          eventLogo="/assets/freedom-march-poster.png"
+          eventName="Freedom March"
         />
       </Section>
       {/* <Layout className={styles.Channels}>
