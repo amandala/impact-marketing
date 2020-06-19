@@ -19,13 +19,13 @@ export default () => {
       </Section>
       <Section>
         <H1>
-          impact wants to help share your creative talents with the world!{" "}
+          impact wants to help share your creative talents with the world during
+          Digital Impact!{" "}
         </H1>
         <P>
-          We've got three different ways for you to contribute art to Digital
+          We've got two different ways for you to contribute art to Digital
           Impact.{" "}
           <ol>
-            <li>A Virtual Art gallery hosted in the Utherverse</li>
             <li>
               A Shopify powered marketplace where we manage the sales and send
               you the money.
@@ -39,14 +39,6 @@ export default () => {
       </Section>
       <Section>
         <ButtonLink to="/apply">Apply as a Creative</ButtonLink>
-      </Section>
-      <Section>
-        <H1>Virtual Art Gallery</H1>
-        <P>
-          We have partnered with Utherverse to bring a virtual art gallery to
-          our digital festival goers, and we want to showcase your art.
-        </P>
-        <ButtonLink to="/gallery">Virtual Gallery Details</ButtonLink>
       </Section>
       <Section>
         <H1>impact Marketplace</H1>
