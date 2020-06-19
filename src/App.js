@@ -64,7 +64,7 @@ function App() {
               <Route path="/oasis" component={withTracker(Oasis)} />
               <Route path="/odyssey" component={withTracker(Odyssey)} />
               <Route path="/stages" component={withTracker(Stages)} />
-              <Route path="/stream" component={withTracker(Stream)} />
+              <Route path="/stream" component={withTracker(FreedomMarch)} />
               <Route
                 path="/streams/dusk2dawnproductions"
                 component={Dusk2DawnProductions}

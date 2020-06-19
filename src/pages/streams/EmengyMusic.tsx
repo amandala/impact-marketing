@@ -1,5 +1,6 @@
 import React from "react";
-
+import ReactGA from "react-ga";
+import { ButtonLinkExternal } from "../../components/Button";
 import StreamPage from "../../components/StreamPage";
 
 const EmengyMusic = () => {
@@ -14,7 +15,20 @@ const EmengyMusic = () => {
       channel="emengymusic"
       eventLogo="/assets/coed19/coed19-day2.jpg"
       eventName="COED-19"
-    />
+    >
+      <ButtonLinkExternal
+        to="https://paypal.me/makeimpact"
+        onClick={() => {
+          ReactGA.event({
+            category: "stream",
+            action: "donate button click",
+            label: "Emengy Music stream",
+          });
+        }}
+      >
+        Donate @ paypal.me/makeimpact
+      </ButtonLinkExternal>
+    </StreamPage>
   );
 };
 

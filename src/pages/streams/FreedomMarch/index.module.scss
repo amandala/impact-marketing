@@ -16,3 +16,14 @@
   display: flex;
   align-items: center;
 }
+
+.Links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DonateButton {
+  margin-bottom: 24px;
+}

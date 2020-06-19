@@ -1,5 +1,6 @@
 import React from "react";
-
+import ReactGA from "react-ga";
+import { ButtonLinkExternal } from "../../components/Button";
 import StreamPage from "../../components/StreamPage";
 
 const Dusk2DawnProductions = () => {
@@ -14,7 +15,20 @@ const Dusk2DawnProductions = () => {
       channel="dusk2dawnproductions"
       eventLogo="/assets/difbanner-min.jpg"
       eventName="Digital Impact Festival"
-    />
+    >
+      <ButtonLinkExternal
+        to="https://paypal.me/makeimpact"
+        onClick={() => {
+          ReactGA.event({
+            category: "stream",
+            action: "donate button click",
+            label: "Dusk2Dawn stream",
+          });
+        }}
+      >
+        Donate @ paypal.me/makeimpact
+      </ButtonLinkExternal>
+    </StreamPage>
   );
 };
 

@@ -1,23 +1,20 @@
 import React from "react";
-import ReactGA from "react-ga";
 import cx from "classnames";
 import TwitchChannel from "../../components/TwitchChannel";
-//import Layout from "../../components/Layout";
-import { ButtonLinkExternal } from "../../components/Button";
-//import StreamNav from "./StreamNav";
 
 import styles from "./index.module.scss";
 
 export default ({
   channel,
-  eventChannels,
   eventLogo,
   eventName,
+  children,
 }: {
   channel: string;
   eventChannels: Array<string>;
   eventLogo?: string;
   eventName: string;
+  children?: React.ReactNode;
 }) => {
   return (
     <div className={styles.Wrapper}>
@@ -32,19 +29,6 @@ export default ({
           />
         </div>
       </div>
-      <ButtonLinkExternal
-        className={styles.DonateButton}
-        to="https://paypal.me/makeimpact"
-        onClick={() => {
-          ReactGA.event({
-            category: "stream",
-            action: "donate button click",
-            label: "coed19",
-          });
-        }}
-      >
-        Donate @ paypal.me/makeimpact
-      </ButtonLinkExternal>
       {eventLogo ? (
         <div className={styles.EventGraphicWrapper}>
           <img
@@ -54,10 +38,8 @@ export default ({
           />
         </div>
       ) : null}
+      {children}
       <TwitchChannel channel={channel} />
-      {/* <Layout className={styles.Nav}>
-        <StreamNav activeChannel={channel} channels={eventChannels} />
-      </Layout> */}
     </div>
   );
 };
