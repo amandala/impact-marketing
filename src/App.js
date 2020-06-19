@@ -12,7 +12,6 @@ import {
   Apply,
   Experience,
   GetInvolved,
-  Gallery,
   Landing,
   Limitless,
   Lineup,
@@ -42,7 +41,6 @@ function App() {
               <Route path="/apply" component={withTracker(Apply)} />
               <Route path="/art" component={withTracker(Art)} />
               <Route path="/experience" component={withTracker(Experience)} />
-              <Route path="/gallery" component={withTracker(Gallery)} />
               <Route
                 path="/get-involved"
                 component={withTracker(GetInvolved)}
