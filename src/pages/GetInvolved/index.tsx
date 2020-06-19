@@ -1,5 +1,4 @@
 import React from "react";
-
 import { ButtonLink } from "../../components/Button";
 import Section from "../../components/Section";
 import PhotoDiv from "../../components/PhotoDiv";

@@ -14,7 +14,7 @@ const EmengyMusic = () => {
       ]}
       channel="emengymusic"
       eventLogo="/assets/coed19/coed19-day2.jpg"
-      eventName="COED-19"
+      eventName=""
     >
       <ButtonLinkExternal
         to="https://paypal.me/makeimpact"

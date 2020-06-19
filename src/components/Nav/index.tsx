@@ -45,13 +45,13 @@ export default () => {
                 <Link href="/stream">Live Stream</Link>
               </li>
               <li onClick={() => setNavOpenState(false)}>
-                <Link href="/apply">Apply</Link>
-              </li>
-              <li onClick={() => setNavOpenState(false)}>
                 <Link href="/lineup">Lineup</Link>
               </li>
               <li onClick={() => setNavOpenState(false)}>
-                <Link href="/art">Art</Link>
+                <Link href="/art">Art Hub</Link>
+              </li>
+              <li onClick={() => setNavOpenState(false)}>
+                <Link href="/apply">Apply</Link>
               </li>
               <div className={styles.SocialLinks}>
                 <li onClick={() => setNavOpenState(false)}>

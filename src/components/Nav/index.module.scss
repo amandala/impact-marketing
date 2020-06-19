@@ -84,7 +84,7 @@
 }
 
 .Links {
-  padding-top: 100px;
+  padding-top: 70px;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -106,7 +106,7 @@
   text-transform: uppercase;
   margin-right: 10px;
   @include transitionAll;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
 
   &:hover,
@@ -123,11 +123,11 @@
 
 .SocialLinks {
   flex-direction: row;
-  margin-top: 32px;
+  margin-top: 20px;
 }
 
 .SocialIcon {
-  max-width: 50px;
+  max-width: 24px;
 }
 
 @include large {
@@ -136,6 +136,10 @@
   }
 
   .Links {
-    padding-top: 200px;
+    padding-top: 100px;
+  }
+
+  .SocialLinks {
+    flex-direction: column;
   }
 }

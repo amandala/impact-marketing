@@ -1,5 +1,4 @@
 import React from "react";
-
 import StreamPage from "../../components/StreamPage";
 
 const TrueSoundEvents = () => {
@@ -13,7 +12,7 @@ const TrueSoundEvents = () => {
       ]}
       channel="truesoundevents"
       eventLogo="/assets/coed19/coed19-day2.jpg"
-      eventName="COED-19"
+      eventName=""
     />
   );
 };

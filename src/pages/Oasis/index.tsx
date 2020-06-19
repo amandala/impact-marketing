@@ -1,5 +1,4 @@
 import React from "react";
-
 import Section from "../../components/Section";
 import { H1 } from "../../components/Typography";
 import PhotoDiv from "../../components/PhotoDiv";
