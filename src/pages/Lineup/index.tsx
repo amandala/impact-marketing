@@ -16,7 +16,7 @@ export default () => {
           <img
             alt="COED-19"
             className={styles.Coed19}
-            src="/assets/coed19/coed19-lineup.jpg"
+            src="/assets/events/coed19/coed19-lineup.jpg"
           />
         </a>
       </Section>
@@ -25,7 +25,7 @@ export default () => {
           <img
             alt="Impact 2019"
             className={styles.Coed19}
-            src="/assets/lineup19.png"
+            src="/assets/events/impact2019/lineup19.png"
           />
         </a>
       </Section>

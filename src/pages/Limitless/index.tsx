@@ -12,7 +12,7 @@ export default () => {
           <div className={styles.LogoWrapper}>
             <img
               className={styles.Logo}
-              src="/assets/limitless.png"
+              src="/assets/primary/limitless.png"
               alt="Limitless Stage"
             />
           </div>

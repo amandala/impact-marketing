@@ -77,17 +77,11 @@ export default () => {
         </P>
         <P>
           The jam in general, and the collab mural will be centered around the
-          themes of unity, peace, love, and community. There will be an initial
-          planning session for the collab mural held in Calgary on June 20, 2pm.
-          If you are interested in participating in the group mural, we want you
-          to be involved in the design! Details below.
-        </P>
-        <P>
-          Our location is a not-for-profit sports complex that hosts a number of
-          sports organizations with members of all ages, so there are just a few
-          rules for the art in general. Keeping in mind the charitable
-          recipients, the current state of the world, and the all-ages
-          population of the venue,{" "}
+          themes of unity, peace, love, and community. Our location is a
+          not-for-profit sports complex that hosts a number of sports
+          organizations with members of all ages, so there are just a few rules
+          for the art in general. Keeping in mind the charitable recipients, the
+          current state of the world, and the all-ages population of the venue,{" "}
           <strong>
             the art absolutely can not contain any gang affiliations, swears
             words, derogatory terms, or political sentiments
@@ -111,19 +105,8 @@ export default () => {
           </strong>
           .
         </P>
-        <P>
-          To save a spot in the mural jam, please apply as an Art Contributor
-          through our <InlineLink href="/apply">application portal.</InlineLink>
-        </P>
         <P>Mural Jam July 18 8pm - July 19 8pm</P>
-        <P>
-          Contact{" "}
-          <InlineLink href="mailto:amanda@partywell.org">
-            amanda@partywell.org
-          </InlineLink>{" "}
-          for the address and with any questions.
-        </P>
-        <P>I’m super excited to see what we create together!</P>
+        <P>Check back for more info!</P>
       </Section>
     </Layout>
   );

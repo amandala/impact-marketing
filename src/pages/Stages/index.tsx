@@ -19,7 +19,7 @@ export default () => {
               <div className={styles.LogoWrapper}>
                 <img
                   className={styles.Logo}
-                  src="/assets/odyssey.png"
+                  src="/assets/stages/odyssey.png"
                   alt="Odyssey Stage"
                 />
               </div>
@@ -28,7 +28,7 @@ export default () => {
               <div className={styles.LogoWrapper}>
                 <img
                   className={styles.Logo}
-                  src="/assets/oasis.png"
+                  src="/assets/stages/oasis.png"
                   alt="Oasis Stage"
                 />
               </div>
@@ -37,7 +37,7 @@ export default () => {
               <div className={styles.LogoWrapper}>
                 <img
                   className={styles.Logo}
-                  src="/assets/limitless.png"
+                  src="/assets/stages/limitless.png"
                   alt="Limitless Stage"
                 />
               </div>

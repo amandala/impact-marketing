@@ -11,7 +11,7 @@ const SocialSound = () => {
         "truesoundevents",
       ]}
       channel="socialsound"
-      eventLogo="/assets/coed19/coed19-day1.jpg"
+      eventLogo="/assets/events/coed19/coed19-day1.jpg"
       eventName=""
     />
   );

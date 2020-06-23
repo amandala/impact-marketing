@@ -10,6 +10,7 @@ import {
   Art,
   About,
   Apply,
+  Causes,
   Experience,
   GetInvolved,
   Landing,
@@ -40,6 +41,7 @@ function App() {
             <Switch>
               <Route path="/apply" component={withTracker(Apply)} />
               <Route path="/art" component={withTracker(Art)} />
+              <Route path="/causes" component={withTracker(Causes)} />
               <Route path="/experience" component={withTracker(Experience)} />
               <Route
                 path="/get-involved"
@@ -62,11 +64,7 @@ function App() {
               <Route path="/oasis" component={withTracker(Oasis)} />
               <Route path="/odyssey" component={withTracker(Odyssey)} />
               <Route path="/stages" component={withTracker(Stages)} />
-              <Route path="/stream" component={withTracker(FreedomMarch)} />
-              <Route
-                path="/streams/dusk2dawnproductions"
-                component={Dusk2DawnProductions}
-              />
+              <Route path="/stream" component={withTracker(Stream)} />
               <Route path="/about" component={withTracker(About)} />
               <Route path="/" component={withTracker(Landing)} />
             </Switch>

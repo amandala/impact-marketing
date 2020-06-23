@@ -63,7 +63,7 @@ export default () => {
                   >
                     <img
                       className={styles.SocialIcon}
-                      src="/assets/fb.png"
+                      src="/assets/primary/fb.png"
                       alt="Facebook"
                     />
                   </a>
@@ -77,7 +77,7 @@ export default () => {
                   >
                     <img
                       className={styles.SocialIcon}
-                      src="/assets/imp.png"
+                      src="/assets/primary/imp.png"
                       alt="Impact Group"
                     />
                   </a>
@@ -91,7 +91,7 @@ export default () => {
                   >
                     <img
                       className={styles.SocialIcon}
-                      src="/assets/insta.png"
+                      src="/assets/primary/insta.png"
                       alt="Instagram"
                     />
                   </a>

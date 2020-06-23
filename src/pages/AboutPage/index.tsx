@@ -85,22 +85,22 @@ export default () => {
           <div className={styles.ValuesImages}>
             <img
               className={styles.Value}
-              src="/assets/connected-community.png"
+              src="/assets/primary/connected-community.png"
               alt="Connected community"
             />
             <img
               className={styles.Value}
-              src="/assets/transformational-growth.png"
+              src="/assets/primary/transformational-growth.png"
               alt="Transformational Growth"
             />
             <img
               className={styles.Value}
-              src="/assets/positive-impact.png"
+              src="/assets/primary/positive-impact.png"
               alt="Positive Impact"
             />
             <img
               className={styles.Value}
-              src="/assets/radical-responsibility.png"
+              src="/assets/primary/radical-responsibility.png"
               alt="Radical Responsibility"
             />
           </div>
@@ -163,7 +163,7 @@ export default () => {
           <H1>Love - The IMPACT Fam 💙</H1>
           <img
             className={styles.Mosaic}
-            src="/assets/impact-mosaic.jpg"
+            src="/assets/primary/impact-mosaic.jpg"
             alt="Mosaic"
           />
         </Section>

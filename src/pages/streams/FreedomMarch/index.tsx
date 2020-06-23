@@ -15,14 +15,14 @@ const BlackFreedomSociety = () => {
         <div className={styles.LogoWrapper}>
           <img
             className={styles.Logo}
-            src="/assets/black-freedom-society.png"
+            src="/assets/causes/black-lives-matter/black-freedom-society.png"
             alt="Black Freedom Society Logo"
           />
         </div>
         <Section>
           <img
             className={styles.Poster}
-            src="/assets/freedom-march-poster.png"
+            src="/assets/causes/black-lives-matter/freedom-march-poster.png"
             alt="Freedom March Poster"
           />
         </Section>

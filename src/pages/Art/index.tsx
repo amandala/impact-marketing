@@ -10,7 +10,7 @@ export default () => {
   return (
     <Layout className={styles.Black}>
       <Section className={styles.HeadingWrapper}>
-        <img className={styles.Logo} src="/assets/impactlogo.png" />
+        <img className={styles.Logo} src="/assets/primary/impactlogo.png" />
         <div>
           <H1 impact className={styles.Heading}>
             Art Contribution information Hub

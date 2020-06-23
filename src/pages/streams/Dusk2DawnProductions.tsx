@@ -13,7 +13,7 @@ const Dusk2DawnProductions = () => {
         "truesoundevents",
       ]}
       channel="dusk2dawnproductions"
-      eventLogo="/assets/difbanner-min.jpg"
+      eventLogo="/assets/events/digital-impact/difbanner-min.jpg"
       eventName="Digital Impact Festival"
     >
       <ButtonLinkExternal

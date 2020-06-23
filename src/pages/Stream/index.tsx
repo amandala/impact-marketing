@@ -9,9 +9,9 @@ export default () => {
       <Section>
         <StreamPage
           eventChannels={[]}
-          channel="blackfreedomsociety"
-          eventLogo="/assets/freedom-march-poster.png"
-          eventName="Freedom March"
+          channel="dusk2dawnproductions"
+          eventLogo="/assets/events/digital-impact/difbanner-min.jpg"
+          eventName="Digital Impact"
         />
       </Section>
     </div>

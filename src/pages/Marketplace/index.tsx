@@ -12,7 +12,7 @@ export default () => {
       <Section className={styles.HeadingWrapper}>
         <img
           className={styles.Logo}
-          src="/assets/impactlogo.png"
+          src="/assets/primary/impactlogo.png"
           alt="Impact Logo"
         />
         <div>

@@ -11,7 +11,7 @@ const TrueSoundEvents = () => {
         "truesoundevents",
       ]}
       channel="truesoundevents"
-      eventLogo="/assets/coed19/coed19-day2.jpg"
+      eventLogo="/assets/events/coed19/coed19-day2.jpg"
       eventName=""
     />
   );
