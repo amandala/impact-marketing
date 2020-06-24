@@ -102,7 +102,7 @@ export default () => {
           public donations go towards funding global clean water projects.
         </P>
         <P>
-          They've partnered with
+          They've partnered with{" "}
           <InlineLink href="https://waterfirst.ngo/">Water First</InlineLink> to
           help bring safe drinking water to First Nations communities by
           providing clean water infrastructure and training within the
