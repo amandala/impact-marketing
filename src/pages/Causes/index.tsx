@@ -99,22 +99,18 @@ export default () => {
           True North Water is a registered Public Foundation based in Calgary
           Alberta on a mission to bring clean drinking water to those most in
           need. They cover the overhead cost of their initiatives, so 100% of
-          public donations go towards funding global clean water projects.{" "}
+          public donations go towards funding global clean water projects.
         </P>
         <P>
-          They've partnered with Confluence Distilling and Barrow Espresso in
-          Calgary to bring you{" "}
-          <InlineLink href="https://truenorthwater.org/thirst">
-            The Thirst Initiative
-          </InlineLink>{" "}
-          where donating is as easy as ordering a delicious drink or comforting
-          coffee.
+          They've partnered with
+          <InlineLink href="https://waterfirst.ngo/">Water First</InlineLink> to
+          help bring safe drinking water to Indigenous Communities with clean
+          water infrastructure and training within the community.
         </P>
         <P>
-          True North Water really wants you to have fun while you make a
-          difference, so they created BigBash. A mini-game style mobile app
-          where just playing accumulates donations on your behalf completely
-          free of cost to you.
+          They also want you to have fun while you make a difference, so they
+          created BigBash. A mini-game style mobile app where just playing
+          accumulates donations on your behalf completely free of cost to you.
         </P>
         <div className={styles.Links}>
           <ButtonLinkExternal
