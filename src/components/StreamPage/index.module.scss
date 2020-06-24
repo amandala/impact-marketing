@@ -25,8 +25,9 @@
 }
 
 .EventGraphic {
-  max-width: 100%;
-  margin-bottom: 50px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 20px 50px;
 
   &Wrapper {
     display: flex;
