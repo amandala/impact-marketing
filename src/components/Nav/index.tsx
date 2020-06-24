@@ -42,6 +42,9 @@ export default () => {
                 <Link href="/about">Home</Link>
               </li>
               <li onClick={() => setNavOpenState(false)}>
+                <Link href="/causes">Causes</Link>
+              </li>
+              <li onClick={() => setNavOpenState(false)}>
                 <Link href="/stream">Live Stream</Link>
               </li>
               <li onClick={() => setNavOpenState(false)}>
