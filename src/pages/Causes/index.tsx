@@ -16,8 +16,8 @@ export default () => {
           impact!
         </H1>
         <P>
-          Check out the great causes we are supporting for our Digital Impact
-          event July 16 - 19.
+          Check out the great causes we are supporting with donations raised at
+          our Digital Impact event July 16 - 19.
         </P>
       </Section>
       <Section>
