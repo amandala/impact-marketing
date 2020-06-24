@@ -104,7 +104,7 @@ export default () => {
         <P>
           They've partnered with
           <InlineLink href="https://waterfirst.ngo/">Water First</InlineLink> to
-          help bring safe drinking water to Indigenous Communities with clean
+          help bring safe drinking water to First Nations Communities with clean
           water infrastructure and training within the community.
         </P>
         <P>
