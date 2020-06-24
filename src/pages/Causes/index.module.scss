@@ -16,6 +16,10 @@
   margin-bottom: 24px;
 }
 
+.Links {
+  margin-bottom: 100px;
+}
+
 @include breakpoint(large) {
   .Heading {
     margin: 0;
@@ -24,5 +28,9 @@
   .Logo {
     margin-right: 25px;
     margin-bottom: 0;
+  }
+
+  .Links {
+    margin-bottom: 150px;
   }
 }
