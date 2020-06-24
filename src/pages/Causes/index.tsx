@@ -122,6 +122,12 @@ export default () => {
           </ButtonLinkExternal>
           <ButtonLinkExternal
             className={styles.Link}
+            to="https://waterfirst.ngo/"
+          >
+            RESOURCE: Water First
+          </ButtonLinkExternal>
+          <ButtonLinkExternal
+            className={styles.Link}
             to="https://truenorthwater.org/thirst"
           >
             RESOURCE: Thirst Initiative
