@@ -64,6 +64,10 @@ export default () => {
           as our charity recipients for our next event, Digital Impact, Jul 16 -
           19. This time we want to make even more of an impact!
         </P>
+        <P>
+          Check out our <InlineLink href="/causes">causes page</InlineLink> to
+          learn more about our selected causes for Digital Impact.
+        </P>
       </Section>
       <Section>
         <H1>Graffiti Jam July 18-19</H1>
