@@ -54,7 +54,7 @@ function App() {
               />
               <Route path="/lineup" component={withTracker(Lineup)} />
               <Route
-                path="/freedom-march"
+                path="/gallery/freedom-march"
                 component={withTracker(FreedomMarch)}
               />
               <Route path="/graff-info" component={withTracker(GraffitiInfo)} />

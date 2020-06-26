@@ -9,7 +9,7 @@ import { InlineLink } from "../../components/Link";
 
 export default () => {
   return (
-    <Layout className={styles.Black}>
+    <Layout black>
       <Section>
         <H1 impact>
           We are on a mission to unite the world and maximize our collective
@@ -84,7 +84,7 @@ export default () => {
         </P>
         <div className={styles.Links}>
           <ButtonLinkExternal className={styles.Link} to="https://cmha.ca/">
-            RESOURCE: cmha.ca/
+            RESOURCE: cmha.ca
           </ButtonLinkExternal>
         </div>
       </Section>
@@ -103,7 +103,7 @@ export default () => {
         </P>
         <P>
           They've partnered with{" "}
-          <InlineLink href="https://waterfirst.ngo/">Water First</InlineLink> to
+          <InlineLink href="https://waterfirst.ngo">Water First</InlineLink> to
           help bring safe drinking water to First Nations communities by
           providing clean water infrastructure and training within the
           community.
@@ -122,7 +122,7 @@ export default () => {
           </ButtonLinkExternal>
           <ButtonLinkExternal
             className={styles.Link}
-            to="https://waterfirst.ngo/"
+            to="https://waterfirst.ngo"
           >
             RESOURCE: Water First
           </ButtonLinkExternal>
@@ -154,7 +154,7 @@ export default () => {
         </P>
         <ul className={styles.List}>
           <li className={styles.ListItem}>
-            25% of all donations will be going to the artists involved
+            A portion of donations will be going to the artists involved
           </li>
           <li className={styles.ListItem}>Direct Donations to artists</li>
           <li className={styles.ListItem}>
@@ -164,6 +164,26 @@ export default () => {
             VIP meet and greets help directly support the artist
           </li>
         </ul>
+        <div className={styles.Links}>
+          <ButtonLinkExternal
+            className={styles.Link}
+            to="https://paypal.me/makeimpact"
+          >
+            DONATE: https://paypal.me/makeimpact
+          </ButtonLinkExternal>
+        </div>
+      </Section>
+      <Section>
+        <img
+          className={styles.ImpactLogo}
+          src="/assets/primary/wordmark.png"
+          alt="Impact"
+        />
+        <P>This event will help fund our non-profit society!</P>
+        <P>
+          With your support we can continue to grow and create bigger and better
+          events and support even more causes.
+        </P>
       </Section>
     </Layout>
   );
