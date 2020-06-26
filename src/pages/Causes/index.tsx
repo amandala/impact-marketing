@@ -146,6 +146,25 @@ export default () => {
           </ButtonLinkExternal>
         </div>
       </Section>
+      <Section>
+        <H1 impact>impact Artist fund</H1>
+        <P>
+          Covid-19 has created a very difficult environment for artists. So we
+          thought of some unique ways for artists to earn money.{" "}
+        </P>
+        <ul className={styles.List}>
+          <li className={styles.ListItem}>
+            25% of all donations will be going to the artists involved
+          </li>
+          <li className={styles.ListItem}>Direct Donations to artists</li>
+          <li className={styles.ListItem}>
+            Purchase artist merch in the market
+          </li>
+          <li className={styles.ListItem}>
+            VIP meet and greets help directly support the artist
+          </li>
+        </ul>
+      </Section>
     </Layout>
   );
 };

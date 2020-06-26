@@ -20,6 +20,19 @@
   margin-bottom: 100px;
 }
 
+.List {
+  color: white;
+}
+
+.ListItem {
+  font-family: $roboto;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
 @include breakpoint(large) {
   .Heading {
     margin: 0;
