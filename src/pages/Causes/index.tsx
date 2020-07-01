@@ -91,7 +91,7 @@ export default () => {
       <Section>
         <img
           className={styles.CauseLogo}
-          src="/assets/causes/true-north-water/tnw-logo.jpg"
+          src="/assets/causes/true-north-water/tnw-logo-white.png"
           alt="True North Water Logo"
         />
         <H1>True North Water</H1>

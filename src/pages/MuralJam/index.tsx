@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout";
 import Section from "../../components/Section";
 import { InlineLink } from "../../components/Link";
-import { H1, H2, P } from "../../components/Typography";
+import { H1, H2, H3, P } from "../../components/Typography";
 
 import styles from "./index.module.scss";
 
@@ -30,7 +30,7 @@ export default () => {
         </Section>
       </a>
       <Section>
-        <H1>intro to impact</H1>
+        <H1 impact>intro to impact</H1>
         <P>
           Impact Festival Society is a not-for-profit event production company
           based in Vancouver. The endeavour is a collaboration between{" "}
@@ -45,40 +45,45 @@ export default () => {
           current world events and the inability to have large public events, we
           decided to pivot to a digital festival and weather out the storm.
         </P>
-        <P>
-          We had our trial run in April with four twitch stages embedded on our
-          ImpactFestival.ca website. Throughout the course of the weekend we
-          raised over $6000 for our selected charity recipients. We have
-          partnered with the{" "}
-          <InlineLink href="https://www.facebook.com/events/255274695739056/">
-            Black Freedom Society
-          </InlineLink>
-          ,{" "}
-          <InlineLink href="https://truenorthwater.org/?q=cache:4h6NYRbRO8UJ:https://truenorthwater.org/+&cd=1&hl=en&ct=clnk&gl=ca">
-            True North Water
-          </InlineLink>
-          , and the{" "}
-          <InlineLink href="https://cmha.ca/">
-            Canadian Mental Health Association
-          </InlineLink>{" "}
-          as our charity recipients for our next event, Digital Impact, Jul 16 -
-          19. This time we want to make even more of an impact!
-        </P>
+
         <P>
           Check out our <InlineLink href="/causes">causes page</InlineLink> to
           learn more about our selected causes for Digital Impact.
         </P>
       </Section>
       <Section>
-        <H1>Graffiti Jam July 18-19</H1>
+        <H1 impact>Graffiti Jam July 18-19</H1>
+        <H2>July 18</H2>
+        <H3>12:00pm - Jam starts.</H3>
+        <P>You are welcome to start painting at noon on Saturday.</P>
+        <H3>8:00pm - Livestream Party</H3>
         <P>
-          Being that we are throwing a digital festival this time around, we are
-          in a unique position to decentralize our creative productions. As
-          such, there will be a 24 hour private graffiti jam hosted at an indoor
-          location in NE Calgary. There is plenty of space available, so there
-          is opportunity to collaborate on a large mural with a number of
-          artists and/or do an individual piece.
+          Musubi Rising is working hard to curate a lineup of awesome DJs,
+          bands, and MCs to keep us entertained for the night and straight
+          through Sunday.
         </P>
+        <P>
+          <InlineLink href="https://www.nowayjoseproductions.com/">
+            No Way Jose Productions
+          </InlineLink>{" "}
+          has partnered up to bring professional video production so your art
+          can shine on our Twitch spotlight stage.
+        </P>
+        <H2>July 19</H2>
+        <H3>8pm - Jam ends.</H3>
+        <P>
+          In order to be mindful of the sporting organizations that have events
+          in the space the following week, we need to wrap up our creation no
+          later than 8pm on Sunday.There's going to be a lot of clean-up to do!
+        </P>
+        <P>
+          If you are able to stick around and help out with tear down that would
+          be greatly appreciated. We will provide pizza and beer to the diehard
+          cleanup crew.
+        </P>
+      </Section>
+      <Section>
+        <H1 impact>Things to Note</H1>
         <P>
           The jam in general, and the collab mural will be centered around the
           themes of unity, peace, love, and community. Our location is a
@@ -94,13 +99,6 @@ export default () => {
           Rights, and Mental Health are welcomed and encouraged.
         </P>
         <P>
-          The jam is going to be a 24 hour event and you are welcome to begin
-          painting at 8pm Saturday night and go straight through the night and
-          until 8pm on Sunday the 19th. There will be a stage set up in the main
-          room with live dj sets for the entirety of the event. There is space
-          to set up a tent, should you need a power nap.
-        </P>
-        <P>
           We will be livestreaming the event via Twitch embedded on our website,
           so{" "}
           <strong>
@@ -109,8 +107,6 @@ export default () => {
           </strong>
           .
         </P>
-        <P>Mural Jam July 18 8pm - July 19 8pm</P>
-        <P>Check back for more info!</P>
       </Section>
     </Layout>
   );

@@ -12,7 +12,7 @@ export default () => {
       {window.screen.width > 1024 && (
         <div className={styles.VideoWrapper}>
           <video className={styles.Video} muted autoPlay>
-            <source src="/videos/blastoffv2.mp4" type="video/mp4" />
+            <source src="/videos/finalcut.mp4" type="video/mp4" />
           </video>
         </div>
       )}
