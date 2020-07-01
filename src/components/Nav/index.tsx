@@ -42,6 +42,9 @@ export default () => {
                 <Link href="/about">Home</Link>
               </li>
               <li onClick={() => setNavOpenState(false)}>
+                <Link href="/media">Media</Link>
+              </li>
+              <li onClick={() => setNavOpenState(false)}>
                 <Link href="/causes">Causes</Link>
               </li>
               <li onClick={() => setNavOpenState(false)}>
@@ -57,7 +60,10 @@ export default () => {
                 <Link href="/apply">Apply</Link>
               </li>
               <div className={styles.SocialLinks}>
-                <li onClick={() => setNavOpenState(false)}>
+                <li
+                  className={styles.SocialLink}
+                  onClick={() => setNavOpenState(false)}
+                >
                   <a
                     className={styles.Link}
                     href="https://www.facebook.com/IMPACTFestivalBC/"
@@ -71,7 +77,10 @@ export default () => {
                     />
                   </a>
                 </li>
-                <li onClick={() => setNavOpenState(false)}>
+                <li
+                  className={styles.SocialLink}
+                  onClick={() => setNavOpenState(false)}
+                >
                   <a
                     className={styles.Link}
                     href="https://www.facebook.com/groups/850413665327638/"
@@ -85,7 +94,10 @@ export default () => {
                     />
                   </a>
                 </li>
-                <li onClick={() => setNavOpenState(false)}>
+                <li
+                  className={styles.SocialLink}
+                  onClick={() => setNavOpenState(false)}
+                >
                   <a
                     className={styles.Link}
                     href="https://www.instagram.com/IMPACTfestival_bc/?hl=en"
