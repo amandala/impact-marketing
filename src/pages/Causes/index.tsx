@@ -147,6 +147,11 @@ export default () => {
         </div>
       </Section>
       <Section>
+        <img
+          className={styles.CauseLogo}
+          src="/assets/causes/artist-fund-logo.png"
+          alt="Impact Artist Fund Logo"
+        />
         <H1 impact>impact Artist fund</H1>
         <P>
           Covid-19 has created a very difficult environment for artists. So we
