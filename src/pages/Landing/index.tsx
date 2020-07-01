@@ -27,6 +27,9 @@ export default () => {
           </Link>
         </div>
       </div>
+      <video className={styles.Video} muted autoPlay>
+        <source src="/videos/finalcut.mp4" type="video/mp4" />
+      </video>
     </div>
   );
 };
