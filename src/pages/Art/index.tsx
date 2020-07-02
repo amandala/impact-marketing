@@ -19,8 +19,7 @@ export default () => {
       </Section>
       <Section>
         <H1>
-          impact wants to help share your creative talents with the world during
-          Digital Impact!{" "}
+          impact wants to help share your creative talents with the world!
         </H1>
         <P>
           We've got two different ways for you to contribute art to Digital
@@ -55,7 +54,14 @@ export default () => {
           Sell art you've already created, or offer commission pieces by
           size/medium/etc.
         </P>
-        <ButtonLink to="/marketplace">Marketplace Details</ButtonLink>
+        <P>
+          Use the Art Vendor submission flow on our application portal to submit
+          your art for sale quickly. Simply click the Art Vendor Application
+          link below, answer a few quick questions about your piece for sale,
+          upload or link a high resolution photo, and we will take care of the
+          rest!
+        </P>
+        <ButtonLink to="/apply">Art Vendor Application</ButtonLink>
       </Section>
       <Section>
         <H1>Calgary Graffiti Jam July 18-19</H1>

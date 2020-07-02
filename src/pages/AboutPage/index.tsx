@@ -48,7 +48,7 @@ export default () => {
           <P>Artist Merchandise</P>
           <P>Local Merchants</P>
           <P>Support small businesses</P>
-          <ButtonLink className={styles.Apply} to="/apply">
+          <ButtonLink className={styles.Apply} to="/marketplace">
             Sell in our Marketplace
           </ButtonLink>
         </Section>
@@ -71,11 +71,17 @@ export default () => {
             stream
           </P>
           <P>
-            Purchase artwork directly to support the artist through our
-            marketplace
+            Sell your artwork and photography in our Shopify Marketplace and
+            donate a portion of the sale to our charities.
           </P>
-          <P>Visit a virtual art gallery and browse art for sale</P>
-          <ButtonLink className={styles.Apply} to="/apply">
+          <P>
+            Purchase artwork and photography in the Impact Marketplace to
+            support the artist.
+          </P>
+          <P>
+            Visit the Utherverse virtual art gallery and browse art for sale.
+          </P>
+          <ButtonLink className={styles.Apply} to="/art">
             Apply as a creative
           </ButtonLink>
         </Section>
