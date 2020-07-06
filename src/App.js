@@ -66,6 +66,20 @@ function App() {
               <Route path="/stages" component={withTracker(Stages)} />
               <Route path="/stream" component={withTracker(Stream)} />
               <Route path="/about" component={withTracker(About)} />
+              <Route
+                path="/meetandgreet"
+                component={() => {
+                  window.location.href =
+                    "https://calendar.google.com/calendar/selfsched?sstoken=UUwtekRJM3JMTjFNfGRlZmF1bHR8YjliNGIzYWY2OTY3MGZlNDJjYzAzMTkzMGNjZjlkNGE";
+                  return (
+                    <div
+                      style={{
+                        minHeight: "100vh",
+                      }}
+                    />
+                  );
+                }}
+              />
               <Route path="/" component={withTracker(Landing)} />
             </Switch>
             <Footer />
