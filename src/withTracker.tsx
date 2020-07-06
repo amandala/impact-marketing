@@ -7,7 +7,7 @@ export const withTracker = <P extends RouteComponentProps>(
   WrappedComponent: React.ComponentType<P>,
   options: FieldsObject = {}
 ) => {
-  ReactPixel.init("2764779720253813");
+  ReactPixel.init("653455575240390");
 
   ReactGA.initialize("UA-159972276-1");
 
