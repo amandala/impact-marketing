@@ -1,6 +1,7 @@
 export { default as Art } from "./Art";
 export { default as About } from "./AboutPage";
 export { default as Apply } from "./Apply";
+export { default as BestOf2019 } from "./PhotoGallery/BestOf2019";
 export { default as Causes } from "./Causes";
 export { default as Experience } from "./Experience";
 export { default as GetInvolved } from "./GetInvolved";

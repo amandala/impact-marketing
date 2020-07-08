@@ -10,6 +10,7 @@ import {
   Art,
   About,
   Apply,
+  BestOf2019,
   Causes,
   Experience,
   GetInvolved,
@@ -41,6 +42,10 @@ function App() {
             <Switch>
               <Route path="/apply" component={withTracker(Apply)} />
               <Route path="/art" component={withTracker(Art)} />
+              <Route
+                path="/gallery/best-of-2019"
+                component={withTracker(BestOf2019)}
+              />
               <Route path="/causes" component={withTracker(Causes)} />
               <Route path="/experience" component={withTracker(Experience)} />
               <Route
