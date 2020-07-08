@@ -2,11 +2,16 @@ import React from "react";
 import YouTube from "react-youtube-embed";
 import Section from "../../components/Section";
 import Layout from "../../components/Layout";
+import { ButtonLink } from "../../components/Button";
 import { H1, P, H2 } from "../../components/Typography";
 
 export default () => {
   return (
     <Layout black>
+      <Section>
+        <H1 impact>Photo Galleries</H1>
+        <ButtonLink to="/gallery/freedom-march">Freedom March</ButtonLink>
+      </Section>
       <Section>
         <H1 impact>Digital impact Festival “The Pivot”</H1>
         <P>
