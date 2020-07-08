@@ -8,18 +8,22 @@ import styles from "./index.module.scss";
 
 export default () => {
   return (
-    <Layout>
+    <Layout className={styles.Gallery}>
       <Section>
         <H1>Freedom March</H1>
       </Section>
-      {pictures.map((picture: { path: string; alt: string }) => {
-        const path = `/assets/gallery/freedom-march/${picture.path}`;
-        return (
-          <Section>
-            <img className={styles.Photo} src={path} alt={picture.alt} />
-          </Section>
-        );
-      })}
+      {pictures.map(
+        (picture: { path: string; alt: string; photographer: string }) => {
+          const path = `/assets/gallery/freedom-march/${picture.path}`;
+          return (
+            <Section className={styles.PhotoWrapper}>
+              <a className={styles.Photographer} href={picture.photographer}>
+                <img className={styles.Photo} src={path} alt={picture.alt} />
+              </a>
+            </Section>
+          );
+        }
+      )}
     </Layout>
   );
 };
