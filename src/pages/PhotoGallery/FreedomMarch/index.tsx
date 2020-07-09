@@ -11,6 +11,17 @@ export default () => {
     <Layout className={styles.Gallery}>
       <Section>
         <H1>Freedom March</H1>
+        <P>
+          On Juneteenth, 2020, IMPACT teamed up with Black Freedom Society to
+          host the Freedom from Hate March. This historic event was to stand up
+          against oppression and police brutality.
+        </P>
+        <P>
+          Many speakers took the stage to share their viewpoints and stories.
+          The primary goal was education. Being able to give people a different
+          perspective so that they can use it to make positive change in the
+          world.
+        </P>
       </Section>
       {pictures.map(
         (picture: { path: string; alt: string; photographer: string }) => {
