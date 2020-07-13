@@ -14,6 +14,7 @@ import {
   Causes,
   Experience,
   GetInvolved,
+  Home,
   Landing,
   Limitless,
   Lineup,
@@ -41,6 +42,7 @@ function App() {
           <Nav />
           <div className={styles.Main}>
             <Switch>
+              <Route path="/home" component={withTracker(Home)} />
               <Route path="/apply" component={withTracker(Apply)} />
               <Route path="/art" component={withTracker(Art)} />
               {/* <Route

@@ -1,8 +1,8 @@
 import React from "react";
-import Section from "../../components/Section";
-import { H1 } from "../../components/Typography";
+import Section from "../../../components/Section";
+import { H1 } from "../../../components/Typography";
 import styles from "./index.module.scss";
-import PhotoDiv from "../../components/PhotoDiv";
+import PhotoDiv from "../../../components/PhotoDiv";
 
 export default () => {
   return (

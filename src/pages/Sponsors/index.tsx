@@ -19,29 +19,6 @@ const Sponsors = () => {
         <div className={styles.Wrapper}>
           <img
             className={styles.Sponsor}
-            src="/assets/sponsors/sponsor-truesound.png"
-            alt="True Sound"
-          />
-        </div>
-        <div className={styles.Wrapper}>
-          <img
-            className={styles.Sponsor}
-            src="/assets/sponsors/sponsor-zillalive.png"
-            alt="Zillalive"
-          />
-        </div>
-        <div className={styles.Wrapper}>
-          <img
-            className={styles.Sponsor}
-            src="/assets/sponsors/sponsor-elated.png"
-            alt="Elated Society"
-          />
-        </div>
-      </Section>
-      <Section className={styles.Sponsors}>
-        <div className={styles.Wrapper}>
-          <img
-            className={styles.Sponsor}
             src="/assets/sponsors/sponsor-posifest.png"
             alt="PosiFest"
           />
@@ -65,6 +42,30 @@ const Sponsors = () => {
         <div className={styles.Wrapper}>
           <img
             className={styles.Sponsor}
+            src="/assets/sponsors/sponsor-truesound.png"
+            alt="True Sound"
+          />
+        </div>
+        <div className={styles.Wrapper}>
+          <img
+            className={styles.Sponsor}
+            src="/assets/sponsors/sponsor-zillalive.png"
+            alt="Zillalive"
+          />
+        </div>
+        <div className={styles.Wrapper}>
+          <img
+            className={styles.Sponsor}
+            src="/assets/sponsors/sponsor-elated.png"
+            alt="Elated Society"
+          />
+        </div>
+      </Section>
+
+      <Section className={styles.Sponsors}>
+        <div className={styles.Wrapper}>
+          <img
+            className={styles.Sponsor}
             src="/assets/sponsors/sponsor-wolfpackcreative.png"
             alt="Wolf Pack Creative"
           />
@@ -83,6 +84,17 @@ const Sponsors = () => {
             alt="Real Talks with Nav"
           />
         </div>
+      </Section>
+      <Section className={styles.Sponsors}>
+        <div className={styles.Wrapper}>
+          <img
+            className={styles.Sponsor}
+            src="/assets/sponsors/sponsor-earthcharter.png"
+            alt="Earth Charter"
+          />
+        </div>
+        <div className={styles.Wrapper}></div>
+        <div className={styles.Wrapper}></div>
       </Section>
     </Layout>
   );

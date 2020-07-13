@@ -1,4 +1,4 @@
-@import "../../styles/variables";
+@import "../../../styles/variables";
 
 .Logo {
   width: auto;
@@ -27,24 +27,25 @@
 
 .PhotoDiv1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/photos/colorloop-min.jpg);
+    url(/photos/makeconnections-min.jpg);
+  background-position: top;
 }
 
 .PhotoDiv2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/photos/worldclasstalent-min.jpg);
+    url(/photos/eyepoppingvisuals-min.jpg);
+  background-position: center;
 }
 
 .PhotoDiv3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/photos/nextlevellistening-min.jpg);
+    url(/photos/lifegraffiti-min.jpg);
 }
 
 .PhotoDiv4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/photos/uniquestage-min.jpg);
+    url(/photos/artinstallations-min.jpg);
 }
-//TODO: get compressed asset
 
 .PhotoContent {
   max-width: 80%;
