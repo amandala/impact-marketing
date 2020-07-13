@@ -15,6 +15,7 @@ export { default as Marketplace } from "./Marketplace";
 export { default as Oasis } from "./Oasis";
 export { default as Odyssey } from "./Odyssey";
 export { default as Stages } from "./Stages";
+export { default as Sponsors } from "./Sponsors";
 export { default as Stream } from "./Stream";
 export { default as Tickets } from "./Tickets";
 export { default as FreedomMarch } from "./PhotoGallery/FreedomMarch";

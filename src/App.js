@@ -26,6 +26,7 @@ import {
   Stream,
   GraffitiInfo,
   FreedomMarch,
+  Sponsors,
 } from "./pages";
 
 import { Dusk2DawnProductions } from "./pages/streams";
@@ -62,6 +63,7 @@ function App() {
                 path="/gallery/freedom-march"
                 component={withTracker(FreedomMarch)}
               />
+              <Route path="/sponsors" component={withTracker(Sponsors)} />
               <Route path="/graff-info" component={withTracker(GraffitiInfo)} />
               <Route path="/marketplace" component={withTracker(Marketplace)} />
               <Route path="/media" component={withTracker(Media)} />
