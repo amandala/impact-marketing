@@ -15,29 +15,7 @@ const Sponsors = () => {
           the generous help from our sponsors and partners.
         </P>
       </Section>
-      <Section className={styles.Sponsors}>
-        <div className={styles.Wrapper}>
-          <img
-            className={styles.Sponsor}
-            src="/assets/sponsors/sponsor-posifest.png"
-            alt="PosiFest"
-          />
-        </div>
-        <div className={styles.Wrapper}>
-          <img
-            className={styles.Sponsor}
-            src="/assets/sponsors/sponsor-unify.png"
-            alt="Unify"
-          />
-        </div>
-        <div className={styles.Wrapper}>
-          <img
-            className={styles.Sponsor}
-            src="/assets/sponsors/sponsor-utherverse.png"
-            alt="Utherverse"
-          />
-        </div>
-      </Section>
+
       <Section className={styles.Sponsors}>
         <div className={styles.Wrapper}>
           <img
@@ -61,7 +39,29 @@ const Sponsors = () => {
           />
         </div>
       </Section>
-
+      <Section className={styles.Sponsors}>
+        <div className={styles.Wrapper}>
+          <img
+            className={styles.Sponsor}
+            src="/assets/sponsors/sponsor-artparty.png"
+            alt="The Art Party"
+          />
+        </div>
+        <div className={styles.Wrapper}>
+          <img
+            className={styles.Sponsor}
+            src="/assets/sponsors/sponsor-earthcharter.png"
+            alt="Earth Charter"
+          />
+        </div>
+        <div className={styles.Wrapper}>
+          <img
+            className={styles.Sponsor}
+            src="/assets/sponsors/sponsor-catseye.png"
+            alt="Cat's Eye Solutions"
+          />
+        </div>
+      </Section>
       <Section className={styles.Sponsors}>
         <div className={styles.Wrapper}>
           <img
@@ -85,22 +85,29 @@ const Sponsors = () => {
           />
         </div>
       </Section>
+
       <Section className={styles.Sponsors}>
         <div className={styles.Wrapper}>
           <img
             className={styles.Sponsor}
-            src="/assets/sponsors/sponsor-earthcharter.png"
-            alt="Earth Charter"
+            src="/assets/sponsors/sponsor-posifest.png"
+            alt="PosiFest"
           />
         </div>
         <div className={styles.Wrapper}>
           <img
             className={styles.Sponsor}
-            src="/assets/sponsors/sponsor-catseye.png"
-            alt="Cat's Eye Solutions"
+            src="/assets/sponsors/sponsor-unify.png"
+            alt="Unify"
           />
         </div>
-        <div className={styles.Wrapper}></div>
+        <div className={styles.Wrapper}>
+          <img
+            className={styles.Sponsor}
+            src="/assets/sponsors/sponsor-utherverse.png"
+            alt="Utherverse"
+          />
+        </div>
       </Section>
     </Layout>
   );
