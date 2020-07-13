@@ -93,7 +93,13 @@ const Sponsors = () => {
             alt="Earth Charter"
           />
         </div>
-        <div className={styles.Wrapper}></div>
+        <div className={styles.Wrapper}>
+          <img
+            className={styles.Sponsor}
+            src="/assets/sponsors/sponsor-catseye.png"
+            alt="Cat's Eye Solutions"
+          />
+        </div>
         <div className={styles.Wrapper}></div>
       </Section>
     </Layout>
