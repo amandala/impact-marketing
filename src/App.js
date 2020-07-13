@@ -59,10 +59,10 @@ function App() {
                 component={withTracker(GetInvolved)}
               />
               <Route path="/lineup" component={withTracker(Lineup)} />
-              <Route
+              {/* <Route
                 path="/gallery/freedom-march"
                 component={withTracker(FreedomMarch)}
-              />
+              /> */}
               <Route path="/sponsors" component={withTracker(Sponsors)} />
               <Route path="/graff-info" component={withTracker(GraffitiInfo)} />
               <Route path="/marketplace" component={withTracker(Marketplace)} />

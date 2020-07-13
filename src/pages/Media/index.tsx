@@ -9,15 +9,15 @@ import styles from "./index.module.scss";
 export default () => {
   return (
     <Layout black>
-      <Section>
+      {/* <Section>
         <H1 impact>Photo Galleries</H1>
         <ButtonLink className={styles.Link} to="/gallery/freedom-march">
           Freedom March
         </ButtonLink>
-        {/* <ButtonLink className={styles.Link} to="/gallery/best-of-2019">
+        <ButtonLink className={styles.Link} to="/gallery/best-of-2019">
           Best of 2019
-        </ButtonLink> */}
-      </Section>
+        </ButtonLink> 
+      </Section> */}
       <Section>
         <H1 impact>Digital impact Festival “The Pivot”</H1>
         <P>
