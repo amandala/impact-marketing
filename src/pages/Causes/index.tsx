@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout";
 import Section from "../../components/Section";
 import { H1, P, Tiny } from "../../components/Typography";
-
+import DonateButton from "../../components/DonateButton";
 import styles from "./index.module.scss";
 import { ButtonLinkExternal } from "../../components/Button";
 import { InlineLink } from "../../components/Link";
@@ -308,6 +308,7 @@ export default () => {
             better events and support even more causes.
           </P>
         </Section>
+        <DonateButton href="https://paypal.me/makeimpact" />
       </Layout>
     </div>
   );

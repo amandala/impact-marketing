@@ -39,16 +39,7 @@
   font-size: 20px;
 }
 
-.Donate {
-  padding: 30px;
-  font-size: 60px;
-
-  &Wrapper {
-    text-align: center;
-  }
-}
-
-@include breakpoint(medium) {
+@include breakpoint(large) {
   .Stages {
     grid-template-columns: repeat(4, 1fr);
   }

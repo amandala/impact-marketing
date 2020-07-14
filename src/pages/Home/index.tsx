@@ -1,8 +1,9 @@
 import React from "react";
 import cx from "classnames";
 import { Link } from "react-router-dom";
-import { ButtonLink } from "../../components/Button";
+import { ButtonLink, ButtonLinkExternal } from "../../components/Button";
 import Layout from "../../components/Layout";
+import DonateButton from "../../components/DonateButton";
 import Section from "../../components/Section";
 import DigitalImpactBanner from "../../components/DigitalImpactBanner";
 import { H1, P, Tiny } from "../../components/Typography";
@@ -19,11 +20,7 @@ const Home = () => {
           of our digital festival.
         </P>
       </Section>
-      <Section className={styles.DonateWrapper}>
-        <ButtonLink className={styles.Donate} to="/causes">
-          Donate
-        </ButtonLink>
-      </Section>
+      <DonateButton href="/causes" />
       <Section>
         <H1>Stages</H1>
         <div className={styles.Stages}>
@@ -44,7 +41,7 @@ const Home = () => {
               alt="Odessy Stage"
             />
             <Tiny className={styles.Info}>
-              A fully 3d digital stage flying high in outter space
+              Fully Digital 3D Stage ft. International Lineup
             </Tiny>
           </Link>
           <Link to="/digital-impact/oasis" className={styles.Stage}>
@@ -64,7 +61,7 @@ const Home = () => {
               alt="Limitless Stage"
             />
             <Tiny className={styles.Info}>
-              Packed with transformational workshops
+              Attend Transformational Workshops
             </Tiny>
           </Link>
         </div>
@@ -82,16 +79,19 @@ const Home = () => {
               Browse a selection of art and goods for sale
             </Tiny>
           </Link>
-          <Link to="/" className={styles.Stage}>
+          <ButtonLinkExternal
+            to="https://paypal.me/makeimpact/20"
+            className={styles.Stage}
+          >
             <img
               className={styles.Logo}
               src="/assets/sponsors/sponsor-utherverse.png"
               alt="Utherverse"
             />
             <Tiny className={styles.Info}>
-              Visit the Utherverse 3D Art Gallery
+              Gain access to the Utherverse 3D Art Gallery
             </Tiny>
-          </Link>
+          </ButtonLinkExternal>
           <Link to="/" className={styles.Stage}>
             <img
               className={styles.Logo}
@@ -114,7 +114,7 @@ const Home = () => {
               alt="Causes"
             />
             <Tiny className={styles.Info}>
-              Check out the organizations we are collecting money for
+              Check out where your donation goes
             </Tiny>
           </Link>
           <Link to="/sponsors" className={styles.Stage}>
@@ -124,7 +124,7 @@ const Home = () => {
               alt="Sponsors"
             />
             <Tiny className={styles.Info}>
-              See the list of our incredible sponsors and partners
+              Get to know our incredible sponsors and partners
             </Tiny>
           </Link>
         </div>
