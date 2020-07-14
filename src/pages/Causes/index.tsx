@@ -20,6 +20,9 @@ export default () => {
           <H1 impact className={styles.Impactor}>
             Select a tier below to become an impactor
           </H1>
+          <Tiny className={styles.AllPerks}>
+            All perks are unlocked at higher amounts
+          </Tiny>
           <ul className={styles.Tiers}>
             <li>
               <a
@@ -125,9 +128,6 @@ export default () => {
               </a>
             </li>
           </ul>
-          <Tiny className={styles.AllPerks}>
-            All perks are unlocked at higher amounts
-          </Tiny>
         </Section>
         <Section>
           <H1 impact className={styles.ImpactorBig}>
