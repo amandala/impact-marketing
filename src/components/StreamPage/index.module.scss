@@ -46,7 +46,13 @@
 
 .Discord {
   width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
   height: 400px;
+}
+
+.JoinDiscord {
+  margin: 40px 0;
 }
 
 @include breakpoint(medium) {
