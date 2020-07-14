@@ -136,7 +136,7 @@ export default () => {
             </P>
           </div>
           <div className={styles.CoreValue}>
-            <H1>Positive Impact</H1>
+            <H1>Positive impact</H1>I
             <P>
               Take time every day to think of one way you can bring love to the
               world. Even as easy as an inspiring post or picture.

@@ -10,7 +10,6 @@ import {
   Art,
   About,
   Apply,
-  //BestOf2019,
   Causes,
   Experience,
   GetInvolved,
@@ -24,13 +23,9 @@ import {
   Oasis,
   Odyssey,
   Stages,
-  Stream,
-  GraffitiInfo,
-  FreedomMarch,
   Sponsors,
+  DigitalOasis,
 } from "./pages";
-
-import { Dusk2DawnProductions } from "./pages/streams";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -43,38 +38,27 @@ function App() {
           <div className={styles.Main}>
             <Switch>
               <Route path="/home" component={withTracker(Home)} />
+              <Route path="/about" component={withTracker(About)} />
               <Route path="/apply" component={withTracker(Apply)} />
+              <Route path="/oasis" component={withTracker(DigitalOasis)} />
               <Route path="/art" component={withTracker(Art)} />
-              {/* <Route
-                path="/gallery/best-of-2019"
-                component={withTracker(BestOf2019)}
-              /> */}
               <Route path="/causes" component={withTracker(Causes)} />
               <Route path="/experience" component={withTracker(Experience)} />
               <Route
                 path="/get-involved"
                 component={withTracker(GetInvolved)}
               />
-              <Route path="/limitless" component={withTracker(Limitless)} />
-              <Route
-                path="/get-involved"
-                component={withTracker(GetInvolved)}
-              />
               <Route path="/lineup" component={withTracker(Lineup)} />
-              {/* <Route
-                path="/gallery/freedom-march"
-                component={withTracker(FreedomMarch)}
-              /> */}
-              <Route path="/sponsors" component={withTracker(Sponsors)} />
-              <Route path="/graff-info" component={withTracker(GraffitiInfo)} />
+              <Route path="/liveart" component={withTracker(MuralJam)} />
               <Route path="/marketplace" component={withTracker(Marketplace)} />
               <Route path="/media" component={withTracker(Media)} />
-              <Route path="/liveart" component={withTracker(MuralJam)} />
-              <Route path="/oasis" component={withTracker(Oasis)} />
-              <Route path="/odyssey" component={withTracker(Odyssey)} />
-              <Route path="/stages" component={withTracker(Stages)} />
-              <Route path="/stream" component={withTracker(Stream)} />
-              <Route path="/about" component={withTracker(About)} />
+              <Route path="/sponsors" component={withTracker(Sponsors)} />
+              <Route
+                path="/stages/limitless"
+                component={withTracker(Limitless)}
+              />
+              <Route path="/stages/oasis" component={withTracker(Oasis)} />
+              <Route path="/stages/odyssey" component={withTracker(Odyssey)} />
               <Route
                 path="/meetandgreet"
                 component={() => {
