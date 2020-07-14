@@ -64,7 +64,7 @@ const Home = () => {
               alt="Limitless Stage"
             />
             <Tiny className={styles.Info}>
-              Packed with transformational workshops and classes
+              Packed with transformational workshops
             </Tiny>
           </Link>
         </div>
@@ -98,7 +98,9 @@ const Home = () => {
               src="/assets/stages/community.png"
               alt="Impact Community"
             />
-            <Tiny className={styles.Info}>Connect with the Impact Tribe</Tiny>
+            <Tiny className={styles.Info}>
+              Connect with your fam and join the impact Tribe
+            </Tiny>
           </Link>
         </div>
       </Section>
