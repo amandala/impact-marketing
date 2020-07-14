@@ -1,0 +1,29 @@
+@import "../../../styles/_variables.scss";
+
+.Title {
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.SponsorLogo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.Sponsor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 55px;
+}
+
+@include breakpoint(medium) {
+  .Sponsor {
+    flex-direction: row;
+  }
+
+  .SponsorLogo {
+    margin-bottom: 0;
+    margin-right: 24px;
+  }
+}

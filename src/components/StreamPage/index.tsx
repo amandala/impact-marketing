@@ -35,8 +35,8 @@ export default ({
         </div>
       </div>
       <TwitchChannel channel={channel} />
-      {children}
       <WidgetBot className={styles.Discord} server="732653839458500720" />
+      {children}
     </div>
   );
 };
