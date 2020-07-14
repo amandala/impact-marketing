@@ -18,3 +18,6 @@ export { default as Odyssey } from "./Stages/Odyssey";
 export { default as Sponsors } from "./Sponsors";
 
 export { default as DigitalOasis } from "./DigitalImpact/DigitalOasis";
+export { default as DigitalOdessy } from "./DigitalImpact/DigitalOdessy";
+export { default as DigitalLimitless } from "./DigitalImpact/DigitalLimitless";
+export { default as Dusk2Dawn } from "./DigitalImpact/Dusk2Dawn";

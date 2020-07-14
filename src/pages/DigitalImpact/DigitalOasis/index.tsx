@@ -101,12 +101,9 @@ const DigitalOasis = () => {
             <P>
               The CanSO Foundation exists to provide access to sports
               opportunities for people of all ages, income levels, and
-              abilities.
-            </P>
-            <P>
-              The CanSO Foundation believes in creating healthy opportunities
-              for everyone in our communities. Whether it means helping members
-              of a low income family register to take part in the sport of their
+              abilities. They believe in creating healthy opportunities for
+              everyone in our communities. Whether it means helping members of a
+              low income family register to take part in the sport of their
               choice, working with seniors organizations to limit social
               isolation by providing healthy activities, or helping a promising
               athlete reach their full potential, we know that strong

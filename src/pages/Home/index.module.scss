@@ -39,6 +39,10 @@
   font-size: 20px;
 }
 
+.Poster {
+  max-width: 100%;
+}
+
 @include breakpoint(large) {
   .Stages {
     grid-template-columns: repeat(4, 1fr);

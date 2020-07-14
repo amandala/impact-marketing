@@ -24,7 +24,7 @@ const Home = () => {
       <Section>
         <H1>Stages</H1>
         <div className={styles.Stages}>
-          <Link to="/digital-impact/dusk2dawn" className={styles.Stage}>
+          <Link to="/dusk2dawn" className={styles.Stage}>
             <img
               className={styles.Logo}
               src="/assets/streamChannelLogos/dusk2dawnproductions.png"
@@ -34,7 +34,7 @@ const Home = () => {
               Featuring a locally curated Vancouver lineup
             </Tiny>
           </Link>
-          <Link to="/digital-impact/odessy" className={styles.Stage}>
+          <Link to="/odessy" className={styles.Stage}>
             <img
               className={styles.Logo}
               src="/assets/stages/odyssey.png"
@@ -44,7 +44,7 @@ const Home = () => {
               Fully Digital 3D Stage ft. International Lineup
             </Tiny>
           </Link>
-          <Link to="/digital-impact/oasis" className={styles.Stage}>
+          <Link to="/oasis" className={styles.Stage}>
             <img
               className={styles.Logo}
               src="/assets/stages/oasis.png"
@@ -54,7 +54,7 @@ const Home = () => {
               Wolf Pack Creative Graffiti Jam and Live art painting
             </Tiny>
           </Link>
-          <Link to="/digital-impact/limitless" className={styles.Stage}>
+          <Link to="/limitless" className={styles.Stage}>
             <img
               className={cx(styles.Logo, styles.Limitless)}
               src="/assets/stages/limitless-white.png"
@@ -92,7 +92,10 @@ const Home = () => {
               Gain access to the Utherverse 3D Art Gallery
             </Tiny>
           </ButtonLinkExternal>
-          <Link to="/" className={styles.Stage}>
+          <ButtonLinkExternal
+            to="http://impact-partywell.mn.co/"
+            className={styles.Stage}
+          >
             <img
               className={styles.Logo}
               src="/assets/stages/community.png"
@@ -101,7 +104,7 @@ const Home = () => {
             <Tiny className={styles.Info}>
               Connect with your fam and join the impact Tribe
             </Tiny>
-          </Link>
+          </ButtonLinkExternal>
         </div>
       </Section>
       <Section>
@@ -128,6 +131,13 @@ const Home = () => {
             </Tiny>
           </Link>
         </div>
+      </Section>
+      <Section>
+        <img
+          src="/assets/events/digital-impact/lineup.jpg"
+          alt="Lineup Poster"
+          className={styles.Poster}
+        />
       </Section>
     </Layout>
   );

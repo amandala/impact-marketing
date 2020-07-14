@@ -25,6 +25,9 @@ import {
   Stages,
   Sponsors,
   DigitalOasis,
+  DigitalOdessy,
+  DigitalLimitless,
+  Dusk2Dawn,
 } from "./pages";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -41,6 +44,12 @@ function App() {
               <Route path="/about" component={withTracker(About)} />
               <Route path="/apply" component={withTracker(Apply)} />
               <Route path="/oasis" component={withTracker(DigitalOasis)} />
+              <Route path="/odessy" component={withTracker(DigitalOdessy)} />
+              <Route
+                path="/limitless"
+                component={withTracker(DigitalLimitless)}
+              />
+              <Route path="/dusk2dawn" component={withTracker(Dusk2Dawn)} />
               <Route path="/art" component={withTracker(Art)} />
               <Route path="/causes" component={withTracker(Causes)} />
               <Route path="/experience" component={withTracker(Experience)} />
