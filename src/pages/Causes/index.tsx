@@ -45,12 +45,12 @@ export default () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.paypal.me/makeimpact/20"
+                href="https://www.paypal.me/makeimpact/25"
                 className={styles.Tier}
               >
                 💰💰
                 <span className={styles.Info}>
-                  <span className={styles.Price}>$20</span>
+                  <span className={styles.Price}>$25</span>
                   <span className={styles.Title}>3D World Access</span>
                 </span>
                 <P className={styles.Description}>

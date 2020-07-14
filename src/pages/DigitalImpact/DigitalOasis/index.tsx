@@ -32,7 +32,7 @@ const DigitalOasis = () => {
     <StreamPage
       eventName="Digital Impact"
       eventLogo="/assets/primary/digital-impact.png"
-      channel="dusk2dawnproductions"
+      channel="dusk2dawnproductions" //navkhiljie
       channelLogo="/assets/stages/oasis.png"
     >
       <Layout black>
