@@ -17,97 +17,156 @@ const Sponsors = () => {
       </Section>
 
       <Section className={styles.Sponsors}>
-        <div className={styles.Wrapper}>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.truesoundevents.com/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-truesound.png"
             alt="True Sound"
           />
-        </div>
-        <div className={styles.Wrapper}>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.zillalive.com/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-zillalive.png"
             alt="Zillalive"
           />
-        </div>
-        <div className={styles.Wrapper}>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.elatedsociety.com/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-elated.png"
             alt="Elated Society"
           />
-        </div>
+        </a>
       </Section>
       <Section className={styles.Sponsors}>
-        <div className={styles.Wrapper}>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="http://theartparty.org/donate"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-artparty.png"
             alt="The Art Party"
           />
-        </div>
-        <div className={styles.Wrapper}>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://earthcharter.org/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-earthcharter.png"
             alt="Earth Charter"
           />
-        </div>
-        <div className={styles.Wrapper}>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/catseyevancouver/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-catseye.png"
             alt="Cat's Eye Solutions"
           />
-        </div>
+        </a>
       </Section>
       <Section className={styles.Sponsors}>
-        <div className={styles.Wrapper}>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/lone.wolf.bench/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-wolfpackcreative.png"
             alt="Wolf Pack Creative"
           />
-        </div>
-        <div className={styles.Wrapper}>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.nowayjoseproductions.com/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-nowayjose.png"
             alt="No Way Jose Productions"
           />
-        </div>
-        <div className={styles.Wrapper}>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://realtalkswithnav.com/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-realtalkswithnav.png"
             alt="Real Talks with Nav"
           />
-        </div>
+        </a>
       </Section>
-
       <Section className={styles.Sponsors}>
-        <div className={styles.Wrapper}>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/posifest/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-posifest.png"
             alt="PosiFest"
           />
-        </div>
-        <div className={styles.Wrapper}>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.unify.org/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-unify.png"
             alt="Unify"
           />
-        </div>
-        <div className={styles.Wrapper}>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="http://www.utherverse.net/"
+          className={styles.Wrapper}
+        >
           <img
             className={styles.Sponsor}
             src="/assets/sponsors/sponsor-utherverse.png"
             alt="Utherverse"
           />
-        </div>
+        </a>
       </Section>
     </Layout>
   );
