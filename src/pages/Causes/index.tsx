@@ -10,6 +10,10 @@ import { InlineLink } from "../../components/Link";
 export default () => {
   return (
     <div>
+      <img
+        className={styles.CausesStill}
+        src="/assets/causes/causes-still.png"
+      />
       <Layout black>
         <Section>
           <H1 impact>
@@ -18,7 +22,7 @@ export default () => {
           </H1>
           <P>
             Check out the great causes we are supporting with donations raised
-            at our Digital Impact event July 16 - 19.
+            at Digital Impact.
           </P>
         </Section>
         <Section>
@@ -192,10 +196,6 @@ export default () => {
           </P>
         </Section>
       </Layout>
-      <img
-        className={styles.CausesStill}
-        src="/assets/causes/causes-still.png"
-      />
     </div>
   );
 };

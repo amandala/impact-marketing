@@ -29,13 +29,22 @@
   @include transitionAll;
 
   &:hover {
-    border-color: #5b92d9;
+    border-color: $spring-green;
   }
 }
 
 .Info {
   text-align: center;
   margin-bottom: 0;
+}
+
+.Donate {
+  padding: 30px;
+  font-size: 60px;
+
+  &Wrapper {
+    text-align: center;
+  }
 }
 
 @include breakpoint(medium) {

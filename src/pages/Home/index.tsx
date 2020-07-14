@@ -1,6 +1,7 @@
 import React from "react";
 import cx from "classnames";
 import { Link } from "react-router-dom";
+import { ButtonLink } from "../../components/Button";
 import Layout from "../../components/Layout";
 import Section from "../../components/Section";
 import DigitalImpactBanner from "../../components/DigitalImpactBanner";
@@ -17,6 +18,11 @@ const Home = () => {
           Click around the navigation links below to visit the different areas
           of our digital festival.
         </P>
+      </Section>
+      <Section className={styles.DonateWrapper}>
+        <ButtonLink className={styles.Donate} to="/causes">
+          Donate
+        </ButtonLink>
       </Section>
       <Section>
         <H1>Stages</H1>
