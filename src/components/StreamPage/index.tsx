@@ -1,8 +1,9 @@
 import React from "react";
-import cx from "classnames";
+import FestivalNav from "../../components/FestivalNav";
 import TwitchChannel from "../../components/TwitchChannel";
+import Layout from "../../components/Layout";
 import WidgetBot from "@widgetbot/react-embed";
-
+import DonateButton from "../../components/DonateButton";
 import styles from "./index.module.scss";
 
 export default ({
@@ -34,8 +35,12 @@ export default ({
           />
         </div>
       </div>
+      <DonateButton href="/causes" />
       <TwitchChannel channel={channel} />
       <WidgetBot className={styles.Discord} server="713214250079748096" />
+      <Layout black>
+        <FestivalNav />
+      </Layout>
       {children}
     </div>
   );

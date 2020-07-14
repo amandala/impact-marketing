@@ -1,58 +1,5 @@
 @import "../../styles/variables";
 
-.Logo {
-  width: 100%;
-  max-width: 200px;
-  margin-bottom: 15px;
-}
-
-.Stages,
-.Extras,
-.SpecialMentions {
-  display: grid;
-  grid-column-gap: 20px;
-}
-
-.Limitless {
-  padding-top: 10px;
-}
-
-.Stage {
-  border: 1px solid white;
-  padding: 20px 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 24px;
-
-  @include transitionAll;
-
-  &:hover {
-    border-color: $spring-green;
-  }
-}
-
-.Info {
-  text-align: center;
-  margin-bottom: 0;
-  font-size: 20px;
-}
-
 .Poster {
   max-width: 100%;
-}
-
-@include breakpoint(large) {
-  .Stages {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .Extras {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .SpecialMentions {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
