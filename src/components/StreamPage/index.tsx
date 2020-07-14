@@ -3,8 +3,8 @@ import FestivalNav from "../../components/FestivalNav";
 import TwitchChannel from "../../components/TwitchChannel";
 import Layout from "../../components/Layout";
 import { H1, P } from "../../components/Typography";
-import WidgetBot from "@widgetbot/react-embed";
 import DonateButton from "../../components/DonateButton";
+import DiscordChat from "../../components/DiscordChat";
 import styles from "./index.module.scss";
 import { ButtonLinkExternal } from "../Button";
 
@@ -40,23 +40,9 @@ export default ({
       <DonateButton href="/causes" />
       <TwitchChannel channel={channel} />
       <Layout black>
-        <div>
-          <H1 impact>Connect with the impact Tribe on Discord</H1>
-          <P>
-            Join in on the conversation. The server is embedded across all our
-            stages, so you can keep chatting with your friends as you explore.
-          </P>
-          <P>
-            Make sure you join the server before you start sending messages, or
-            they will disappear into the ether 👽
-          </P>
-          <div className={styles.JoinDiscord}>
-            <ButtonLinkExternal to="https://discord.gg/ACPxzJA">
-              Join the impact Discord server
-            </ButtonLinkExternal>
-          </div>
-        </div>
-        <WidgetBot className={styles.Discord} server="713214250079748096" />
+        <DiscordChat>
+          <P>Chat with the Impact Tribe across all our festival stages</P>
+        </DiscordChat>
       </Layout>
       <Layout black>
         <H1 impact>Festival Navigation</H1>
