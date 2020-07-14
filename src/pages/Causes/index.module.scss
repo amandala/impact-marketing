@@ -1,5 +1,60 @@
 @import "../../styles/variables";
 
+.Donations {
+  margin-bottom: 100px;
+}
+
+.AllPerks {
+  text-align: center;
+}
+
+.Tiers {
+  list-style: none;
+  padding-left: 40px;
+  font-family: $alien-exp;
+  padding-left: 0;
+}
+
+.Tier {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    color: $spring-green;
+  }
+}
+
+.Impactor {
+  text-align: center;
+
+  &Big {
+    text-align: center;
+    font-size: 66px;
+  }
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  line-height: 60px;
+}
+
+.Description {
+  text-align: center;
+}
+
+.Price {
+  margin-right: 14px;
+  font-size: 60px;
+}
+
 .CauseLogo {
   max-height: 200px;
   margin-bottom: 24px;
@@ -35,6 +90,12 @@
 .ImpactLogo {
   max-width: 300px;
   margin-bottom: 24px;
+}
+
+@include breakpoint(large) {
+  .Info {
+    flex-direction: row;
+  }
 }
 
 @include breakpoint(large) {

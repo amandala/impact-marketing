@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import Section from "../../components/Section";
-import { H1, P } from "../../components/Typography";
+import { H1, P, Tiny } from "../../components/Typography";
 
 import styles from "./index.module.scss";
 import { ButtonLinkExternal } from "../../components/Button";
@@ -13,17 +13,130 @@ export default () => {
       <img
         className={styles.CausesStill}
         src="/assets/causes/causes-still.png"
+        alt="Causes Poster"
       />
       <Layout black>
+        <Section className={styles.Donations}>
+          <H1 impact className={styles.Impactor}>
+            Select a tier below to become an impactor
+          </H1>
+          <ul className={styles.Tiers}>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.paypal.me/makeimpact/1"
+                className={styles.Tier}
+              >
+                💰
+                <span className={styles.Info}>
+                  <span className={styles.Price}>$1</span>
+                  <span className={styles.Title}>Donor List Shoutout</span>
+                </span>
+                <P className={styles.Description}>
+                  Social Media Shoutout as an IMPACTOR
+                </P>
+              </a>
+            </li>
+            <li className={styles.Tier}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.paypal.me/makeimpact/20"
+                className={styles.Tier}
+              >
+                💰💰
+                <span className={styles.Info}>
+                  <span className={styles.Price}>$20</span>
+                  <span className={styles.Title}>3D World Access</span>
+                </span>
+                <P className={styles.Description}>
+                  Join our 3D world, Vendor Village, and Art Gallery
+                </P>
+              </a>
+            </li>
+            <li className={styles.Tier}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.paypal.me/makeimpact/50"
+                className={styles.Tier}
+              >
+                💰💰💰
+                <span className={styles.Info}>
+                  <span className={styles.Price}>$50</span>
+                  <span className={styles.Title}>Free Bandana</span>
+                </span>
+                <P className={styles.Description}>
+                  Get sent an exclusive IMPACT Bandana
+                </P>
+              </a>
+            </li>
+            <li className={styles.Tier}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.paypal.me/makeimpact/100"
+                className={styles.Tier}
+              >
+                💰💰💰💰
+                <span className={styles.Info}>
+                  <span className={styles.Price}>$100</span>
+                  <span className={styles.Title}>Mystery Merch</span>
+                </span>
+                <P className={styles.Description}>
+                  Get sent a mystery merch prize from our vendor market
+                </P>
+              </a>
+            </li>
+            <li className={styles.Tier}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.paypal.me/makeimpact/200"
+                className={styles.Tier}
+              >
+                🤩💰💰💰🤩
+                <span className={styles.Info}>
+                  <span className={styles.Price}>$200</span>
+                  <span className={styles.Title}>
+                    ViP (Very important Philanthropist)
+                  </span>
+                </span>
+                <P className={styles.Description}>
+                  Meet and Greet with a select artist/ workshop host
+                </P>
+              </a>
+            </li>
+            <li className={styles.Tier}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.paypal.me/makeimpact"
+                className={styles.Tier}
+              >
+                💸💸💸
+                <span className={styles.Info}>
+                  <span className={styles.Price}>Select your amount</span>
+                </span>
+                <P className={styles.Description}>
+                  You choose the amount and get all the perks plus more
+                </P>
+              </a>
+            </li>
+          </ul>
+          <Tiny className={styles.AllPerks}>
+            All perks are unlocked at higher amounts
+          </Tiny>
+        </Section>
         <Section>
-          <H1 impact>
+          <H1 impact className={styles.ImpactorBig}>
             We are on a mission to unite the world and maximize our collective
             impact!
           </H1>
-          <P>
-            Check out the great causes we are supporting with donations raised
-            at Digital Impact.
-          </P>
+          <Tiny className={styles.Impactor}>
+            All donations are split evenly between our causes
+          </Tiny>
         </Section>
         <Section>
           <img

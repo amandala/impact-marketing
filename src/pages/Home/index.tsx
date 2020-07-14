@@ -75,7 +75,7 @@ const Home = () => {
           <Link to="/" className={styles.Stage}>
             <img
               className={styles.Logo}
-              src="/assets/primary/wordmark.png"
+              src="/assets/stages/market.png"
               alt="Impact Marketplace"
             />
             <Tiny className={styles.Info}>
