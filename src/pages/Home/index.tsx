@@ -95,7 +95,7 @@ const Home = () => {
           <Link to="/" className={styles.Stage}>
             <img
               className={styles.Logo}
-              src="/assets/primary/wordmark.png"
+              src="/assets/stages/community.png"
               alt="Impact Community"
             />
             <Tiny className={styles.Info}>Connect with the Impact Tribe</Tiny>
@@ -108,7 +108,7 @@ const Home = () => {
           <Link to="/causes" className={styles.Stage}>
             <img
               className={styles.Logo}
-              src="/assets/primary/wordmark.png"
+              src="/assets/stages/causes.png"
               alt="Causes"
             />
             <Tiny className={styles.Info}>
@@ -118,7 +118,7 @@ const Home = () => {
           <Link to="/sponsors" className={styles.Stage}>
             <img
               className={styles.Logo}
-              src="/assets/primary/wordmark.png"
+              src="/assets/stages/sponsors.png"
               alt="Sponsors"
             />
             <Tiny className={styles.Info}>
