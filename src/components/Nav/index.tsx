@@ -39,7 +39,7 @@ export default () => {
           <div className={styles.Content}>
             <ul className={styles.Links}>
               <li onClick={() => setNavOpenState(false)}>
-                <Link href="/about">Home</Link>
+                <Link href="/home">Home</Link>
               </li>
               <li onClick={() => setNavOpenState(false)}>
                 <Link href="/causes">Causes</Link>
@@ -52,6 +52,9 @@ export default () => {
               </li>
               <li onClick={() => setNavOpenState(false)}>
                 <Link href="/lineup">Lineup</Link>
+              </li>
+              <li onClick={() => setNavOpenState(false)}>
+                <Link href="/about">About</Link>
               </li>
               <div className={styles.SocialLinks}>
                 <li
