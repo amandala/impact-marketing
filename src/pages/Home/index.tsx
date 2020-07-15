@@ -9,6 +9,7 @@ import { Stages, Extras, SpecialMentions } from "../../components/FestivalNav";
 import styles from "./index.module.scss";
 import DiscordChat from "../../components/DiscordChat";
 import DonateButton from "../../components/DonateButton";
+import YouTubeEmbed from "react-youtube-embed";
 
 const Home = () => {
   return (
@@ -48,6 +49,10 @@ const Home = () => {
           alt="Lineup Poster"
           className={styles.Poster}
         />
+      </Section>
+      <Section>
+        <H1 impact>Explore the Utherverse 3d Virtual world</H1>
+        <YouTubeEmbed id="HeySE5BSURo" />
       </Section>
     </Layout>
   );
