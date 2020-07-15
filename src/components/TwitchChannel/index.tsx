@@ -24,6 +24,7 @@ const TwitchChannel = ({ channel }: { channel: string }) => {
         width="100%"
         height={window.innerWidth > 1025 || showChat ? "900px" : "300px"}
         channel={channel}
+        parent={["impactfestival.ca"]}
       />
     </div>
   );
