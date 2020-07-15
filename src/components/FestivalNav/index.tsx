@@ -7,96 +7,103 @@ import Section from "../../components/Section";
 import { H1, P, Tiny } from "../../components/Typography";
 import styles from "./index.module.scss";
 
-const FestivalNav = () => {
+export const Stages = () => {
+  return (
+    <Section>
+      <H1 className={styles.NavTitle}>Digital impact Stage Navigation</H1>
+      <div className={styles.Stages}>
+        <Link to="/dusk2dawn" className={styles.Stage}>
+          <img
+            className={styles.Logo}
+            src="/assets/streamChannelLogos/dusk2dawnproductions.png"
+            alt="Dusk2Dawn Stage"
+          />
+          <Tiny className={styles.Info}>
+            Featuring a locally curated Vancouver lineup
+          </Tiny>
+        </Link>
+        <Link to="/odessy" className={styles.Stage}>
+          <img
+            className={styles.Logo}
+            src="/assets/stages/odyssey.png"
+            alt="Odessy Stage"
+          />
+          <Tiny className={styles.Info}>
+            Fully Digital 3D Stage ft. International Lineup
+          </Tiny>
+        </Link>
+        <Link to="/oasis" className={styles.Stage}>
+          <img
+            className={styles.Logo}
+            src="/assets/stages/oasis.png"
+            alt="Oasis Stage"
+          />
+          <Tiny className={styles.Info}>
+            Wolf Pack Creative Graffiti Jam and Live art painting
+          </Tiny>
+        </Link>
+        <Link to="/limitless" className={styles.Stage}>
+          <img
+            className={cx(styles.Logo, styles.Limitless)}
+            src="/assets/stages/limitless-white.png"
+            alt="Limitless Stage"
+          />
+          <Tiny className={styles.Info}>Attend Transformational Workshops</Tiny>
+        </Link>
+      </div>
+    </Section>
+  );
+};
+
+export const Extras = () => {
+  return (
+    <Section>
+      <H1>Extras</H1>
+      <div className={styles.Extras}>
+        <Link to="/" className={styles.Stage}>
+          <img
+            className={styles.Logo}
+            src="/assets/stages/market.png"
+            alt="Impact Marketplace"
+          />
+          <Tiny className={styles.Info}>
+            Browse a selection of art and goods for sale
+          </Tiny>
+        </Link>
+        <ButtonLinkExternal
+          to="https://paypal.me/makeimpact/25"
+          className={styles.Stage}
+        >
+          <img
+            className={styles.Logo}
+            src="/assets/sponsors/sponsor-utherverse.png"
+            alt="Utherverse"
+          />
+          <Tiny className={styles.Info}>
+            Gain access to the Utherverse 3D Art Gallery
+          </Tiny>
+        </ButtonLinkExternal>
+        <ButtonLinkExternal
+          to="http://impact-partywell.mn.co/"
+          className={styles.Stage}
+        >
+          <img
+            className={styles.Logo}
+            src="/assets/stages/community.png"
+            alt="Impact Community"
+          />
+          <Tiny className={styles.Info}>
+            Connect with your fam and join the impact Tribe
+          </Tiny>
+        </ButtonLinkExternal>
+      </div>
+    </Section>
+  );
+};
+
+export const SpecialMentions = () => {
   return (
     <div>
-      <DonateButton href="/causes" />
-      <Section>
-        <H1>Stages</H1>
-        <div className={styles.Stages}>
-          <Link to="/dusk2dawn" className={styles.Stage}>
-            <img
-              className={styles.Logo}
-              src="/assets/streamChannelLogos/dusk2dawnproductions.png"
-              alt="Dusk2Dawn Stage"
-            />
-            <Tiny className={styles.Info}>
-              Featuring a locally curated Vancouver lineup
-            </Tiny>
-          </Link>
-          <Link to="/odessy" className={styles.Stage}>
-            <img
-              className={styles.Logo}
-              src="/assets/stages/odyssey.png"
-              alt="Odessy Stage"
-            />
-            <Tiny className={styles.Info}>
-              Fully Digital 3D Stage ft. International Lineup
-            </Tiny>
-          </Link>
-          <Link to="/oasis" className={styles.Stage}>
-            <img
-              className={styles.Logo}
-              src="/assets/stages/oasis.png"
-              alt="Oasis Stage"
-            />
-            <Tiny className={styles.Info}>
-              Wolf Pack Creative Graffiti Jam and Live art painting
-            </Tiny>
-          </Link>
-          <Link to="/limitless" className={styles.Stage}>
-            <img
-              className={cx(styles.Logo, styles.Limitless)}
-              src="/assets/stages/limitless-white.png"
-              alt="Limitless Stage"
-            />
-            <Tiny className={styles.Info}>
-              Attend Transformational Workshops
-            </Tiny>
-          </Link>
-        </div>
-      </Section>
-      <Section>
-        <H1>Extras</H1>
-        <div className={styles.Extras}>
-          <Link to="/" className={styles.Stage}>
-            <img
-              className={styles.Logo}
-              src="/assets/stages/market.png"
-              alt="Impact Marketplace"
-            />
-            <Tiny className={styles.Info}>
-              Browse a selection of art and goods for sale
-            </Tiny>
-          </Link>
-          <ButtonLinkExternal
-            to="https://paypal.me/makeimpact/25"
-            className={styles.Stage}
-          >
-            <img
-              className={styles.Logo}
-              src="/assets/sponsors/sponsor-utherverse.png"
-              alt="Utherverse"
-            />
-            <Tiny className={styles.Info}>
-              Gain access to the Utherverse 3D Art Gallery
-            </Tiny>
-          </ButtonLinkExternal>
-          <ButtonLinkExternal
-            to="http://impact-partywell.mn.co/"
-            className={styles.Stage}
-          >
-            <img
-              className={styles.Logo}
-              src="/assets/stages/community.png"
-              alt="Impact Community"
-            />
-            <Tiny className={styles.Info}>
-              Connect with your fam and join the impact Tribe
-            </Tiny>
-          </ButtonLinkExternal>
-        </div>
-      </Section>
       <Section>
         <H1>Special Mentions</H1>
         <div className={styles.SpecialMentions}>
@@ -125,5 +132,3 @@ const FestivalNav = () => {
     </div>
   );
 };
-
-export default FestivalNav;

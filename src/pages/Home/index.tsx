@@ -5,9 +5,10 @@ import Layout from "../../components/Layout";
 import Section from "../../components/Section";
 import DigitalImpactBanner from "../../components/DigitalImpactBanner";
 import { P, H1 } from "../../components/Typography";
-import FestivalNav from "../../components/FestivalNav";
+import { Stages, Extras, SpecialMentions } from "../../components/FestivalNav";
 import styles from "./index.module.scss";
 import DiscordChat from "../../components/DiscordChat";
+import DonateButton from "../../components/DonateButton";
 
 const Home = () => {
   return (
@@ -21,7 +22,10 @@ const Home = () => {
         </P>
       </Section>
       <Section className={styles.Section}>
-        <FestivalNav />
+        <DonateButton href="/causes" />
+        <Stages />
+        <Extras />
+        <SpecialMentions />
       </Section>
       <Section className={styles.Section}>
         <DiscordChat>

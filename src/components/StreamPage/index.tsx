@@ -1,5 +1,5 @@
 import React from "react";
-import FestivalNav from "../../components/FestivalNav";
+import { Stages, Extras, SpecialMentions } from "../../components/FestivalNav";
 import TwitchChannel from "../../components/TwitchChannel";
 import Layout from "../../components/Layout";
 import { H1, P } from "../../components/Typography";
@@ -23,30 +23,38 @@ export default ({
 }) => {
   return (
     <div className={styles.Wrapper}>
-      <div className={styles.Header}>
-        {eventLogo ? (
-          <div className={styles.EventLogoWrapper}>
-            <img alt={eventName} className={styles.EventLogo} src={eventLogo} />
+      <Layout>
+        <div className={styles.Header}>
+          {eventLogo ? (
+            <div className={styles.EventLogoWrapper}>
+              <img
+                alt={eventName}
+                className={styles.EventLogo}
+                src={eventLogo}
+              />
+            </div>
+          ) : null}
+          <div className={styles.LogoWrapper}>
+            <img
+              className={styles.Logo}
+              src={channelLogo}
+              alt={`${eventName} Twitch Stream`}
+            />
           </div>
-        ) : null}
-        <div className={styles.LogoWrapper}>
-          <img
-            className={styles.Logo}
-            src={channelLogo}
-            alt={`${eventName} Twitch Stream`}
-          />
         </div>
-      </div>
-      <DonateButton href="/causes" />
+      </Layout>
+      <Layout black className={styles.Stages}>
+        <Stages />
+      </Layout>
       <TwitchChannel channel={channel} />
       <Layout black>
-        <DiscordChat>
-          <P>Chat with the Impact Tribe across all our festival stages</P>
-        </DiscordChat>
+        <DiscordChat />
+        <DonateButton href="/causes" />
       </Layout>
       <Layout black>
         <H1 impact>Festival Navigation</H1>
-        <FestivalNav />
+        <Extras />
+        <SpecialMentions />
       </Layout>
       {children}
     </div>

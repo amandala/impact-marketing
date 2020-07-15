@@ -2,7 +2,7 @@ import React from "react";
 import WidgetBot from "@widgetbot/react-embed";
 
 import { ButtonLinkExternal } from "../Button";
-import { H1 } from "../Typography";
+import { H1, Tiny } from "../Typography";
 import styles from "./index.module.scss";
 
 const DiscordChat = ({ children }: { children?: React.ReactNode }) => {
@@ -13,7 +13,7 @@ const DiscordChat = ({ children }: { children?: React.ReactNode }) => {
         {children}
         <div className={styles.JoinDiscord}>
           <ButtonLinkExternal to="https://discord.gg/ACPxzJA">
-            Join the impact Discord server
+            Join our Server
           </ButtonLinkExternal>
         </div>
       </div>
