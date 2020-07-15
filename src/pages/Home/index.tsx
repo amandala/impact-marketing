@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 
 import Section from "../../components/Section";
 import DigitalImpactBanner from "../../components/DigitalImpactBanner";
-import { P, H1 } from "../../components/Typography";
+import { P, H1, Tiny } from "../../components/Typography";
 import { Stages, Extras, SpecialMentions } from "../../components/FestivalNav";
 import styles from "./index.module.scss";
 import DiscordChat from "../../components/DiscordChat";
@@ -52,6 +52,7 @@ const Home = () => {
       </Section>
       <Section>
         <H1 impact>Explore the Utherverse 3d Virtual world</H1>
+        <Tiny>Requires a minimum $25 donation</Tiny>
         <YouTubeEmbed id="HeySE5BSURo" />
       </Section>
     </Layout>

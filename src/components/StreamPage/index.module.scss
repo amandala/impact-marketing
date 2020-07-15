@@ -26,8 +26,6 @@
   margin-bottom: 24px;
 
   &Wrapper {
-    display: flex;
-    justify-content: center;
     text-align: center;
   }
 }
@@ -55,9 +53,5 @@
   .EventLogo {
     max-width: 300px;
     margin-bottom: 45px;
-    &Wrapper {
-      display: flex;
-      justify-content: center;
-    }
   }
 }
