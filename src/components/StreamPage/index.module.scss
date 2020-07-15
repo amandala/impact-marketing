@@ -24,6 +24,11 @@
   max-width: 150px;
   height: auto;
   margin-bottom: 24px;
+
+  &Wrapper {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .DonateButton {
