@@ -23,11 +23,11 @@ const Home = () => {
         <TwitchChannel channel="limitlesstage" />
       </Section>
       <Section className={styles.Section}>
-        <P>
+        <H1 impact className={styles.Centered}>
           We've curated a ton of awesome digital experiences for you to explore.
           Click around the navigation links below to visit the different areas
-          of our digital festival.
-        </P>
+          of our digital festival
+        </H1>
       </Section>
       <Section className={styles.Section}>
         <DonateButton href="/causes" />

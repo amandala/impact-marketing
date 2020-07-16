@@ -12,17 +12,15 @@ const DigitalImpactBanner = ({
   after?: string;
 }) => {
   return (
-    <Section>
-      <div className={styles.Header}>
-        {before ? <H1>{before}</H1> : null}
-        <img
-          className={styles.DigitalImpact}
-          alt="Welcome to Digital Impact"
-          src="/assets/primary/digital-impact.png"
-        />
-        {after ? <H1>{after}</H1> : null}
-      </div>
-    </Section>
+    <div className={styles.Header}>
+      {before ? <H1>{before}</H1> : null}
+      <img
+        className={styles.DigitalImpact}
+        alt="Welcome to Digital Impact"
+        src="/assets/primary/digital-impact.png"
+      />
+      {after ? <H1>{after}</H1> : null}
+    </div>
   );
 };
 

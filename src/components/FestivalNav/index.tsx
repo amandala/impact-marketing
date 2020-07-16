@@ -2,7 +2,6 @@ import React from "react";
 import cx from "classnames";
 import { Link } from "react-router-dom";
 import { ButtonLinkExternal } from "../../components/Button";
-import DonateButton from "../../components/DonateButton";
 import Section from "../../components/Section";
 import { H1, P, Tiny } from "../../components/Typography";
 import styles from "./index.module.scss";
@@ -12,6 +11,14 @@ export const Stages = () => {
     <Section>
       <H1 className={styles.NavTitle}>Digital impact Stage Navigation</H1>
       <div className={styles.Stages}>
+        <Link to="/limitless" className={styles.Stage}>
+          <img
+            className={cx(styles.Logo, styles.Limitless)}
+            src="/assets/stages/limitless-white.png"
+            alt="Limitless Stage"
+          />
+          <Tiny className={styles.Info}>Attend Transformational Workshops</Tiny>
+        </Link>
         <Link to="/dusk2dawn" className={cx(styles.Stage, styles.StageClosed)}>
           <img
             className={styles.Logo}
@@ -41,14 +48,6 @@ export const Stages = () => {
           <Tiny className={cx(styles.Info, styles.InfoClosed)}>
             Wolf Pack Creative Graffiti Jam and Live art painting
           </Tiny>
-        </Link>
-        <Link to="/limitless" className={styles.Stage}>
-          <img
-            className={cx(styles.Logo, styles.Limitless)}
-            src="/assets/stages/limitless-white.png"
-            alt="Limitless Stage"
-          />
-          <Tiny className={styles.Info}>Attend Transformational Workshops</Tiny>
         </Link>
       </div>
     </Section>
