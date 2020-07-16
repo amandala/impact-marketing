@@ -37,6 +37,13 @@ const DigitalOasis = () => {
     >
       <Layout black>
         <Section>
+          <img
+            className={styles.Poster}
+            src="/assets/events/digital-impact/OasisStageSpotlight-min.png"
+            alt="Oasis Stage Lineup"
+          />
+        </Section>
+        <Section>
           <H1 impact className={styles.Title}>
             Special Thanks to our Oasis Stage Sponsors and Partners
           </H1>

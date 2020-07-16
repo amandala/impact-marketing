@@ -17,6 +17,10 @@
   margin-bottom: 55px;
 }
 
+.Poster {
+  width: 100%;
+}
+
 @include breakpoint(medium) {
   .Sponsor {
     flex-direction: row;

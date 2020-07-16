@@ -6,7 +6,6 @@ import { H1, P } from "../../components/Typography";
 import DonateButton from "../../components/DonateButton";
 import DiscordChat from "../../components/DiscordChat";
 import styles from "./index.module.scss";
-import { ButtonLinkExternal } from "../Button";
 
 export default ({
   channel,
