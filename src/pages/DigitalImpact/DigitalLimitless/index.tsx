@@ -4,6 +4,8 @@ import Layout from "../../../components/Layout";
 import Section from "../../../components/Section";
 import { H1, P } from "../../../components/Typography";
 import styles from "./index.module.scss";
+import thursdaySchedule from "./thursday.json";
+console.log(thursdaySchedule);
 
 const Workshop = ({
   time,
@@ -38,19 +40,16 @@ const DigitalLimitless = () => {
             src="./assets/events/digital-impact/workshop-poster.jpg"
             alt="Workshop Schedule"
           />
-          {/* <H1>Thursday Schedule</H1>
+          <H1>Thursday Schedule</H1>
           <ul className={styles.Sched}>
-            <Workshop
-              time="9:30am"
-              host="Even Carmichael"
-              title="Interview: “How to Maximzie Your Positive Impact”"
-            />
-            <Workshop
-              time="10:00am"
-              host="Shannon Kelly-Thomas"
-              title="Opening Ceremonies"
-            />
-          </ul> */}
+            {thursdaySchedule.map((workshop) => (
+              <Workshop
+                time={workshop.time}
+                host={workshop.host}
+                title={workshop.title}
+              />
+            ))}
+          </ul>
         </Section>
       </Layout>
     </StreamPage>
