@@ -50,7 +50,7 @@ const Home = () => {
           className={styles.Poster}
         />
       </Section>
-      <Section>
+      <Section className={styles.Section}>
         <H1 impact>Attend Transformational Workshops on the Limitless Stage</H1>
         <img
           className={styles.Poster}
@@ -58,10 +58,18 @@ const Home = () => {
           alt="Workshop Schedule"
         />
       </Section>
-      <Section>
+      <Section className={styles.Section}>
         <H1 impact>Explore the Utherverse 3d Virtual world</H1>
         <Tiny>Requires a minimum $25 donation</Tiny>
         <YouTubeEmbed id="HeySE5BSURo" />
+      </Section>
+      <Section className={styles.Section}>
+        <H1 impact>Attend the 24 hour Wolf Pack Creative Graffiti Jam</H1>
+        <img
+          className={styles.Poster}
+          src="/assets/events/digital-impact/OasisStageSpotlight-min.png"
+          alt="Oasis Lineup"
+        />
       </Section>
     </Layout>
   );

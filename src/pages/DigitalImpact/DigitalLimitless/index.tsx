@@ -30,7 +30,7 @@ const DigitalLimitless = () => {
     <StreamPage
       eventName="Digital Impact"
       eventLogo="/assets/primary/digital-impact.png"
-      channel="limitlessstage"
+      channel="limitlesstage"
       channelLogo="/assets/stages/limitless-white.png"
     >
       <Layout black>
