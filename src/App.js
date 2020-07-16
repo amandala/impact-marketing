@@ -44,7 +44,7 @@ function App() {
               <Route path="/about" component={withTracker(About)} />
               <Route path="/apply" component={withTracker(Apply)} />
               <Route path="/oasis" component={withTracker(DigitalOasis)} />
-              <Route path="/odessy" component={withTracker(DigitalOdessy)} />
+              <Route path="/odyssey" component={withTracker(DigitalOdessy)} />
               <Route
                 path="/limitless"
                 component={withTracker(DigitalLimitless)}
@@ -63,11 +63,11 @@ function App() {
               <Route path="/media" component={withTracker(Media)} />
               <Route path="/sponsors" component={withTracker(Sponsors)} />
               <Route
-                path="/stages/limitless"
+                path="stages/limitless"
                 component={withTracker(Limitless)}
               />
-              <Route path="/stages/oasis" component={withTracker(Oasis)} />
-              <Route path="/stages/odyssey" component={withTracker(Odyssey)} />
+              <Route path="stages/oasis" component={withTracker(Oasis)} />
+              <Route path="stages/odyssey" component={withTracker(Odyssey)} />
               <Route
                 path="/meetandgreet"
                 component={() => {

@@ -61,7 +61,7 @@ const Home = () => {
         <H1 impact>Attend Transformational Workshops on the Limitless Stage</H1>
         <img
           className={styles.Poster}
-          src="./assets/events/digital-impact/workshop-poster.jpg"
+          src="./assets/events/digital-impact/workshop-titles.jpg"
           alt="Workshop Schedule"
         />
       </Section>

@@ -29,7 +29,7 @@ export const Stages = () => {
             Featuring a locally curated Vancouver lineup
           </Tiny>
         </Link>
-        <Link to="/odessy" className={cx(styles.Stage, styles.StageClosed)}>
+        <Link to="/odyssey" className={cx(styles.Stage, styles.StageClosed)}>
           <img
             className={styles.Logo}
             src="/assets/stages/odyssey.png"

@@ -19,7 +19,7 @@ const DigitalLimitless = () => {
         <Section>
           <img
             className={styles.Poster}
-            src="./assets/events/digital-impact/workshop-poster.jpg"
+            src="./assets/events/digital-impact/workshop-titles.jpg"
             alt="Workshop Schedule"
           />
           <H1>Thursday Schedule</H1>
