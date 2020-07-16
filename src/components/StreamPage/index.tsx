@@ -42,10 +42,10 @@ export default ({
           </div>
         </div>
       </Layout>
+      <TwitchChannel channel={channel} />
       <Layout black className={styles.Stages}>
         <Stages />
       </Layout>
-      <TwitchChannel channel={channel} />
       <Layout black>
         <DiscordChat />
         <DonateButton href="/causes" />

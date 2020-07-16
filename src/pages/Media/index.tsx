@@ -1,9 +1,10 @@
 import React from "react";
 import YouTube from "react-youtube-embed";
+// @ts-ignore
+import FlickrLightbox from "react-flickr-lightbox";
+import { P, H1 } from "../../components/Typography";
 import Section from "../../components/Section";
 import Layout from "../../components/Layout";
-import { ButtonLink } from "../../components/Button";
-import { H1, P, H2 } from "../../components/Typography";
 import styles from "./index.module.scss";
 
 export default () => {
@@ -18,6 +19,7 @@ export default () => {
           Best of 2019
         </ButtonLink> 
       </Section> */}
+
       <Section>
         <H1 impact>Digital impact Festival “The Pivot”</H1>
         <P>
@@ -55,6 +57,14 @@ export default () => {
           those that are currently doing amazing and impactful things!
         </P>
         <P>♥︎ The Impact Fam</P>
+      </Section>
+      <Section>
+        <FlickrLightbox
+          className={styles.Flickr}
+          api_key="697c5bd37c5b911a9d31682b2fbabee6"
+          album_id="72157711177933831"
+          limit={200}
+        />
       </Section>
     </Layout>
   );
