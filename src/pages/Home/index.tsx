@@ -51,6 +51,14 @@ const Home = () => {
         />
       </Section>
       <Section>
+        <H1 impact>Attend Transformational Workshops on the Limitless Stage</H1>
+        <img
+          className={styles.Poster}
+          src="./assets/events/digital-impact/workshop-poster.jpg"
+          alt="Workshop Schedule"
+        />
+      </Section>
+      <Section>
         <H1 impact>Explore the Utherverse 3d Virtual world</H1>
         <Tiny>Requires a minimum $25 donation</Tiny>
         <YouTubeEmbed id="HeySE5BSURo" />

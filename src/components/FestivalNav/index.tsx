@@ -12,33 +12,33 @@ export const Stages = () => {
     <Section>
       <H1 className={styles.NavTitle}>Digital impact Stage Navigation</H1>
       <div className={styles.Stages}>
-        <Link to="/dusk2dawn" className={styles.Stage}>
+        <Link to="/dusk2dawn" className={cx(styles.Stage, styles.StageClosed)}>
           <img
             className={styles.Logo}
             src="/assets/streamChannelLogos/dusk2dawnproductions.png"
             alt="Dusk2Dawn Stage"
           />
-          <Tiny className={styles.Info}>
+          <Tiny className={cx(styles.Info, styles.InfoClosed)}>
             Featuring a locally curated Vancouver lineup
           </Tiny>
         </Link>
-        <Link to="/odessy" className={styles.Stage}>
+        <Link to="/odessy" className={cx(styles.Stage, styles.StageClosed)}>
           <img
             className={styles.Logo}
             src="/assets/stages/odyssey.png"
             alt="Odessy Stage"
           />
-          <Tiny className={styles.Info}>
+          <Tiny className={cx(styles.Info, styles.InfoClosed)}>
             Fully Digital 3D Stage ft. International Lineup
           </Tiny>
         </Link>
-        <Link to="/oasis" className={styles.Stage}>
+        <Link to="/oasis" className={cx(styles.Stage, styles.StageClosed)}>
           <img
             className={styles.Logo}
             src="/assets/stages/oasis.png"
             alt="Oasis Stage"
           />
-          <Tiny className={styles.Info}>
+          <Tiny className={cx(styles.Info, styles.InfoClosed)}>
             Wolf Pack Creative Graffiti Jam and Live art painting
           </Tiny>
         </Link>
@@ -60,7 +60,10 @@ export const Extras = () => {
     <Section>
       <H1>Extras</H1>
       <div className={styles.Extras}>
-        <Link to="/" className={styles.Stage}>
+        <ButtonLinkExternal
+          to="https://impact-music-festival.myshopify.com/"
+          className={styles.Stage}
+        >
           <img
             className={styles.Logo}
             src="/assets/stages/market.png"
@@ -69,7 +72,7 @@ export const Extras = () => {
           <Tiny className={styles.Info}>
             Browse a selection of art and goods for sale
           </Tiny>
-        </Link>
+        </ButtonLinkExternal>
         <ButtonLinkExternal
           to="https://paypal.me/makeimpact/25"
           className={styles.Stage}

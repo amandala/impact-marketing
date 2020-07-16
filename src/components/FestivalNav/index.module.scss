@@ -31,12 +31,24 @@
   &:hover {
     border-color: $spring-green;
   }
+
+  &Closed {
+    color: grey;
+    border-color: grey;
+    &:hover {
+      border-color: grey;
+    }
+  }
 }
 
 .Info {
   text-align: center;
   margin-bottom: 0;
   font-size: 20px;
+
+  &Closed {
+    color: grey;
+  }
 }
 
 .NavTitle {
