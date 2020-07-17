@@ -6,7 +6,12 @@ import styles from "./index.module.scss";
 const DonateButton = ({ href }: { href: string }) => {
   return (
     <Section className={styles.DonateWrapper}>
-      <a className={styles.Donate} href={href}>
+      <a
+        className={styles.Donate}
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Donate
         <img
           className={styles.Logo}
@@ -16,6 +21,8 @@ const DonateButton = ({ href }: { href: string }) => {
       </a>
       <a
         className={styles.Donate}
+        target="_blank"
+        rel="noopener noreferrer"
         href="https://paypal.me/dusk2dawnproductions"
       >
         Donate
