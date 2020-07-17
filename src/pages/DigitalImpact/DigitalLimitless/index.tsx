@@ -5,7 +5,7 @@ import Section from "../../../components/Section";
 import { H1, P } from "../../../components/Typography";
 import Workshop from "../../../components/Workshop";
 import styles from "./index.module.scss";
-import thursdaySchedule from "./thursday.json";
+import schedule from "./schedule.json";
 
 const DigitalLimitless = () => {
   return (
@@ -22,9 +22,9 @@ const DigitalLimitless = () => {
             src="./assets/events/digital-impact/workshop-titles.jpg"
             alt="Workshop Schedule"
           />
-          <H1>Thursday Schedule</H1>
+          <H1>Friday Schedule</H1>
           <ul className={styles.Sched}>
-            {thursdaySchedule.map((workshop) => (
+            {schedule.map((workshop) => (
               <Workshop
                 time={workshop.time}
                 host={workshop.host}

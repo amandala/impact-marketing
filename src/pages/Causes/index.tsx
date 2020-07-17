@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import Section from "../../components/Section";
-import { H1, P, Tiny } from "../../components/Typography";
+import { H1, H2, P, Tiny } from "../../components/Typography";
 import DonateButton from "../../components/DonateButton";
 import styles from "./index.module.scss";
 import { ButtonLinkExternal } from "../../components/Button";
@@ -20,6 +20,7 @@ export default () => {
           <H1 impact className={styles.Impactor}>
             Select a tier below to become an impactor
           </H1>
+          <H2>All donations matched by the ENUF Foundation up to $20,000</H2>
           <Tiny className={styles.AllPerks}>
             All perks are unlocked at higher amounts
           </Tiny>

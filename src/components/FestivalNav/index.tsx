@@ -19,33 +19,33 @@ export const Stages = () => {
           />
           <Tiny className={styles.Info}>Attend Transformational Workshops</Tiny>
         </Link>
-        <Link to="/dusk2dawn" className={cx(styles.Stage, styles.StageClosed)}>
+        <Link to="/dusk2dawn" className={cx(styles.Stage)}>
           <img
             className={styles.Logo}
             src="/assets/streamChannelLogos/dusk2dawnproductions.png"
             alt="Dusk2Dawn Stage"
           />
-          <Tiny className={cx(styles.Info, styles.InfoClosed)}>
+          <Tiny className={cx(styles.Info)}>
             Featuring a locally curated Vancouver lineup
           </Tiny>
         </Link>
-        <Link to="/odyssey" className={cx(styles.Stage, styles.StageClosed)}>
+        <Link to="/odyssey" className={cx(styles.Stage)}>
           <img
             className={styles.Logo}
             src="/assets/stages/odyssey.png"
             alt="Odessy Stage"
           />
-          <Tiny className={cx(styles.Info, styles.InfoClosed)}>
+          <Tiny className={cx(styles.Info)}>
             Fully Digital 3D Stage ft. International Lineup
           </Tiny>
         </Link>
-        <Link to="/oasis" className={cx(styles.Stage, styles.StageClosed)}>
+        <Link to="/oasis" className={cx(styles.Stage)}>
           <img
             className={styles.Logo}
             src="/assets/stages/oasis.png"
             alt="Oasis Stage"
           />
-          <Tiny className={cx(styles.Info, styles.InfoClosed)}>
+          <Tiny className={cx(styles.Info)}>
             Wolf Pack Creative Graffiti Jam and Live art painting
           </Tiny>
         </Link>
