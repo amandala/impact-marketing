@@ -1,8 +1,32 @@
+@import "../../styles/variables";
+
 .Donate {
-  padding: 30px;
+  padding: 10px 14px;
   font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  align-items: center;
+  color: white;
+  border: 1px solid $white;
+  max-width: 200px;
+  margin: 0 auto 24px;
+
+  &:hover,
+  &:focus {
+    color: $spring-green;
+    border-color: $spring-green;
+  }
 
   &Wrapper {
     text-align: center;
   }
+}
+
+.ImgWrapper {
+  display: flex;
+}
+
+.Logo {
+  max-height: 50px;
 }
