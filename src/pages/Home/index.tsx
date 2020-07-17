@@ -62,14 +62,14 @@ const Home = () => {
         <Tiny>Requires a minimum $25 donation</Tiny>
         <YouTubeEmbed id="HeySE5BSURo" />
       </Section>
-      {/* <Section className={styles.Section}>
+      <Section className={styles.Section}>
         <H1 impact>Attend the 24 hour Wolf Pack Creative Graffiti Jam</H1>
         <img
           className={styles.Poster}
-          src="/assets/events/digital-impact/OasisStageSpotlight-min.png"
+          src="/assets/events/digital-impact/oasis-stage.png"
           alt="Oasis Lineup"
         />
-      </Section> */}
+      </Section>
     </Layout>
   );
 };

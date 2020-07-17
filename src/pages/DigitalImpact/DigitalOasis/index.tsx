@@ -9,21 +9,25 @@ const Sponsor = ({
   logo,
   alt,
   title,
+  href,
   children,
+  external,
 }: {
   logo: string;
   alt: string;
+  href?: string;
   title: string;
   children: React.ReactNode;
+  external?: boolean;
 }) => {
   return (
-    <div className={styles.Sponsor}>
+    <a href={href} className={styles.Sponsor} target={external ? "_blank" : ""}>
       <img className={styles.SponsorLogo} src={logo} alt={alt} />
       <div className={styles.SponsorInfo}>
         <H1>{title}</H1>
         {children}
       </div>
-    </div>
+    </a>
   );
 };
 
@@ -36,11 +40,11 @@ const DigitalOasis = () => {
       channelLogo="/assets/stages/oasis.png"
     >
       <Layout black>
-        <Section>
+        <Section className={styles.Section}>
           <img
             className={styles.Poster}
-            src="/assets/events/digital-impact/OasisStageSpotlight-min.png"
-            alt="Oasis Stage Lineup"
+            src="/assets/events/digital-impact/oasis-stage.png"
+            alt="Oasis Lineup"
           />
         </Section>
         <Section>
@@ -118,6 +122,8 @@ const DigitalOasis = () => {
             logo="/assets/sponsors/sponsor-versett.png"
             alt="Versett Logo"
             title="Versett"
+            href="https://www.versett.com"
+            external
           >
             <P>
               Versett creates, builds and scales technology companies. Our
