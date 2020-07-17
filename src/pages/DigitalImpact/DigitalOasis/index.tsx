@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../../../components/Section";
 import Layout from "../../../components/Layout";
-import { H1, P } from "../../../components/Typography";
+import { H1, P, Tiny } from "../../../components/Typography";
 import StreamPage from "../../../components/StreamPage";
 import styles from "./index.module.scss";
 
@@ -26,6 +26,7 @@ const Sponsor = ({
       <div className={styles.SponsorInfo}>
         <H1>{title}</H1>
         {children}
+        {href ? <Tiny>Click to learn more</Tiny> : null}
       </div>
     </a>
   );
@@ -55,8 +56,9 @@ const DigitalOasis = () => {
             logo="/assets/sponsors/sponsor-breatheparkour.png"
             alt="Breathe Parkour Logo"
             title="Breathe Parkour"
+            href="https://www.breathepk.com/"
           >
-            <P>
+            <P className={styles.SponsorInfo}>
               Breathe Parkour has both of Calgary's only purpose built Parkour
               facilities, and is the best place to come learn how to move like a
               ninja! Whether you're looking to join a class, or just level up,
@@ -67,8 +69,9 @@ const DigitalOasis = () => {
             logo="/assets/sponsors/sponsor-calgarycentralsportsplex.png"
             alt="Calgary Central Sportsplex Logo"
             title="Calgary Central Sportsplex"
+            href="https://www.calgarycentralsportsplex.com/"
           >
-            <P>
+            <P className={styles.SponsorInfo}>
               The first major project for the CanSO Foundation, the CCS is home
               to the most convenient and accessible sports facility in Calgary's
               NE. With indoor soccer, basketball, baseball, MMA, floor hockey,
@@ -81,8 +84,9 @@ const DigitalOasis = () => {
             logo="/assets/sponsors/sponsor-nowayjose.png"
             alt="No Way Jose Logo"
             title="No Way Jose Productions"
+            href="https://www.nowayjoseproductions.com/"
           >
-            <P>
+            <P className={styles.SponsorInfo}>
               No way Jose Productions is a film production company that
               specializes in providing media for luxury lifestyle brands. They
               have generously donated their video production efforts to bring
@@ -93,8 +97,9 @@ const DigitalOasis = () => {
             logo="/assets/sponsors/sponsor-realtalkswithnav.png"
             alt="Real talks with Nav Logo"
             title="Real Talks with Nav"
+            href="https://realtalkswithnav.com/"
           >
-            <P>
+            <P className={styles.SponsorInfo}>
               Real Talks with Nav is inspired by the stories of everyday people,
               the unsung heroes of our world. Conceived during a tumultuous time
               globally Real Talks with Nav hopes to instill a ray of light and
@@ -105,8 +110,9 @@ const DigitalOasis = () => {
             logo="/assets/sponsors/sponsor-canso.png"
             alt="The Canadian Sports Opportunities Foundation Logo"
             title="The Canadian Sports Opportunities Foundation"
+            href="https://www.cansofoundation.com/"
           >
-            <P>
+            <P className={styles.SponsorInfo}>
               The CanSO Foundation exists to provide access to sports
               opportunities for people of all ages, income levels, and
               abilities. They believe in creating healthy opportunities for
@@ -125,7 +131,7 @@ const DigitalOasis = () => {
             href="https://www.versett.com"
             external
           >
-            <P>
+            <P className={styles.SponsorInfo}>
               Versett creates, builds and scales technology companies. Our
               specialized teams work alongside you to create a technology
               roadmap and put it in motion. We also love to support people doing
@@ -137,7 +143,7 @@ const DigitalOasis = () => {
             alt="Wolf Pack Creative Logo"
             title="Wolf Pack Creative"
           >
-            <P>
+            <P className={styles.SponsorInfo}>
               Wolf Pack Creative is a collective of artists, designers,
               developers, makers, and musicians utilizing their collective
               talents to create unforgettable experiences ♡
