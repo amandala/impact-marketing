@@ -11,7 +11,7 @@ const DigitalOdessy = () => {
     <StreamPage
       eventName="Digital Impact"
       eventLogo="/assets/primary/digital-impact.png"
-      channel="dusk2dawnproductions"
+      channel="odysseydigitalstage"
       channelLogo="/assets/stages/odyssey.png"
     >
       <Layout black>
