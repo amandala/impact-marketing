@@ -41,35 +41,51 @@ const Home = () => {
           </P>
         </DiscordChat>
       </Section>
-      <Section className={styles.Section}>
-        <H1 impact>Check out our lineup on the Odyssey and Dusk2Dawn Stages</H1>
-        <img
-          src="/assets/events/digital-impact/lineup.jpg"
-          alt="Lineup Poster"
-          className={styles.Poster}
-        />
-      </Section>
-      <Section className={styles.Section}>
-        <H1 impact>Attend Transformational Workshops on the Limitless Stage</H1>
-        <img
-          className={styles.Poster}
-          src="./assets/events/digital-impact/workshop-titles.jpg"
-          alt="Workshop Schedule"
-        />
-      </Section>
-      <Section className={styles.Section}>
-        <H1 impact>Explore the Utherverse 3d Virtual world</H1>
-        <Tiny>Requires a minimum $25 donation</Tiny>
-        <YouTubeEmbed id="HeySE5BSURo" />
-      </Section>
-      <Section className={styles.Section}>
-        <H1 impact>Attend the 24 hour Wolf Pack Creative Graffiti Jam</H1>
-        <img
-          className={styles.Poster}
-          src="/assets/events/digital-impact/oasis-stage.png"
-          alt="Oasis Lineup"
-        />
-      </Section>
+      <a href="/lineup">
+        <Section className={styles.Section}>
+          <H1 impact>
+            Check out our lineup on the Odyssey and Dusk2Dawn Stages
+          </H1>
+          <img
+            src="/assets/events/digital-impact/lineup.jpg"
+            alt="Lineup Poster"
+            className={styles.Poster}
+          />
+        </Section>
+      </a>
+      <a href="/limitless">
+        <Section className={styles.Section}>
+          <H1 impact>
+            Attend Transformational Workshops on the Limitless Stage
+          </H1>
+          <img
+            className={styles.Poster}
+            src="./assets/events/digital-impact/workshop-titles.jpg"
+            alt="Workshop Schedule"
+          />
+        </Section>
+      </a>
+      <a
+        href="https://paypal.me/makeimpact/25"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Section className={styles.Section}>
+          <H1 impact>Explore the Utherverse 3d Virtual world</H1>
+          <Tiny>Requires a minimum $25 donation</Tiny>
+          <YouTubeEmbed id="HeySE5BSURo" />
+        </Section>
+      </a>
+      <a href="/oasis">
+        <Section className={styles.Section}>
+          <H1 impact>Attend the 24 hour Wolf Pack Creative Graffiti Jam</H1>
+          <img
+            className={styles.Poster}
+            src="/assets/events/digital-impact/oasis-stage.png"
+            alt="Oasis Lineup"
+          />
+        </Section>
+      </a>
     </Layout>
   );
 };
