@@ -115,6 +115,18 @@ const DigitalOasis = () => {
             </P>
           </Sponsor>
           <Sponsor
+            logo="/assets/sponsors/sponsor-versett.png"
+            alt="Versett Logo"
+            title="Versett"
+          >
+            <P>
+              Versett creates, builds and scales technology companies. Our
+              specialized teams work alongside you to create a technology
+              roadmap and put it in motion. We also love to support people doing
+              amazing things (like Impact Festival!)
+            </P>
+          </Sponsor>
+          <Sponsor
             logo="/assets/sponsors/sponsor-wolfpackcreative.png"
             alt="Wolf Pack Creative Logo"
             title="Wolf Pack Creative"
