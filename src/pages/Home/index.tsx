@@ -9,11 +9,15 @@ import styles from "./index.module.scss";
 import DiscordChat from "../../components/DiscordChat";
 import DonateButton from "../../components/DonateButton";
 import YouTubeEmbed from "react-youtube-embed";
+import TwitchChannel from "../../components/TwitchChannel";
 
 const Home = () => {
   return (
     <Layout black>
       <DigitalImpactBanner before={"Welcome to"} />
+      <Section>
+        <TwitchChannel channel="dusk2dawnproductions" />
+      </Section>
       <Section className={styles.Section}>
         <H1 impact className={styles.Centered}>
           We've curated a ton of awesome digital experiences for you to explore.
