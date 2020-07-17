@@ -48,16 +48,31 @@ const DigitalOasis = () => {
             Special Thanks to our Oasis Stage Sponsors and Partners
           </H1>
           <Sponsor
-            logo="/assets/sponsors/sponsor-wolfpackcreative.png"
-            alt="Wolf Pack Creative Logo"
-            title="Wolf Pack Creative"
+            logo="/assets/sponsors/sponsor-breatheparkour.png"
+            alt="Breathe Parkour Logo"
+            title="Breathe Parkour"
           >
             <P>
-              Wolf Pack Creative is a collective of artists, designers,
-              developers, makers, and musicians utilizing their collective
-              talents to create unforgettable experiences ♡
+              Breathe Parkour has both of Calgary's only purpose built Parkour
+              facilities, and is the best place to come learn how to move like a
+              ninja! Whether you're looking to join a class, or just level up,
+              Breathe Parkour is the place to do it!
             </P>
           </Sponsor>
+          <Sponsor
+            logo="/assets/sponsors/sponsor-calgarycentralsportsplex.png"
+            alt="Calgary Central Sportsplex Logo"
+            title="Calgary Central Sportsplex"
+          >
+            <P>
+              The first major project for the CanSO Foundation, the CCS is home
+              to the most convenient and accessible sports facility in Calgary's
+              NE. With indoor soccer, basketball, baseball, MMA, floor hockey,
+              Parkour, and much more, it's a great place for your league, team,
+              or group to call home.
+            </P>
+          </Sponsor>
+
           <Sponsor
             logo="/assets/sponsors/sponsor-nowayjose.png"
             alt="No Way Jose Logo"
@@ -83,24 +98,6 @@ const DigitalOasis = () => {
             </P>
           </Sponsor>
           <Sponsor
-            logo="/assets/sponsors/sponsor-calgarycentralsportsplex.png"
-            alt="Calgary Central Sportsplex Logo"
-            title="Calgary Central Sportsplex"
-          >
-            <P>
-              The first major project for the CanSO Foundation, the CCS is home
-              to the most convenient and accessible sports facility in Calgary's
-              NE. With indoor soccer, basketball, baseball, MMA, floor hockey,
-              Parkour, and much more, it's a great place for your league, team,
-              or group to call home.
-            </P>
-            <P>
-              The CSS has generously donated a 20,000 sqft building for artistic
-              expression at the Calgary Impact Graffiti Jam Saturday July 18 &
-              19.
-            </P>
-          </Sponsor>
-          <Sponsor
             logo="/assets/sponsors/sponsor-canso.png"
             alt="The Canadian Sports Opportunities Foundation Logo"
             title="The Canadian Sports Opportunities Foundation"
@@ -115,6 +112,17 @@ const DigitalOasis = () => {
               isolation by providing healthy activities, or helping a promising
               athlete reach their full potential, we know that strong
               communities start with healthy, active members.
+            </P>
+          </Sponsor>
+          <Sponsor
+            logo="/assets/sponsors/sponsor-wolfpackcreative.png"
+            alt="Wolf Pack Creative Logo"
+            title="Wolf Pack Creative"
+          >
+            <P>
+              Wolf Pack Creative is a collective of artists, designers,
+              developers, makers, and musicians utilizing their collective
+              talents to create unforgettable experiences ♡
             </P>
           </Sponsor>
         </Section>
