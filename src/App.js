@@ -14,7 +14,7 @@ import {
   Experience,
   GetInvolved,
   Home,
-  Landing,
+  // Landing,
   Limitless,
   Lineup,
   Media,
@@ -82,7 +82,7 @@ function App() {
                   );
                 }}
               />
-              <Route path="/" component={withTracker(Landing)} />
+              <Route path="/" component={withTracker(Home)} />
             </Switch>
             <Footer />
           </div>
