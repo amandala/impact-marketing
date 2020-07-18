@@ -16,7 +16,7 @@ const Dusk2Dawn = () => {
         <Section>
           <img
             className={styles.Poster}
-            src="./assets/events/digital-impact/odyessy-schedule.jpg"
+            src="./assets/events/digital-impact/d2d-schedule.jpg"
             alt="Odyssey Schedule"
           />
         </Section>
