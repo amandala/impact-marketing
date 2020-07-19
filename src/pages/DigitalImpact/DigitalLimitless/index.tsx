@@ -22,7 +22,7 @@ const DigitalLimitless = () => {
             src="./assets/events/digital-impact/workshop-titles.jpg"
             alt="Workshop Schedule"
           />
-          <H1>Saturday Schedule</H1>
+          <H1>Sunday Schedule</H1>
           <ul className={styles.Sched}>
             {schedule.map((workshop) => (
               <Workshop
