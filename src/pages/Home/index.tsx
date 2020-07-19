@@ -16,7 +16,7 @@ const Home = () => {
     <Layout black>
       <DigitalImpactBanner before={"Welcome to"} />
       <Section>
-        <TwitchChannel channel="odysseydigitalstage" />
+        <TwitchChannel channel="navkhiljie" />
       </Section>
       <Section className={styles.Section}>
         <H1 impact className={styles.Centered}>
