@@ -18,7 +18,7 @@
     "@types/react-youtube-embed": "^1.0.1",
     "@widgetbot/react-embed": "^1.2.2",
     "classnames": "^2.2.6",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-facebook-pixel": "^0.1.3",
